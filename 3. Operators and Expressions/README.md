@@ -203,7 +203,7 @@ _Examples:_
 | 5343  | 00010100 11011111          | 7   | 0 | 00010100 01011111 | 5215   |
 | 62241 | 11110011 00100001          | 11  | 0 | 11110011 00100001 | 62241  |
 
-### Problem 15.	* Bits Exchange
+### Problem 15.* Bits Exchange
 *	Write a program that exchanges bits `3`, `4` and `5` with bits `24`, `25` and `26` of given 32-bit unsigned integer.
 
 _Examples:_
@@ -216,7 +216,7 @@ _Examples:_
 | 5351       | 00000000 00000000 00010100 11100111 | 00000100 00000000 00010100 11000111 | 67114183   |
 | 2369124121 | 10001101 00110101 11110111 00011001 | 10001011 00110101 11110111 00101001 | 2335569705 |
 
-### Problem 16.	** Bit Exchange (Advanced)
+### Problem 16.** Bit Exchange (Advanced)
 *	Write a program that exchanges bits `{p, p+1, …, p+k-1}` with bits `{q, q+1, …, q+k-1}` of a given 32-bit unsigned integer.
 *	The first and the second sequence of bits may not overlap.
 
