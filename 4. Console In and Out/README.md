@@ -19,7 +19,7 @@ _Examples:_
 _Example input:_
 
 |       program       |            user            |
-|:-------------------:|----------------------------|
+|---------------------|----------------------------|
 | Company name:       | Telerik Academy            |
 | Company address:    | 31 Al. Malinov, Sofia      |
 | Phone number:       | +359 888 55 55 555         |
@@ -113,17 +113,17 @@ _Note: You may need to use a for-loop._
 
 _Examples:_
 
-| numbers | sum |
-|:--------|-----|
-| 3       | 1   |
-|         | 2   |
-|         | 3   |
-| 5       | 1   |
-|         | 2   |
-|         | 3   |
-|         | 4   |
-|         | 5   |
-| 1       | 1   |
+| input | output |
+|-------|--------|
+| 3     | 1      |
+|       | 2      |
+|       | 3      |
+| 5     | 1      |
+|       | 2      |
+|       | 3      |
+|       | 4      |
+|       | 5      |
+| 1     | 1      |
 
 ### Problem 9.	Sum of n Numbers
 *	Write a program that enters a number `n` and after that enters more `n` numbers and calculates and prints their `sum`.
@@ -132,7 +132,7 @@ _Note: You may need to use a for-loop._
 _Examples:_
 
 | numbers | sum |
-|:--------|-----|
+|---------|-----|
 | 3       | 90  |
 | 20      |     |
 | 60      |     |
