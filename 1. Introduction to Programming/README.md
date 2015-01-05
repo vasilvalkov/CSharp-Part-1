@@ -53,33 +53,36 @@ You should submit in your homework the Visual Studio project holding the source 
 ### Problem 10.	Reformat C# Code
 *	Reformat the following C# code to make it readable according to the C# best practices for code formatting. Change the casing of the identifiers in the code (e.g. use PascalCase for the class name):
 HorribleCode.cs
-	using
 
-	System;
+```c#
+using
 
-	class hoRRiblEcoDe
+System;
+
+class hoRRiblEcoDe
+{
+	static
+	 void
+
+		Main()
 	{
-		static
-		 void
+		Console.
 
-			Main()
+	WriteLine("Hi, I am horribly formatted program"
+); Console.
+	  WriteLine("Numbers and squares:")
+; for (int i = 0;
+i < 10;
+i++)
 		{
-			Console.
-
-		WriteLine("Hi, I am horribly formatted program"
-	); Console.
-		  WriteLine("Numbers and squares:")
-	; for (int i = 0;
-	i < 10;
-	i++)
-			{
-				Console.WriteLine(i +
-					" --> " + i
-					*
-					i);
-			}
+			Console.WriteLine(i +
+				" --> " + i
+				*
+				i);
 		}
 	}
+}
+```
 
 ### Problem 11.	Programming Languages
 *	Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#?
