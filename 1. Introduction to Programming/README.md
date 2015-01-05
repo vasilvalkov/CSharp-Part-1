@@ -1,8 +1,6 @@
 Homework: Introduction to Programming
 ========
 
-This document defines homework assignments from the ìC# Basicsì Course @ Software University. Please submit as homework a single zip / rar / 7z archive holding the solutions (source code only) of all below described problems.
-
 ### Problem 1.	Play with Visual Studio
 *	Install Visual Studio on your laptop or home computer. Go to the official [Visual Studio](http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) site and download the __Community 2013 with Update 4__ version.
 *	Start Visual Studio and familiarize yourself with it. Create a simple C# program (console application), compile and run it.
@@ -10,7 +8,7 @@ This document defines homework assignments from the ìC# Basicsì Course @ Softwar
 You do not have to submit anything in your homework for this problem.
 
 ### Problem 2.	Blank Solution in Visual Studio
-*	Create a blank solution in Visual Studio called `ìIntro-Programming-Homeworkî`. This solution will hold all your homework projects, code and files. For each problem (exercises) add a separate project with self-descriptive name like `ìHello-Worldî` and `ìPrint-Your-Nameî`.
+*	Create a blank solution in Visual Studio called `‚ÄúIntro-Programming-Homework‚Äù`. This solution will hold all your homework projects, code and files. For each problem (exercises) add a separate project with self-descriptive name like `‚ÄúHello-World‚Äù` and `‚ÄúPrint-Your-Name‚Äù`.
 	
 	You do not have to submit anything in your homework for this problem.
 
@@ -23,14 +21,14 @@ You do not have to submit anything in your homework for this problem.
 You do not have to submit anything in your homework for this problem.
 
 ### Problem 4.	Hello World
-*	Create, compile and run a `ìHello C#î` console application.
-*	Ensure you have named the application well (e.g. ìîHelloCSharpî).
+*	Create, compile and run a `‚ÄúHello C#‚Äù` console application.
+*	Ensure you have named the application well (e.g. ‚Äú‚ÄùHelloCSharp‚Äù).
 
 You should submit the Visual Studio project holding the HelloCSharp class as part of your homework.
 
 ### Problem 5.	Print Your Name
 *	Modify the previous application to print your name.
-*	Ensure you have named the application well (e.g. ìPrintMyNameî).
+*	Ensure you have named the application well (e.g. ‚ÄúPrintMyName‚Äù).
 
 You should submit a separate project Visual Studio project holding the PrintMyName class as part of your homework.
 
@@ -45,7 +43,7 @@ You should submit in your homework the Visual Studio project holding the source 
 
 ### Problem 8.	Square Root
 *	Create a console application that calculates and prints the square root of the number `12345`.
-*	Find in Internet ìhow to calculate square root in C#î.
+*	Find in Internet ‚Äúhow to calculate square root in C#‚Äù.
 
 ### Problem 9.	Print a Sequence
 *	Write a program that prints the first 10 members of the sequence: `2, -3, 4, -5, 6, -7, ...`
@@ -86,15 +84,15 @@ i++)
 
 ### Problem 11.	Programming Languages
 *	Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#?
-*	Write in a text file called `ìprogramming-languages.txtî` at least five languages along with 2-3 sentences about each of them. Use English.
+*	Write in a text file called `‚Äúprogramming-languages.txt‚Äù` at least five languages along with 2-3 sentences about each of them. Use English.
 
 ### Problem 12.	Development Environments
 *	Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio.
-*	Write in a text file called `ìlist-of-IDEs.txtî` at least five IDEs along with 2-3 sentences about each of them. Use English.
+*	Write in a text file called `‚Äúlist-of-IDEs.txt‚Äù` at least five IDEs along with 2-3 sentences about each of them. Use English.
 
 ### Problem 13.	C# and .NET Differences
 *	Describe the difference between C# and .NET Framework in 2-3 sentences.
-*	Write your description in a text file called `ìcsharp-and-dot-net-framework.txtî`. Use English.
+*	Write your description in a text file called `‚Äúcsharp-and-dot-net-framework.txt‚Äù`. Use English.
 
 ### Problem 14.*	Current Date and Time
 *	Create a console application that prints the current date and time. Find out how in Internet.
@@ -103,7 +101,7 @@ i++)
 *	Write a program to read your birthday from the console and print how old you are now and how old you will be after 10 years.
 
 ### Problem 16.*	Print Long Sequence
-*	Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -5, 6, -7, Ö`
+*	Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -5, 6, -7, ‚Ä¶`
 *	You might need to learn how to use loops in C# (search in Internet).
 
 ### Problem 17.*	Play with the Debugger in Visual Studio
