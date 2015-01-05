@@ -91,7 +91,7 @@ _Note: Don’t use arrays and the built-in sorting functionality._
 _Examples:_
 
 | a    | b    | c    |     result     |
-|------|------|------|:--------------:|
+|------|------|------|=--------------=|
 | 5    | 1    | 2    | 5 2 1          |
 | -2   | -2   | 1    | 1 -2 -2        |
 | -2   | 4    | 3    | 4 3 -2         |
@@ -128,26 +128,26 @@ _Example 1:_
 
 | program                | user  |
 |------------------------|-------|
-| ```
-Please choose a type:
-1 --> int          
-2 --> double       
-3 --> string
-```                      | 3     |
+| Please choose a type:  |       |
+| 1 --> int              |       |
+| 2 --> double           | 3     |
+| 3 --> string           |       |
+|                        |       |
 | Please enter a string: | hello |
+|                        |       |
 | hello*                 |       |
 
 _Example 2:_
 
 | program                | user |
 |------------------------|------|
-| ```
-Please choose a type:
-1 --> int            
-2 --> double         
-3 --> string  
-```                      | 2    |
+| Please choose a type:  |      |
+| 1 --> int              |      |
+| 2 --> double           | 2    |
+| 3 --> string           |      |
+|                        |      |
 | Please enter a double: | 1.5  |
+|                        |      |
 | 2.5                    |      |
 
 	
@@ -196,20 +196,20 @@ _Examples:_
 _Examples:_
 
 numbers	result
-| numbers       | result                  |
-|---------------|-------------------------|
-| 3  -2  1  1 8 | -2 + 1 + 1 = 0          |
-| 3 1 -7 35 22  | no zero subset          |
-| 1 3 -4 -2 -1  | ```
-1 + -1 = 0
-1 + 3 + -4 = 0
-3 + -2 + -1 = 0
-```     |
-| 1 1 1 -1 -1   | ```
-1 + -1 = 0
-1 + 3 + -4 = 0
-3 + -2 + -1 = 0 ``` |
-| …             |                         |
-| 0 0 0 0 0     | `0 + 0 + 0 + 0 + 0 = 0` |
+| numbers       | result                |
+|---------------|-----------------------|
+| 3  -2  1  1 8 | -2 + 1 + 1 = 0        |
+|               |                       |
+| 3 1 -7 35 22  | no zero subset        |
+|               |                       |
+| 1 3 -4 -2 -1  | 1 + -1 = 0            |
+|               | 1 + 3 + -4 = 0        |
+|               | 3 + -2 + -1 = 0       |
+|               |                       |
+| 1 1 1 -1 -1   | 1 + -1 = 0            |
+|               | 1 + 3 + -4 = 0        |
+|               | 3 + -2 + -1 = 0       |
+|               |                       |
+| 0 0 0 0 0     | 0 + 0 + 0 + 0 + 0 = 0 |
 
 _Hint: you may check for zero each of the 32 subsets with 32 if statements._
