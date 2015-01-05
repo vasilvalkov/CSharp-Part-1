@@ -13,11 +13,11 @@ _Examples:_
 | 5.5  | 4.5 | 4.5 5.5 |
 
 ### Problem 2. Bonus Score
-*	Write a program that applies bonus score to given score in the range `[1Ö9]` by the following rules:
+*	Write a program that applies bonus score to given score in the range `[1‚Ä¶9]` by the following rules:
 	*	If the score is between `1` and `3`, the program multiplies it by `10`.
 	*	If the score is between `4` and `6`, the program multiplies it by `100`.
 	*	If the score is between `7` and `9`, the program multiplies it by `1000`.
-	*	If the score is `0` or more than `9`, the program prints `ìinvalid scoreî`.
+	*	If the score is `0` or more than `9`, the program prints `‚Äúinvalid score‚Äù`.
 
 _Examples:_
 
@@ -30,7 +30,7 @@ _Examples:_
 | 10    | invalid score |
 
 ### Problem 3. Check for a Play Card
-*	Classical play cards use the following signs to designate the card face: `2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K and A. Write a program that enters a string and prints ìyesî if it is a valid card sign or ìnoî otherwise. Examples:
+*	Classical play cards use the following signs to designate the card face: `2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K and A. Write a program that enters a string and prints ‚Äúyes‚Äù if it is a valid card sign or ‚Äúno‚Äù otherwise. Examples:
 
 | character | Valid card sign? |
 |-----------|------------------|
@@ -86,7 +86,7 @@ _Examples:_
 *	Write a program that enters 3 real numbers and prints them sorted in descending order.
 	*	Use nested `if` statements.
 
-_Note: Donít use arrays and the built-in sorting functionality._
+_Note: Don‚Äôt use arrays and the built-in sorting functionality._
 
 _Examples:_
 
@@ -102,7 +102,7 @@ _Examples:_
 
 ### Problem 8. Digit as Word
 *	Write a program that asks for a digit (0-9), and depending on the input, shows the digit as a word (in English).
-	*	Print `ìnot a digitî` in case of invalid input.
+	*	Print `‚Äúnot a digit‚Äù` in case of invalid input.
 	*	Use a switch statement.
 
 _Examples:_
@@ -119,7 +119,7 @@ _Examples:_
 | 10   | not a digit |
 
 ### Problem 9. Play with Int, Double and String
-*	Write a program that, depending on the userís choice, inputs an `int`, `double` or `string` variable.
+*	Write a program that, depending on the user‚Äôs choice, inputs an `int`, `double` or `string` variable.
 	*	If the variable is `int` or `double`, the program increases it by one.
 	*	If the variable is a `string`, the program appends `*` at the end.
 *	Print the result at the console. Use switch statement.
@@ -153,7 +153,7 @@ _Example 2:_
 	
 ### Problem 10.* Beer Time
 *	A beer time is after `1:00 PM` and before `3:00 AM`.
-*	Write a program that enters a time in format ìhh:mm ttî (an hour in range [01...12], a minute in range [00Ö59] and AM / PM designator) and prints `beer time` or `non-beer time` according to the definition above or `invalid time` if the time cannot be parsed.
+*	Write a program that enters a time in format ‚Äúhh:mm tt‚Äù (an hour in range [01...12], a minute in range [00‚Ä¶59] and AM / PM designator) and prints `beer time` or `non-beer time` according to the definition above or `invalid time` if the time cannot be parsed.
 _Note: You may need to learn how to parse dates and times._ 
 
 _Examples:_
@@ -168,8 +168,8 @@ _Examples:_
 | 03:00 AM | non-beer time |
 | 03:26 AM | non-beer time |
 
-### Problem 10.* Number as Words
-*	Write a program that converts a number in the range [0Ö999] to words, corresponding to the English pronunciation.
+### Problem 11.* Number as Words
+*	Write a program that converts a number in the range [0‚Ä¶999] to words, corresponding to the English pronunciation.
 
 _Examples:_
 
@@ -190,7 +190,7 @@ _Examples:_
 | 711     | Seven hundred and eleven      | 
 | 999     | Nine hundred and ninety nine  |
 
-### Problem 11.* Zero Subset
+### Problem 12.* Zero Subset
 *	We are given 5 integer numbers. Write a program that finds all subsets of these numbers whose sum is 0.
 *	Assume that repeating the same subset several times is not a problem.
 
