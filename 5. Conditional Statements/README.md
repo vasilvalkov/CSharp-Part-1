@@ -212,4 +212,4 @@ _Examples:_
 |               |                       |
 | 0 0 0 0 0     | 0 + 0 + 0 + 0 + 0 = 0 |
 
-_Hint: you may check for zero each of the 32 subsets with 32 if statements._
+_Hint: you may check for zero each of the 32 subsets with 32 `if` statements._
