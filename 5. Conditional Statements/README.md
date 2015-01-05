@@ -182,6 +182,7 @@ _Examples:_
 | 19      | Nineteen                      | 
 | 25      | Twenty five                   | 
 | 98      | Ninety eight                  | 
+| 98      | Ninety eight                  | 
 | 273     | Two hundred and seventy three | 
 | 400     | Four hundred                  | 
 | 501     | Five hundred and one          | 
@@ -195,7 +196,6 @@ _Examples:_
 
 _Examples:_
 
-numbers	result
 | numbers       | result                |
 |---------------|-----------------------|
 | 3  -2  1  1 8 | -2 + 1 + 1 = 0        |
