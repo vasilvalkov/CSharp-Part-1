@@ -84,7 +84,7 @@ _Examples:_
 | 0   | 3       | -0.1234 | |0         |0000000000|3|-0.123|    |
 
 ### Problem 6.	Quadratic Equation
-*	Write a program that reads the coefficients `a`, `b` and `c` of a quadratic equation ax^2^ + bx + c = 0 and solves it (prints its real roots).
+*	Write a program that reads the coefficients `a`, `b` and `c` of a quadratic equation ax<sup>2</sup> + bx + c = 0 and solves it (prints its real roots).
 
 _Examples:_
 
