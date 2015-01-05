@@ -84,15 +84,15 @@ _Examples:_
 | 0   | 3       | -0.1234 | |0         |0000000000|3|-0.123|    |
 
 ### Problem 6.	Quadratic Equation
-*	Write a program that reads the coefficients `a`, `b` and `c` of a quadratic equation `ax^2^ + bx + c = 0` and solves it (prints its real roots).
+*	Write a program that reads the coefficients `a`, `b` and `c` of a quadratic equation ax^2^ + bx + c = 0 and solves it (prints its real roots).
 
 _Examples:_
 
 |   a  |  b  |  c  |     roots     |
 |:----:|:---:|:---:|:-------------:|
-| 2    | 5   | -3  | x~1~=-3; x~2~=0.5 |
-| -1   | 3   | 0   | x~1~=3; x~2~=0    |
-| -0.5 | 4   | -8  | x~1~=x~2~=4       |
+| 2    | 5   | -3  | x1=-3; x2=0.5 |
+| -1   | 3   | 0   | x1=3; x2=0    |
+| -0.5 | 4   | -8  | x1=x2=4       |
 | 5    | 2   | 8   | no real roots |
 
 ### Problem 7.	Sum of 5 Numbers
