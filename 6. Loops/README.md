@@ -23,7 +23,7 @@ _Examples:_
 
 ### Problem 3.	Min, Max, Sum and Average of N Numbers
 *	Write a program that reads from the console a sequence of `n` integer numbers and returns the minimal, the maximal number, the sum and the average of all numbers (displayed with 2 digits after the decimal point).
-*	The input starts by the number n (alone in a line) followed by `n` lines, each holding an integer number.
+*	The input starts by the number `n` (alone in a line) followed by `n` lines, each holding an integer number.
 *	The output is like in the examples below.
 
 _Example 1:_
@@ -56,14 +56,14 @@ _output_
 
 	2 of spades, 2 of clubs, 2 of hearts, 2 of diamonds
 	3 of spades, 3 of clubs, 3 of hearts, 3 of diamonds
-	…  
+	â€¦  
 	K of spades, K of clubs, K of hearts, K of diamonds
 	A of spades, A of clubs, A of hearts, A of diamonds
 
 _Note: You may use the suit symbols instead of text._
 
-### Problem 5.	Calculate 1 + 1!/X + 2!/X2 + … + N!/XN
-*	Write a program that, for a given two integer numbers `n` and `x`, calculates the sum `S = 1 + 1!/x + 2!/x2 + … + n!/xn`.
+### Problem 5.	Calculate 1 + 1!/X + 2!/X2 + â€¦ + N!/XN
+*	Write a program that, for a given two integer numbers `n` and `x`, calculates the sum `S = 1 + 1!/x + 2!/x2 + â€¦ + n!/xn`.
 *	Use only one loop. Print the result with `5` digits after the decimal point.
 
 _Examples:_
@@ -157,12 +157,12 @@ _Examples:_
 
 _Note: The above output is just an example. Due to randomness, your program most probably will produce different results._
 
-### Problem 12.* Randomize the Numbers 1…N
-*	Write a program that enters in integer `n` and prints the numbers `1, 2, …, n` in random order.
+### Problem 12.* Randomize the Numbers 1â€¦N
+*	Write a program that enters in integer `n` and prints the numbers `1, 2, â€¦, n` in random order.
 
 _Examples:_
 
-| n                 | randomized numbers 1…n |
+| n                 | randomized numbers 1â€¦n |
 |-------------------|------------------------|
 | 3                 | 2 1 3                  |
 | 10                | 3 4 8 2 6 7 9 1 10 5   |
@@ -237,7 +237,7 @@ _Examples:_
 
 ### Problem 18.* Trailing Zeroes in N!
 *	Write a program that calculates with how many zeroes the factorial of a given number `n` has at its end.
-*	Your program should work well for very big numbers, e.g. n=100000.
+*	Your program should work well for very big numbers, e.g. `n=100000`.
 
 _Examples:_
 
@@ -248,7 +248,7 @@ _Examples:_
 | 100000 | 24999                 | think why           |
 
 ### Problem 19.** Spiral Matrix
-*	Write a program that reads from the console a positive integer number `n` (1 = n = 20) and prints a matrix holding the numbers from 1 to n*n in the form of square spiral like in the examples below.
+*	Write a program that reads from the console a positive integer number `n` (1 = n = 20) and prints a matrix holding the numbers from `1` to `n*n` in the form of square spiral like in the examples below.
 
 _Examples:_
 
