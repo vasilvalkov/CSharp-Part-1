@@ -36,21 +36,21 @@ Hint: first, use the Windows Calculator to find the hexadecimal representation o
 *	Print the variables to ensure that their value was correctly defined.
 
 ### Problem 8.	Isosceles Triangle
-*	Write a program that prints an isosceles triangle of 9 copyright symbols `©`, something like this:
+*	Write a program that prints an isosceles triangle of 9 copyright symbols `Â©`, something like this:
 
 ```
-   ©
+   Â©
    
-  © ©
+  Â© Â©
   
- ©   ©
+ Â©   Â©
  
-© © © ©
+Â© Â© Â© Â©
 ```
 
-_Note: The `©` symbol may be displayed incorrectly at the console so you may need to change the console character encoding to `UTF-8` and assign a Unicode-friendly font in the console._
+_Note: The `Â©` symbol may be displayed incorrectly at the console so you may need to change the console character encoding to `UTF-8` and assign a Unicode-friendly font in the console._
 
-_Note: Under old versions of Windows the `©` symbol may still be displayed incorrectly, regardless of how much effort you put to fix it._
+_Note: Under old versions of Windows the `Â©` symbol may still be displayed incorrectly, regardless of how much effort you put to fix it._
 
 ### Problem 9.	Exchange Variable Values
 *	Declare two integer variables `a` and `b` and assign them with `5` and `10` and after that exchange their values by using some programming logic.
@@ -58,12 +58,12 @@ _Note: Under old versions of Windows the `©` symbol may still be displayed incor
 
 ### Problem 10.	Employee Data
 A marketing company wants to keep record of its employees. Each record would have the following characteristics:
-•	First name
-•	Last name
-•	Age (0...100)
-•	Gender (m or f)
-•	Personal ID number (e.g. 8306112507)
-•	Unique employee number (27560000…27569999)
+*	First name
+*	Last name
+*	Age (0...100)
+*	Gender (m or f)
+*	Personal ID number (e.g. 8306112507)
+*	Unique employee number (27560000â€¦27569999)
 Declare the variables needed to keep the information for a single employee using appropriate primitive data types. Use descriptive names. Print the data at the console.
 
 ### Problem 11.	Bank Account Data
