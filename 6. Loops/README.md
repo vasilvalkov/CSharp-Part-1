@@ -2,7 +2,7 @@ Homework: Loops
 ===============
 
 ### Problem 1.	Numbers from 1 to N
-*	Write a program that enters from the console a positive integer `n` and prints all the numbers from `1 to n`, on a single line, separated by a space.
+*	Write a program that enters from the console a positive integer `n` and prints all the numbers from `1` to `n`, on a single line, separated by a space.
 
 _Examples:_
 
@@ -12,7 +12,7 @@ _Examples:_
 | 5            | 1 2 3 4 5 |
 
 ### Problem 2.	Numbers Not Divisible by 3 and 7
-*	Write a program that enters from the console a positive integer `n` and prints all the numbers from `1 to n` not divisible by `3` and `7`, on a single line, separated by a space.
+*	Write a program that enters from the console a positive integer `n` and prints all the numbers from `1` to `n` not divisible by `3` and `7`, on a single line, separated by a space.
 
 _Examples:_
 
@@ -63,7 +63,8 @@ _output_
 _Note: You may use the suit symbols instead of text._
 
 ### Problem 5.	Calculate 1 + 1!/X + 2!/X2 + … + N!/XN
-*	Write a program that, for a given two integer numbers `n` and `x`, calculates the `sum S = 1 + 1!/x + 2!/x2 + … + n!/xn`. Use only one loop. Print the result with 5 digits after the decimal point.
+*	Write a program that, for a given two integer numbers `n` and `x`, calculates the sum `S = 1 + 1!/x + 2!/x2 + … + n!/xn`.
+*	Use only one loop. Print the result with `5` digits after the decimal point.
 
 _Examples:_
 
@@ -74,7 +75,8 @@ _Examples:_
 | 5           | -4         | 0.75781 |
 
 ### Problem 6.	Calculate N! / K!
-*	Write a program that calculates `n! / k!` for given `n` and `k` (1 < k < n < 100). Use only one loop.
+*	Write a program that calculates `n! / k!` for given `n` and `k` (1 < k < n < 100).
+*	Use only one loop.
 
 _Examples:_
 
@@ -119,14 +121,15 @@ _Examples:_
 _Examples:_
 
 	n = 2	matrix		n = 3	matrix		n = 4	matrix
-		1 2			1 2 3			1 2 3 4
-		2 3			2 3 4			2 3 4 5
-					3 4 5			3 4 5 6
-								4 5 6 7
+			1 2					1 2 3				1 2 3 4
+			2 3					2 3 4				2 3 4 5
+								3 4 5				3 4 5 6
+													4 5 6 7
 
 ### Problem 10.	Odd and Even Product
 *	You are given `n` integers (given in a single line, separated by a space).
-*	Write a program that checks whether the product of the odd elements is equal to the product of the even elements. Elements are counted from 1 to n, so the first element is odd, the second is even, etc.
+*	Write a program that checks whether the product of the odd elements is equal to the product of the even elements.
+*	Elements are counted from `1` to `n`, so the first element is odd, the second is even, etc.
 
 _Examples:_
 
@@ -148,7 +151,7 @@ _Examples:_
 _Examples:_
 
 | n                 | min | max     |         random numbers        |
-|-------------------|-----|---------|:-----------------------------:|
+|-------------------|-----|---------|-------------------------------|
 | 5                 | 0   | 1       | 1 0 0 1 1                     |
 | 10                | 10  | 15      | 12 14 12 15 10 12 14 13 13 11 |
 
@@ -250,7 +253,7 @@ _Examples:_
 _Examples:_
 
 	n = 2	matrix		n = 3	matrix		n = 4	matrix
-		1 2			1 2 3			1  2  3  4
-		4 3			8 9 4			12 13 14 5
-					7 6 5			11 16 15 6
-								10 9  8  7
+			1 2					1 2 3				1  2  3  4
+			4 3					8 9 4				12 13 14 5
+								7 6 5				11 16 15 6
+													10 9  8  7
