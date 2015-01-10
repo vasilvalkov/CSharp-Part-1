@@ -91,7 +91,7 @@ _Note: Don’t use arrays and the built-in sorting functionality._
 _Examples:_
 
 | a    | b    | c    |     result     |
-|------|------|------|=--------------=|
+|------|------|------|----------------|
 | 5    | 1    | 2    | 5 2 1          |
 | -2   | -2   | 1    | 1 -2 -2        |
 | -2   | 4    | 3    | 4 3 -2         |
