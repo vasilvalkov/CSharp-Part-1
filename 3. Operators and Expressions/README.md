@@ -41,7 +41,7 @@ _Examples:_
 | 140 | true                |
 
 ### Problem 4.	Rectangles
-*	Write an expression that calculates rectangle’s perimeter and area by given width and height.
+*	Write an expression that calculates rectangleâ€™s perimeter and area by given width and height.
 
 _Examples:_
 
@@ -118,7 +118,7 @@ _Examples:_
 | 0  | false  |
 
 ### Problem 9.	Trapezoids
-*	Write an expression that calculates trapezoid's area by given sides a and b and height h.
+*	Write an expression that calculates trapezoid's area by given sides `a` and `b` and height `h`.
 
 _Examples:_
 
@@ -217,7 +217,7 @@ _Examples:_
 | 2369124121 | 10001101 00110101 11110111 00011001 | 10001011 00110101 11110111 00101001 | 2335569705 |
 
 ### Problem 16.** Bit Exchange (Advanced)
-*	Write a program that exchanges bits `{p, p+1, …, p+k-1}` with bits `{q, q+1, …, q+k-1}` of a given 32-bit unsigned integer.
+*	Write a program that exchanges bits `{p, p+1, â€¦, p+k-1}` with bits `{q, q+1, â€¦, q+k-1}` of a given 32-bit unsigned integer.
 *	The first and the second sequence of bits may not overlap.
 
 _Examples:_

@@ -62,7 +62,6 @@ _Examples:_
 | 0   | 0   | 0       |
 | -5  | -2  | -2      |
 | 1.5 | 1.6 | 1.6     |
-| a   | a   | a       |
 
 ### Problem 5.	Formatting Numbers
 *	Write a program that reads 3 numbers:

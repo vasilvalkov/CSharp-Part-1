@@ -2,7 +2,7 @@ Homework: Conditional Statements
 ================================
 
 ### Problem 1. Exchange If Greater
-*	Write an if-statement that takes two integer variables a and b and exchanges their values if the first one is greater than the second one. As a result print the values a and b, separated by a space.
+*	Write an if-statement that takes two double variables a and b and exchanges their values if the first one is greater than the second one. As a result print the values a and b, separated by a space.
 
 _Examples:_
 
@@ -91,7 +91,7 @@ _Note: Don’t use arrays and the built-in sorting functionality._
 _Examples:_
 
 | a    | b    | c    |     result     |
-|------|------|------|=--------------=|
+|------|------|------|----------------|
 | 5    | 1    | 2    | 5 2 1          |
 | -2   | -2   | 1    | 1 -2 -2        |
 | -2   | 4    | 3    | 4 3 -2         |
@@ -207,8 +207,7 @@ _Examples:_
 |               | 3 + -2 + -1 = 0       |
 |               |                       |
 | 1 1 1 -1 -1   | 1 + -1 = 0            |
-|               | 1 + 3 + -4 = 0        |
-|               | 3 + -2 + -1 = 0       |
+|               | 1 + 1 + -1 + -1 = 0   |
 |               |                       |
 | 0 0 0 0 0     | 0 + 0 + 0 + 0 + 0 = 0 |
 
