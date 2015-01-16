@@ -27,10 +27,10 @@ class NullableTypes
         //double someDouble;
         someDouble = null;
         Console.WriteLine(
-			"This is the integer with Null value -> " + someDouble);
+			"This is the double with Null value -> " + someDouble);
         someDouble = 2.5;
         Console.WriteLine(
-			"This is the integer with value 5 -> " + someDouble);
+			"This is the double with value 2.5 -> " + someDouble);
 
 		int? value = null;
 		Console.WriteLine(value.GetValueOrDefault());
