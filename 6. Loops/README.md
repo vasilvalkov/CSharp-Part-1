@@ -104,7 +104,7 @@ _Examples:_
 ### Problem 8.	Catalan Numbers
 *	In combinatorics, the Catalan numbers are calculated by the following formula:
 ![catalan-formula](https://cloud.githubusercontent.com/assets/3619393/5626137/d7ec8bc2-958f-11e4-9787-f6c386847c81.png)
-*	Write a program to calculate the `nth` Catalan number by given `n` (1 < n < 100). 
+*	Write a program to calculate the `n`<sup>`th`</sup> Catalan number by given `n` (1 <= n <= 100). 
 
 _Examples:_
 
