@@ -34,7 +34,7 @@ _Examples:_
 |  n  | Divided by 7 and 5? |
 |:---:|:-------------------:|
 | 3   | false               |
-| 0   | false               |
+| 0   | true                |
 | 5   | false               |
 | 7   | false               |
 | 35  | true                |
