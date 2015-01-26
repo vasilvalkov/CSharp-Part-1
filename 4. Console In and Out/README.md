@@ -23,7 +23,7 @@ _Example input:_
 | Company name:       | Telerik Academy            |
 | Company address:    | 31 Al. Malinov, Sofia      |
 | Phone number:       | +359 888 55 55 555         |
-| Fax number:         | 2                          |
+| Fax number:         |                            |
 | Web site:           | http://telerikacademy.com/ |
 | Manager first name: | Nikolay                    |
 | Manager last name:  | Kostov                     |
