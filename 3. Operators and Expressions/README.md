@@ -101,7 +101,7 @@ _Examples:_
 | 1    | 1.655 | true   |
 
 ### Problem 8.	Prime Number Check
-*	Write an expression that checks if given positive integer number n (n <= 100) is prime (i.e. it is divisible without remainder only to itself and 1).
+*	Write an expression that checks if given positive integer number n (n &#8804; 100) is prime (i.e. it is divisible without remainder only to itself and 1).
 *	_Note: You should check if the number is positive_
 
 _Examples:_
