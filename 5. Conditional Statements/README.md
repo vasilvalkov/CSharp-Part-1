@@ -130,8 +130,8 @@ _Example 1:_
 |------------------------|-------|
 | Please choose a type:  |       |
 | 1 --> int              |       |
-| 2 --> double           | 3     |
-| 3 --> string           |       |
+| 2 --> double           |       |
+| 3 --> string           |  3     |
 |                        |       |
 | Please enter a string: | hello |
 |                        |       |
