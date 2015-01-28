@@ -98,7 +98,7 @@ _Examples:_
 ### Problem 8.	Catalan Numbers
 *	In combinatorics, the Catalan numbers are calculated by the following formula:
 ![catalan-formula](https://cloud.githubusercontent.com/assets/3619393/5626137/d7ec8bc2-958f-11e4-9787-f6c386847c81.png)
-*	Write a program to calculate the `n`<sup>`th`</sup> Catalan number by given `n` (0 <= n <= 100). 
+*	Write a program to calculate the `n`<sup>`th`</sup> Catalan number by given `n` (0 &#8804; n &#8804; 100). 
 
 _Examples:_
 
@@ -110,7 +110,7 @@ _Examples:_
 | 15          | 9694845    |
 
 ### Problem 9.	Matrix of Numbers
-*	Write a program that reads from the console a positive integer number `n` (1 = n = 20) and prints a matrix like in the examples below. Use two nested loops.
+*	Write a program that reads from the console a positive integer number `n` (1 &#8804; n &#8804; 20) and prints a matrix like in the examples below. Use two nested loops.
 
 _Examples:_
 
@@ -242,7 +242,7 @@ _Examples:_
 | 100000 | 24999                 | think why           |
 
 ### Problem 19.** Spiral Matrix
-*	Write a program that reads from the console a positive integer number `n` (1 = n = 20) and prints a matrix holding the numbers from `1` to `n*n` in the form of square spiral like in the examples below.
+*	Write a program that reads from the console a positive integer number `n` (1 &#8804; n &#8804; 20) and prints a matrix holding the numbers from `1` to `n*n` in the form of square spiral like in the examples below.
 
 _Examples:_
 
