@@ -12,7 +12,7 @@ _Examples:_
 | 5            | 1 2 3 4 5 |
 
 ### Problem 2.	Numbers Not Divisible by 3 and 7
-*	Write a program that enters from the console a positive integer `n` and prints all the numbers from `1` to `n` not divisible by `3` and `7`, on a single line, separated by a space.
+*	Write a program that enters from the console a positive integer `n` and prints all the numbers from `1` to `n` not divisible by `3` or `7`, on a single line, separated by a space.
 
 _Examples:_
 
