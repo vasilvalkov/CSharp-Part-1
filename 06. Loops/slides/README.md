@@ -2,8 +2,8 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Loops
 ## Execute Blocks of Code Multiple Times
-<img class="slide-image" src="\imgs\pic00.png" style="top:52.01%; left:58.48%; width:44.15%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic01.png" style="top:-1.96%; left:21.73%; width:20.77%; z-index:-1" />
+<img class="slide-image" src="imgs/pic00.png" style="top:52.01%; left:58.48%; width:44.15%; z-index:-1" />
+<img class="slide-image" src="imgs/pic01.png" style="top:-1.96%; left:21.73%; width:20.77%; z-index:-1" />
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
@@ -25,7 +25,7 @@
 - Special loop operators
   - **break**, **continue**, **goto**
 - Nested loops
-<img class="slide-image" src="\imgs\pic02.png" style="top:19.39%; left:58.26%; width:42.96%; z-index:-1" />
+<img class="slide-image" src="imgs/pic02.png" style="top:19.39%; left:58.26%; width:42.96%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -42,7 +42,7 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Using while(…) Loop
-<img class="slide-image" src="\imgs\pic03.png" style="top:48.48%; left:30%; width:45%; z-index:-1" />
+<img class="slide-image" src="imgs/pic03.png" style="top:48.48%; left:30%; width:45%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -81,14 +81,14 @@ while (counter < 10)
 }
 ```
 
-<img class="slide-image" src="\imgs\pic04.png" style="top:43.82%; left:7.50%; width:91.13%; z-index:-1" />
+<img class="slide-image" src="imgs/pic04.png" style="top:43.82%; left:7.50%; width:91.13%; z-index:-1" />
 
 
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # While
-<img class="slide-image" src="\imgs\pic05.png" style="top:40%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic05.png" style="top:40%; left:30%; width:40%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -114,7 +114,7 @@ Console.WriteLine(" = {0}", sum);
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Calculating Sum 1..N
-<img class="slide-image" src="\imgs\pic06.png" style="top:43.20%; left:28%; width:45%; z-index:-1" />
+<img class="slide-image" src="imgs/pic06.png" style="top:43.20%; left:28%; width:45%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -143,8 +143,8 @@ Console.WriteLine("Prime? {0}", prime);
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Checking Whether a Number Is Prime
-<img class="slide-image" src="\imgs\pic07.png" style="top:44.96%; left:70.17%; width:28%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic08.png" style="top:44.96%; left:0%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic07.png" style="top:44.96%; left:70.17%; width:28%; z-index:-1" />
+<img class="slide-image" src="imgs/pic08.png" style="top:44.96%; left:0%; width:35%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -172,7 +172,7 @@ static void Main()
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Calculating Factorial
-<img class="slide-image" src="\imgs\pic09.png" style="top:40%; left:31.81%; width:44.08%; z-index:-1" />
+<img class="slide-image" src="imgs/pic09.png" style="top:40%; left:31.81%; width:44.08%; z-index:-1" />
 
 
 
@@ -180,7 +180,7 @@ static void Main()
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # do { … } while (…)Loop
-<img class="slide-image" src="\imgs\pic10.png" style="top:40%; left:25%; width:50%; z-index:-1" />
+<img class="slide-image" src="imgs/pic10.png" style="top:40%; left:25%; width:50%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -198,7 +198,7 @@ do
 while (condition);
 ```
 
-<img class="slide-image" src="\imgs\pic11.png" style="top:15.13%; left:87.95%; width:18.55%; z-index:-1" />
+<img class="slide-image" src="imgs/pic11.png" style="top:15.13%; left:87.95%; width:18.55%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -214,7 +214,7 @@ while (condition);
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 <!-- # do { … } while -->
-<img class="slide-image" src="\imgs\pic12.png" style="top:38.92%; left:28%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic12.png" style="top:38.92%; left:28%; width:40%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -249,7 +249,7 @@ static void Main()
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 <!-- # Factorial (do ... while) -->
-<img class="slide-image" src="\imgs\pic13.png" style="top:40%; left:28.54%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic13.png" style="top:40%; left:28.54%; width:40%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -274,7 +274,7 @@ Console.WriteLine("product[n..m] = " + product);
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Product of the Numbers in the Interval [n..m]
-<img class="slide-image" src="\imgs\pic14.png" style="top:55%; left:30%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic14.png" style="top:55%; left:30%; width:35%; z-index:-1" />
 
 
 
@@ -282,7 +282,7 @@ Console.WriteLine("product[n..m] = " + product);
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # for Loops
-<img class="slide-image" src="\imgs\pic15.png" style="top:39.67%; left:15.91%; width:73.17%; z-index:-1" />
+<img class="slide-image" src="imgs/pic15.png" style="top:39.67%; left:15.91%; width:73.17%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -353,7 +353,7 @@ for (int number = 0; number < 10; number++)
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # for Loop
-<img class="slide-image" src="\imgs\pic16.png" style="top:41.65%; left:28%; width:45%; z-index:-1" />
+<img class="slide-image" src="imgs/pic16.png" style="top:41.65%; left:28%; width:45%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -404,7 +404,7 @@ i=8, sum=15
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # For Loops
-<img class="slide-image" src="\imgs\pic17.png" style="top:40%; left:35%; width:30%; z-index:-1" />
+<img class="slide-image" src="imgs/pic17.png" style="top:40%; left:35%; width:30%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -429,7 +429,7 @@ static void Main()
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Calculating N^M
-<img class="slide-image" src="\imgs\pic18.png" style="top:40.08%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic18.png" style="top:40.08%; left:30%; width:40%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -455,7 +455,7 @@ Console.WriteLine("sum = {0}", sum);
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Using continue Operator
-<img class="slide-image" src="\imgs\pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" />
 
 
 
@@ -463,7 +463,7 @@ Console.WriteLine("sum = {0}", sum);
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # foreach Loop
-<img class="slide-image" src="\imgs\pic20.png" style="top:40%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic20.png" style="top:40%; left:30%; width:40%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -500,7 +500,7 @@ foreach (string day in days)
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # foreach Loop
-<img class="slide-image" src="\imgs\pic21.png" style="top:40%; left:33%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic21.png" style="top:40%; left:33%; width:35%; z-index:-1" />
 
 
 
@@ -508,7 +508,7 @@ foreach (string day in days)
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Nested Loops
-<img class="slide-image" src="\imgs\pic22.png" style="top:40.55%; left:36.02%; width:36.14%; z-index:-1" />
+<img class="slide-image" src="imgs/pic22.png" style="top:40.55%; left:36.02%; width:36.14%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -535,7 +535,7 @@ for (initialization; test; update)
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Nested Loops
-<img class="slide-image" src="\imgs\pic23.png" style="top:38.79%; left:36.78%; width:34.55%; z-index:-1" />
+<img class="slide-image" src="imgs/pic23.png" style="top:38.79%; left:36.78%; width:34.55%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -562,7 +562,7 @@ for(int row = 1; row <= n; row++)
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Triangle
-<img class="slide-image" src="\imgs\pic24.png" style="top:39.67%; left:31.81%; width:44.08%; z-index:-1" />
+<img class="slide-image" src="imgs/pic24.png" style="top:39.67%; left:31.81%; width:44.08%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -597,7 +597,7 @@ for (int number = n; number <= m; number++)
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Primes in Range [n, m]
-<img class="slide-image" src="\imgs\pic25.png" style="top:40.55%; left:30%; width:45%; z-index:-1" />
+<img class="slide-image" src="imgs/pic25.png" style="top:40.55%; left:30%; width:45%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -635,7 +635,7 @@ for (int outer = 0; outer < 10; outer++)
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Loops – More _Examples_
-<img class="slide-image" src="\imgs\pic26.png" style="top:40%; left:30%; width:50%; z-index:-1" />
+<img class="slide-image" src="imgs/pic26.png" style="top:40%; left:30%; width:50%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -660,7 +660,7 @@ static void Main()
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Happy Numbers
-<img class="slide-image" src="\imgs\pic27.png" style="top:43.20%; left:41.17%; width:26.45%; z-index:-1" />
+<img class="slide-image" src="imgs/pic27.png" style="top:43.20%; left:41.17%; width:26.45%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -687,7 +687,7 @@ static void Main()
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # TOTO 6/49
-<img class="slide-image" src="\imgs\pic28.png" style="top:40%; left:24.33%; width:58.18%; z-index:-1" />
+<img class="slide-image" src="imgs/pic28.png" style="top:40%; left:24.33%; width:58.18%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -699,7 +699,7 @@ static void Main()
   - **foreach** loops
 - Nested loops can be used to implement more complex logic
 - The operators **continue**, **break** & **goto** can control the loop execution
-<img class="slide-image" src="\imgs\pic29.png" style="top:23.63%; left:74.85%; width:28.21%; z-index:-1" />
+<img class="slide-image" src="imgs/pic29.png" style="top:23.63%; left:74.85%; width:28.21%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -717,6 +717,6 @@ static void Main()
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
     - telerikacademy.com
-<img class="slide-image" src="\imgs\pic30.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic31.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic32.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" />
+<img class="slide-image" src="imgs/pic30.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" />
+<img class="slide-image" src="imgs/pic31.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" />
+<img class="slide-image" src="imgs/pic32.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" />

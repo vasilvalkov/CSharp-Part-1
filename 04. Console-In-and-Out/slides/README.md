@@ -2,9 +2,9 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Console Input / Output
 ## Reading and Writing to the Console
-<img class="slide-image" src="\imgs\pic03.png" style="top:10%; left:0%; width:20.93%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic04.png" style="top:50%; left:70%; width:26.32%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic05.png" style="top:50%; left:20%; width:40.60%; z-index:-1" />
+<img class="slide-image" src="imgs/pic03.png" style="top:10%; left:0%; width:20.93%; z-index:-1" />
+<img class="slide-image" src="imgs/pic04.png" style="top:50%; left:70%; width:26.32%; z-index:-1" />
+<img class="slide-image" src="imgs/pic05.png" style="top:50%; left:20%; width:40.60%; z-index:-1" />
 
 
 
@@ -20,7 +20,7 @@
   - Parsing Strings to Numeral Types
   - Reading Numeral Types
 - Various _Example_s
-<img class="slide-image" src="\imgs\pic06.png" style="top:14.99%; left:83.27%; width:22.39%; z-index:-1" />
+<img class="slide-image" src="imgs/pic06.png" style="top:14.99%; left:83.27%; width:22.39%; z-index:-1" />
 
 
 
@@ -28,7 +28,7 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Printing to the Console
-<img class="slide-image" src="\imgs\pic05.png" style="top:50%; left:25%; width:50%; z-index:-1" />
+<img class="slide-image" src="imgs/pic05.png" style="top:50%; left:25%; width:50%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -39,7 +39,7 @@
   - Numeral types
   - All primitive data types
 - To print to the console use the class **Console** (Found in namespace **System**)
-<img class="slide-image" src="\imgs\pic08.png" style="top:32.29%; left:76.23%; width:26.91%; z-index:-1" />
+<img class="slide-image" src="imgs/pic08.png" style="top:32.29%; left:76.23%; width:26.91%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -217,7 +217,7 @@ Console.WriteLine("Have a nice day!");
   - Strings
   - Numeral types (after conversion)
 - To read from the console we use the methods **Console.Read()** and **Console.ReadLine()**
-<img class="slide-image" src="\imgs\pic11.png" style="top:21.16%; left:67.37%; width:25%; z-index:-1" />
+<img class="slide-image" src="imgs/pic11.png" style="top:21.16%; left:67.37%; width:25%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -398,7 +398,7 @@ Console.OutputEncoding = Encoding.UTF8;
 Console.WriteLine("Това е кирилица: ☺");
 ```
 
-<img class="slide-image" src="\imgs\pic22.png" style="top:20%; left:75%; width:30%; z-index:-1" />
+<img class="slide-image" src="imgs/pic22.png" style="top:20%; left:75%; width:30%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -422,7 +422,7 @@ decimal value = decimal.Parse("1.33");
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Regional Settings
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1" />
+<img class="slide-image" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1" />
 
 
 <!-- section start -->

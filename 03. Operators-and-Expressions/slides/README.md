@@ -2,8 +2,8 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'true', hasScriptWrapper:'true', style:'' } -->
 # Operators and Expressions
 ## Performing Simple Calculations with C#
-<img class="slide-image" src="\imgs\pic00.png" style="top:40%; left:51.46%; width:35%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic01.png" style="top:5.29%; left:55.20%; width:30%; z-index:-1" />
+<img class="slide-image" src="imgs/pic00.png" style="top:40%; left:51.46%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic01.png" style="top:5.29%; left:55.20%; width:30%; z-index:-1" />
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
@@ -25,7 +25,7 @@
 - Other Operators
 - Implicit and Explicit Type Conversions
 - Expressions
-<img class="slide-image" src="\imgs\pic02.png" style="top:24.24%; left:73.92%; width:29.84%; z-index:-1" />
+<img class="slide-image" src="imgs/pic02.png" style="top:24.24%; left:73.92%; width:29.84%; z-index:-1" />
 
 
 
@@ -34,8 +34,8 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Operators in C#
 ## Arithmetic, Logical, Comparison, Assignment, Etc.
-<img class="slide-image" src="\imgs\pic03.png" style="top:55%; left:71.11%; width:20%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic04.png" style="top:65%; left:11.23%; width:25%; z-index:-1" />
+<img class="slide-image" src="imgs/pic03.png" style="top:55%; left:71.11%; width:20%; z-index:-1" />
+<img class="slide-image" src="imgs/pic04.png" style="top:65%; left:11.23%; width:25%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -56,13 +56,13 @@
   - Ternary (**?:**) – takes three operands
 - Except for the assignment operators, all binary operators are left-associative
 - The assignment operators and the conditional operator (**?:**) are right-associative
-<img class="slide-image" src="\imgs\pic05.png" style="top:12.34%; left:87.43%; width:19.12%; z-index:-1" />
+<img class="slide-image" src="imgs/pic05.png" style="top:12.34%; left:87.43%; width:19.12%; z-index:-1" />
 
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Operators Precedence
-<img class="slide-image" src="\imgs\pic06.png" style="top:38.05%; left:32.75%; width:44.08%; z-index:-1" />
+<img class="slide-image" src="imgs/pic06.png" style="top:38.05%; left:32.75%; width:44.08%; z-index:-1" />
 
 
 
@@ -78,7 +78,7 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Arithmetic Operators
-<img class="slide-image" src="\imgs\pic07.png" style="top:40%; left:25%; width:50%; z-index:-1" />
+<img class="slide-image" src="imgs/pic07.png" style="top:40%; left:25%; width:50%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -157,7 +157,7 @@ checked
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Arithmetic Operators
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic08.png" style="top:55%; left:35%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic08.png" style="top:55%; left:35%; width:35%; z-index:-1" />
 
 
 
@@ -165,7 +165,7 @@ checked
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Logical Operators
-<img class="slide-image" src="\imgs\pic09.png" style="top:42%; left:26.41%; width:52.95%; z-index:-1" />
+<img class="slide-image" src="imgs/pic09.png" style="top:42%; left:26.41%; width:52.95%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -199,8 +199,8 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Logical Operators
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic10.png" style="top:40%; left:68.24%; width:25%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic11.png" style="top:40%; left:10.29%; width:28%; z-index:-1" />
+<img class="slide-image" src="imgs/pic10.png" style="top:40%; left:68.24%; width:25%; z-index:-1" />
+<img class="slide-image" src="imgs/pic11.png" style="top:40%; left:10.29%; width:28%; z-index:-1" />
 
 
 
@@ -208,7 +208,7 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Bitwise Operators
-<img class="slide-image" src="\imgs\pic12.png" style="top:40%; left: 30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic12.png" style="top:40%; left: 30%; width:40%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -262,7 +262,7 @@ int result = n & mask;      // 00000000 00000011
 Console.WriteLine(result);  // 3
 ```
 
-<img class="slide-image" src="\imgs\pic13.png" style="top:41.57%; left:93.36%; width:13.28%; z-index:-1" />
+<img class="slide-image" src="imgs/pic13.png" style="top:41.57%; left:93.36%; width:13.28%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -285,14 +285,14 @@ Console.WriteLine(
 // 00000000000000000000000000110011
 ```
 
-<img class="slide-image" src="\imgs\pic14.png" style="top:2.95%; left:27.79%; width:20.54%; z-index:-1" />
+<img class="slide-image" src="imgs/pic14.png" style="top:2.95%; left:27.79%; width:20.54%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Bitwise Operators
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic15.png" style="top:42.61%; left:65%; width:35%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic16.png" style="top:37.91%; left:9.60%; width:21.16%; z-index:-1" />
+<img class="slide-image" src="imgs/pic15.png" style="top:42.61%; left:65%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic16.png" style="top:37.91%; left:9.60%; width:21.16%; z-index:-1" />
 
 
 
@@ -300,7 +300,7 @@ Console.WriteLine(
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Comparison and Assignment Operators
-<img class="slide-image" src="\imgs\pic17.png" style="top:55%; left:33%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic17.png" style="top:55%; left:33%; width:35%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -320,7 +320,7 @@ Console.WriteLine(a != ++b); // False
 Console.WriteLine(a > b); // False
 ```
 
-<img class="slide-image" src="\imgs\pic18.png" style="top:38.79%; left:81.40%; width:22.92%; z-index:0" />
+<img class="slide-image" src="imgs/pic18.png" style="top:38.79%; left:81.40%; width:22.92%; z-index:0" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -340,13 +340,13 @@ Console.WriteLine(x += 3); // 10
 Console.WriteLine(x /= 2); // 5
 ```
 
-<img class="slide-image" src="\imgs\pic19.png" style="top:39.67%; left:78.08%; width:24.71%; z-index:0" />
+<img class="slide-image" src="imgs/pic19.png" style="top:39.67%; left:78.08%; width:24.71%; z-index:0" />
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Comparison and Assignment Operators
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic20.png" style="top:47.51%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic20.png" style="top:47.51%; left:30%; width:40%; z-index:-1" />
 
 
 
@@ -354,7 +354,7 @@ Console.WriteLine(x /= 2); // 5
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Other Operators
-<img class="slide-image" src="\imgs\pic21.png" style="top:39.08%; left:32%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic21.png" style="top:39.08%; left:32%; width:35%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -372,7 +372,7 @@ Console.WriteLine(output + number);
 // The number is : 5
 ```
 
-<img class="slide-image" src="\imgs\pic22.png" style="top:37.02%; left:80.98%; width:23.32%; z-index:0" />
+<img class="slide-image" src="imgs/pic22.png" style="top:37.02%; left:80.98%; width:23.32%; z-index:0" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -441,7 +441,7 @@ Console.WriteLine(d); // 0
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Other Operators
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic23.png" style="top:50%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic23.png" style="top:50%; left:30%; width:40%; z-index:-1" />
 
 
 
@@ -449,7 +449,7 @@ Console.WriteLine(d); // 0
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Implicit and Explicit Type Conversions
-<img class="slide-image" src="\imgs\pic24.png" style="top:50%; left:36.96%; width:33.94%; z-index:-1" />
+<img class="slide-image" src="imgs/pic24.png" style="top:50%; left:36.96%; width:33.94%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -503,7 +503,7 @@ float maxHeightFloat = maxHeight; // Compilation error!
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Type Conversions
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic25.png" style="top:40%; left:58%; width:20%; z-index:-1" />
+<img class="slide-image" src="imgs/pic25.png" style="top:40%; left:58%; width:20%; z-index:-1" />
 
 
 
@@ -511,7 +511,7 @@ float maxHeightFloat = maxHeight; // Compilation error!
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Expressions
-<img class="slide-image" src="\imgs\pic26.png" style="top:40%; left:32%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic26.png" style="top:40%; left:32%; width:35%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -550,7 +550,7 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Expressions
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic27.png" style="top:40%; left:60%; width:35%; z-index:-1" />
+<img class="slide-image" src="imgs/pic27.png" style="top:40%; left:60%; width:35%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
@@ -578,7 +578,7 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Operators and Expressions
 ## Questions?
-<img class="slide-image" src="\imgs\pic28.png" style="top:44.01%; left:65%; width:21.66%; z-index:-1" />
+<img class="slide-image" src="imgs/pic28.png" style="top:44.01%; left:65%; width:21.66%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -591,6 +591,6 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
     - telerikacademy.com
-<img class="slide-image" src="\imgs\pic29.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic30.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic31.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" />
+<img class="slide-image" src="imgs/pic29.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" />
+<img class="slide-image" src="imgs/pic30.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" />
+<img class="slide-image" src="imgs/pic31.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" />

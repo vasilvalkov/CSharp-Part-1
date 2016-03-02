@@ -2,9 +2,9 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Conditional Statements
 ## Implementing Control Logic in C*#*
-<img class="slide-image" src="\imgs\pic01.png" style="top:45%; left:6.55%; width:20.83%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic03.png" style="top:56%; left:50%; width:40%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic04.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1" />
+<img class="slide-image" src="imgs/pic01.png" style="top:45%; left:6.55%; width:20.83%; z-index:-1" />
+<img class="slide-image" src="imgs/pic03.png" style="top:56%; left:50%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic04.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1" />
 
 
 
@@ -17,8 +17,8 @@
 - The **if-else** Statement
 - Nested **if** Statements
 - The **switch-case** Statement
-<img class="slide-image" src="\imgs\pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" />
+<img class="slide-image" src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" />
+<img class="slide-image" src="imgs/pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" />
 
 
 
@@ -63,7 +63,7 @@ Console.WriteLine(result); // outputs True
   - **!!A** equals **A**
   - **!(A || B)** equals **!A && !B**
   - **!(A && B)** equals **!A || !B**
-<img class="slide-image" src="\imgs\pic08.png" style="top:55.54%; left:60%; width:32.94%; z-index:-1" />
+<img class="slide-image" src="imgs/pic08.png" style="top:55.54%; left:60%; width:32.94%; z-index:-1" />
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -96,7 +96,7 @@ if (condition)
 - The statement can be:
   - Single statement ending with a semicolon
   - Block enclosed in braces 
-<img class="slide-image" src="\imgs\pic10.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" />
+<img class="slide-image" src="imgs/pic10.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -105,7 +105,7 @@ if (condition)
   - If it is true, the statement is executed
   - If it is false, the statement is skipped 
 
-<img class="slide-image" src="\imgs\block-schema.png" style="top:35%; left:20%; width:55%; z-index:-1" />
+<img class="slide-image" src="imgs/block-schema.png" style="top:35%; left:20%; width:55%; z-index:-1" />
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # The if Statement – _Example_
@@ -160,7 +160,7 @@ else
   - If it is true, the first statement is executed
   - If it is false, the second statement is executed
 
-<img class="slide-image" src="\imgs\if-else-block-schema.png" style="top:35%; left:15%; width:70%; z-index:-1" />
+<img class="slide-image" src="imgs/if-else-block-schema.png" style="top:35%; left:15%; width:70%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -190,7 +190,7 @@ else
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Nested if Statements 
 ## Creating More Complex Logic
-<img class="slide-image" src="\imgs\pic15.png" style="top:55%; left:27.5%; width:45%; z-index:-1" />
+<img class="slide-image" src="imgs/pic15.png" style="top:55%; left:27.5%; width:45%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -274,7 +274,7 @@ else …
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Multiple if-else Statements
-<img class="slide-image" src="\imgs\pic17.png" style="top:42%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/pic17.png" style="top:42%; left:30%; width:40%; z-index:-1" />
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -371,6 +371,6 @@ switch (animal)
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Conditional Statements
 - Questions?
-<img class="slide-image" src="\imgs\q3.png" style="top:43.21%; left:82.34%; width:19.97%; z-index:-1" />
-<img class="slide-image" src="\imgs\q1.png" style="top:43.20%; left:42.10%; width:24.25%; z-index:-1" />
-<img class="slide-image" src="\imgs\q2.png" style="top:43.20%; left:8.19%; width:23.14%; z-index:-1" />
+<img class="slide-image" src="imgs/q3.png" style="top:43.21%; left:82.34%; width:19.97%; z-index:-1" />
+<img class="slide-image" src="imgs/q1.png" style="top:43.20%; left:42.10%; width:24.25%; z-index:-1" />
+<img class="slide-image" src="imgs/q2.png" style="top:43.20%; left:8.19%; width:23.14%; z-index:-1" />
