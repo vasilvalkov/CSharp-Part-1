@@ -316,7 +316,7 @@ int value = int.Parse(invalid); // FormatException
 ```
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Reading Numbers fromthe Console – _Example_
+# Reading Numbers from the Console – _Example_
 
 ```cs
 static void Main()
@@ -336,7 +336,7 @@ static void Main()
 ```
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Converting Stringsto Numbers -->
+<!-- # Converting Strings to Numbers -->
 - Converting can also be done using the methods of the **Convert** class
   - **Convert.ToInt32(string)** – **string** &rarr; **int**
   - **Convert.ToSingle(string)**– **string** &rarr; **float**
@@ -386,7 +386,7 @@ else
 ## Regional Settings and the Number Formatting
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# How to Print SpecialCharacters on the Console?
+# How to Print Special Characters on the Console?
 - Printing special characters on the console needs two steps: <!-- .element: style="width: 75%" -->
   - Change the console properties to enable Unicode-friendly font 
   - Enable Unicode for the **Console** by adjusting its output encoding 
