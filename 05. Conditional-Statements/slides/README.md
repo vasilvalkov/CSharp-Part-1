@@ -2,9 +2,9 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Conditional Statements
 ## Implementing Control Logic in C*#*
-<img class="slide-image" src="imgs/pic01.png" style="top:45%; left:6.55%; width:20.83%; z-index:-1" />
-<img class="slide-image" src="imgs/pic03.png" style="top:56%; left:50%; width:40%; z-index:-1" />
-<img class="slide-image" src="imgs/pic04.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1" />
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic01.png" style="top:45%; left:6.55%; width:20.83%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:56%; left:50%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1" /> -->
 
 
 
@@ -17,15 +17,15 @@
 - The **if-else** Statement
 - Nested **if** Statements
 - The **switch-case** Statement
-<img class="slide-image" src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" />
-<img class="slide-image" src="imgs/pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" />
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Comparison and Logical Operators
+<!-- # Comparison and Logical Operators -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 38px' } -->
 # Comparison Operators
@@ -63,12 +63,12 @@ Console.WriteLine(result); // outputs True
   - **!!A** equals **A**
   - **!(A || B)** equals **!A && !B**
   - **!(A && B)** equals **!A || !B**
-<img class="slide-image" src="imgs/pic08.png" style="top:55.54%; left:60%; width:32.94%; z-index:-1" />
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:55.54%; left:60%; width:32.94%; z-index:-1" /> -->
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# if and if-else
-## Implementing Conditional Logic
+<!-- # if and if-else
+## Implementing Conditional Logic -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -79,7 +79,7 @@ Console.WriteLine(result); // outputs True
 - The simplest form of an **if** statement:
 
 ```cs
-if (condition) 
+if (condition)
 {
     statements;
 }
@@ -91,21 +91,21 @@ if (condition)
   - Boolean variable
   - Boolean logical expression
   - Comparison expression
-  
+
 - The condition cannot be integer variable (like in C / C++ or JavaScript)
 - The statement can be:
   - Single statement ending with a semicolon
-  - Block enclosed in braces 
-<img class="slide-image" src="imgs/pic10.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" />
+  - Block enclosed in braces
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # How It Works?
 - The condition is evaluated
   - If it is true, the statement is executed
-  - If it is false, the statement is skipped 
+  - If it is false, the statement is skipped
 
-<img class="slide-image" src="imgs/block-schema.png" style="top:35%; left:20%; width:55%; z-index:-1" />
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/block-schema.png" style="top:35%; left:20%; width:55%; z-index:-1" /> -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # The if Statement – _Example_
@@ -117,7 +117,7 @@ static void Main()
 
     int biggerNumber = int.Parse(Console.ReadLine());
     int smallerNumber = int.Parse(Console.ReadLine());
-    
+
     // condition
     if (smallerNumber > biggerNumber)
     {
@@ -133,22 +133,23 @@ static void Main()
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# The if Statement
+<!-- # The if Statement
+## Demo -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # The if-else Statement
 - More complex and useful conditional statement
-- Executes one branch if the condition is true, and another if it is false 
+- Executes one branch if the condition is true, and another if it is false
 - The simplest form of an if-else statement:
 
 ```cs
-if (expression) 
+if (expression)
 {
-    statement1; 
+    statement1;
 }
-else 
+else
 {
-    statement2; 
+    statement2;
 }
 ```
 
@@ -160,7 +161,7 @@ else
   - If it is true, the first statement is executed
   - If it is false, the second statement is executed
 
-<img class="slide-image" src="imgs/if-else-block-schema.png" style="top:35%; left:15%; width:70%; z-index:-1" />
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/if-else-block-schema.png" style="top:35%; left:15%; width:70%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -184,13 +185,14 @@ else
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# The if-else Statement
+<!-- # The if-else Statement
+## Demo -->
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Nested if Statements 
-## Creating More Complex Logic
-<img class="slide-image" src="imgs/pic15.png" style="top:55%; left:27.5%; width:45%; z-index:-1" />
+<!-- # Nested if Statements
+## Creating More Complex Logic -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:55%; left:27.5%; width:45%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -199,19 +201,19 @@ else
 - Every **else** corresponds to its closest preceding **if**
 
 ```cs
-if (expression) 
+if (expression)
 {
-    if (expression) 
+    if (expression)
     {
         statement;
     }
-    else 
+    else
     {
         statement;
     }
 }
 else
-    statement; 
+    statement;
 ```
 
 
@@ -251,7 +253,8 @@ else
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Nested if Statements
+<!-- # Nested if Statements
+## Demo -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Multiple if-else-if-else-…
@@ -273,17 +276,18 @@ else …
 ```
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Multiple if-else Statements
-<img class="slide-image" src="imgs/pic17.png" style="top:42%; left:30%; width:40%; z-index:-1" />
+<!-- # Multiple if-else Statements
+## Demo -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:42%; left:30%; width:40%; z-index:-1" /> -->
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Switch-case
-## Making Several Comparisons at Once
+<!-- # Switch-case
+## Making Several Comparisons at Once -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # The switch-case Statement
-- Selects for execution a statement from a list depending on the value of the **switch** expression 
+- Selects for execution a statement from a list depending on the value of the **switch** expression
 
 ```cs
 switch (day)
@@ -308,18 +312,19 @@ switch (day)
   - The statement that corresponds to that case is executed
 - If no case is equal to the expression
   - If there is default case, it is executed
-  - Otherwise the control is transferred to the end point of the switch statement 
+  - Otherwise the control is transferred to the end point of the switch statement
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# The switch-case Statement
+<!-- # The switch-case Statement
+## Demo -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Using switch: Rules
 - Variables types like **string**, **enum** and integral types can be used for **switch** expression
 - The value **null** is permitted as a case label constant
-- The keyword **break** exits the switch statement 
+- The keyword **break** exits the switch statement
 - "No fall through" rule – you are obligated to use **break** after each case  
 - Multiple labels that correspond to the same statement are permitted
 
@@ -331,15 +336,15 @@ switch (day)
 switch (animal)
 {
     case "dog" :
-        Console.WriteLine("MAMMAL"); 
+        Console.WriteLine("MAMMAL");
         break;
     case "crocodile" :
     case "tortoise" :
-    case "snake" : 
-        Console.WriteLine("REPTILE"); 
+    case "snake" :
+        Console.WriteLine("REPTILE");
         break;
-    default : 
-        Console.WriteLine("There is no such animal!"); 
+    default :
+        Console.WriteLine("There is no such animal!");
         break;
 }
 ```
@@ -348,10 +353,11 @@ switch (animal)
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Multiple Labels in a switch-case
+<!-- # Multiple Labels in a switch-case
+## Demo -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Using switch – Good Practices 
+# Using switch – Good Practices
 - There must be a separate **case** for every normal situation
 - Put the normal case first
   - Put the most frequently executed cases first and the least frequently executed last
@@ -369,8 +375,8 @@ switch (animal)
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Conditional Statements
-- Questions?
-<img class="slide-image" src="imgs/q3.png" style="top:43.21%; left:82.34%; width:19.97%; z-index:-1" />
-<img class="slide-image" src="imgs/q1.png" style="top:43.20%; left:42.10%; width:24.25%; z-index:-1" />
-<img class="slide-image" src="imgs/q2.png" style="top:43.20%; left:8.19%; width:23.14%; z-index:-1" />
+<!-- # Conditional Statements
+- Questions? -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/q3.png" style="top:43.21%; left:82.34%; width:19.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/q1.png" style="top:43.20%; left:42.10%; width:24.25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/q2.png" style="top:43.20%; left:8.19%; width:23.14%; z-index:-1" /> -->
