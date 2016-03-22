@@ -26,6 +26,7 @@
 - Trainers Team
 - Examination
 - Learning Resources
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:52.89%; left:78.60%; width:23.35%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.34%; left:51.46%; width:52.28%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:16.93%; left:66.09%; width:36.03%; z-index:-1" /> -->
