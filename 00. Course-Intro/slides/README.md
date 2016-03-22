@@ -2,7 +2,7 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # C# Fundamentals –Part I
 <!-- ## About the Course -->
-<!--<img class="slide-image" showInPresentation="true" showInPresentation="true" src="imgs/pic00.png" style="top:12.34%; left:8.42%; width:20.28%; z-index:-1" />-->
+<!-- <img class="slide-image" showInPresentation="true" showInPresentation="true" src="imgs/pic00.png" style="top:12.34%; left:8.42%; width:20.28%; z-index:-1" />-->
 <!-- <img class="slide-image" showInPresentation="true" showInPresentation="true" src="imgs/pic01.png" style="top:2.67%; left:92.63%; width:15.87%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" showInPresentation="true" src="imgs/pic02.png" style="top:4.76%; left:68.30%; width:12.87%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" showInPresentation="true" src="imgs/pic03.png" style="top:36.74%; left:30.79%; width:13.05%; z-index:-1" /> -->
