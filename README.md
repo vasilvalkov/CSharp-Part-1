@@ -1,4 +1,5 @@
-CSharp-Part-1
-=============
+#   C# Fundamentals Course Repository
 
-Repository for the course "C# part 1"
+Repository for the course [C# Fundamentals](http://telerikacademy.com/Courses/Courses/Details/323)
+
+
