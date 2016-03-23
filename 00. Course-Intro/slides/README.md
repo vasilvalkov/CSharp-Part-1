@@ -23,7 +23,7 @@
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Table of Contents
 
-- Course Objectives
+- [Course Objectives](#test)
 - Course Program
 - Trainers Team
 - Examination
@@ -58,7 +58,7 @@
     - HTML5, DB & SQL, Cloud, Web, Mobile, QA, …
 
 
-<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+<!-- attr: { id: 'test', showInPresentation: true, hasScriptWrapper: true} -->
 # C# Fundamentals – Course Topics
 
 - Introduction to Programming
