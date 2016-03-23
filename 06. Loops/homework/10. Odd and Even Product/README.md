@@ -16,7 +16,7 @@ You are given **N** integers (given in a single line, separated by a space).
 - **N** will always be a valid integer number in the range `[4, 50]`
 - All input numbers from the second line will also be valid integers
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

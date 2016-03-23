@@ -22,7 +22,7 @@ Write a program that reads a card sign(as a **char**) from the console and gener
 ## Constraints
 - The input character will always be a valid card sign.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

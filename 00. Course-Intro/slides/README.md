@@ -23,11 +23,11 @@
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Table of Contents
 
-- [Course Objectives](#test)
-- Course Program
-- Trainers Team
-- Examination
-- Learning Resources
+- [Course Objectives](#objectives)
+- [Course Program](#topics)
+- [Trainers Team]()
+- [Examination](#examination)
+- [Learning Resources](#resources)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:52.89%; left:78.60%; width:23.35%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.34%; left:51.46%; width:52.28%; z-index:-1" /> -->
@@ -45,9 +45,8 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:6.60%; left:87.22%; width:14.46%; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation: true } -->
-# C# Track Objectives
-
+<!-- attr: { id: 'objectives', showInPresentation: true } -->
+# <a id="objectives"></a>C# Track Objectives
 - The **C# Programming** track at the Academy:
   - Give the trainees the **fundamental** computer programming knowledge and skills
   - Establish the logical and **algorithmic thinking**
@@ -58,8 +57,8 @@
     - HTML5, DB & SQL, Cloud, Web, Mobile, QA, …
 
 
-<!-- attr: { id: 'test', showInPresentation: true, hasScriptWrapper: true} -->
-# C# Fundamentals – Course Topics
+<!-- attr: { id: 'topics', showInPresentation: true, hasScriptWrapper: true} -->
+# <a id="topics"></a>C# Fundamentals – Course Topics
 
 - Introduction to Programming
 - Primitive Data Types and Variables
@@ -97,7 +96,7 @@
   - Exam: TBD
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:11.75%; left:88.26%; width:15.43%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:45%; left:50.53%; width:47.83%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:54%; left:50.53%; width:47.83%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -137,8 +136,8 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:52%; left:6.55%; width:44.85%; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-# Exams @ Software Academy
+<!-- attr: { id:'examination', showInPresentation: true, hasScriptWrapper: true} -->
+# <a id="examination"></a>Exams @ Software Academy
 
 - **Exams** measure the individual performance
   - Serve as filter for the most skillful people
@@ -250,8 +249,8 @@
 
 <!-- section start -->
 
-<!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
-# Resources
+<!-- attr: { id: 'resources', class: 'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
+# <a id="resources"></a>Resources
 <!-- ## What We Need in Addition to this Course Content? -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic41.png" style="top:43.09%; left:7.49%; width:45.33%; z-index:-1" /> -->

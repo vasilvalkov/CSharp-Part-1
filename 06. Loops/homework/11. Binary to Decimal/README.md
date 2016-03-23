@@ -14,7 +14,7 @@ Using loops write a program that converts a binary integer number to its decimal
 ## Constraints
 - All input numbers will be valid 32-bit integers.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 
