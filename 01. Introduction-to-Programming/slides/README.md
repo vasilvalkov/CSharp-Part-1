@@ -78,7 +78,7 @@ class HelloCSharp
 
 <div class="fragment balloon" style="top:14.03%; left:2.64%; width:42.97%">Include the standard namespace "**System**"</div>
 <div class="fragment balloon" style="top:12.16%; left:55.54%; width:40.81%">Define a class called "**HelloCSharp**"</div>
-<div class="fragment balloon" style="top:29.01%; left:58.18%; width:40.81%">Define the **Main()**method – the program entry point</div>
+<div class="fragment balloon" style="top:29.01%; left:58.18%; width:40.81%">Define the **Main()** method – the program entry point</div>
 <div class="fragment balloon" style="top:63.62%; left:25.56%; width:61.65%">Print a text on the console by calling the method "**WriteLine**" of the class "**Console**"</div>
 
 
@@ -142,7 +142,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 - Development environment, compilers, SDK
   - For **C#** - **VisualStudio**, **.NET Framework SDK**
 - Set of useful standard classes
-  - **Microsoft .NETFramework FCL**
+  - **Microsoft .NET Framework FCL**
 - Help documentation
   - **MSDN Library**
 
