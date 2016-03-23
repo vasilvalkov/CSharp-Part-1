@@ -14,11 +14,11 @@
 | 6    | Loops                              | What is a loop? `for`, `while`, `do-while` and `foreach` loops, nested loops                                  | 18:00, 18-Apr-2016     | 10:00, 19-Apr-2016     | 18:00, 19-Apr-2016     | 10:00, 20-Apr-2016     |
 | 7    | Exam preparation                   | Solving tasks from previous exams                                                                             | 14:00, 20-Apr-2016     | 10:00, 21-Apr-2016     | 18:00, 21-Apr-2016     | 18:00, 22-Apr-2016     |
 
-##  Schedule by slots in week
+<!-- ##  Schedule by slots in week -->
 
-
+<!--
 | Time\Day      | Mon  | Tue  | Wed  | Thu  | Fri  |
 | ------------- | ---- | ---- | ---- | ---- | ---- |
 | 10:00 - 14:00 |      | C# 1 | C# 1 | C# 2 |      |
 | 14:00 - 18:00 |      | HTML | C# 2 | HTML | HTML |
-| 18:00 - 22:00 | C# 1 | C# 1 | HTML | C# 2 | C# 2 |
+| 18:00 - 22:00 | C# 1 | C# 1 | HTML | C# 2 | C# 2 | -->
