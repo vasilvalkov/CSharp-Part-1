@@ -14,7 +14,7 @@ Write a program that enters 3 real numbers and prints them sorted in descending 
 ## Constraints
 - The three numbers will always be valid **integer** numbers in the range `[-1000, 1000]`
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

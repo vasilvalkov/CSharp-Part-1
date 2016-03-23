@@ -13,7 +13,7 @@ Classical play cards use the following signs to designate the card face:
 ## Constraints
 - String length will always be between 1 and 5
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

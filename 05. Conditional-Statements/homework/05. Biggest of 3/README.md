@@ -12,7 +12,7 @@ Write a program that finds the biggest of three numbers that are read from the c
 ## Constraints
 - The three numbers will always be valid floating-point numbers in the range `[-200, 200]`.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 
