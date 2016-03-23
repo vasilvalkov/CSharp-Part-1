@@ -19,7 +19,7 @@ Your task is to write a program that calculates `N! / (K! * (N - K)!)` for given
 - 1 < **K** < **N** < 100
   - _Hint: overflow is possible_
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

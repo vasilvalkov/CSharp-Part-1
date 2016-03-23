@@ -14,7 +14,7 @@ Write a program that reads from the console a positive integer number **N** and 
 - 1 <= **N** <= 20
 - **N** will always be a valid integer number
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

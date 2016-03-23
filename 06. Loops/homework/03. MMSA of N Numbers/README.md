@@ -22,7 +22,7 @@ avg=4.5
 - 1 <= N <= 1000
 - All numbers will be valid floating-point numbers that will be in the range `[-10000, 10000]`
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

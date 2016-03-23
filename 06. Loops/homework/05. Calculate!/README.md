@@ -17,7 +17,7 @@ Write a program that, for a given two integer numbers **N** and **x**, calculate
 - **X** will always be a valid floating-point number between **0** and **100**
 - **X** &#42; **N** will always be less than **50**
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

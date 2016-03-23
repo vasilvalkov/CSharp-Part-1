@@ -13,7 +13,7 @@ Write a program that reads from the console a positive integer
 ## Constraints
 - 1 < N < 1500
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

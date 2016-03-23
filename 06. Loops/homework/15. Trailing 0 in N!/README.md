@@ -13,7 +13,7 @@ Write a program that calculates with how many **zeroes** the factorial of a give
 ## Constraints
 - **N** will always be a valid positiv integer number.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

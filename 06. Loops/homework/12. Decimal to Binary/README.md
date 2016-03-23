@@ -15,7 +15,7 @@ Using loops write a program that converts an integer number to its binary repres
 ## Constraints
 - All numbers will always be valid 32-bit integers.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

@@ -15,7 +15,7 @@ In combinatorics, the Catalan numbers are calculated by the following formula:
 - **N** will always be a valid integer number in the range `[0, 100]`
   - _Hint: overflow is possible._
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

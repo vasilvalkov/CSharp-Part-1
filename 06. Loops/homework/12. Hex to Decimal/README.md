@@ -14,7 +14,7 @@ Using loops write a program that converts a hexadecimal integer number to its de
 ## Constraints
 - All numebers will be valid 64-bit integers.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

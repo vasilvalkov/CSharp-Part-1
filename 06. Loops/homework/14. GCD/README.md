@@ -13,7 +13,7 @@ Write a program that calculates the greatest common divisor (**GCD**) of given t
 ## Constraints
 - The numbers **A** and **B** will always be valid integers in the range `[2, 500]`.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 
