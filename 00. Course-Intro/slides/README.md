@@ -136,7 +136,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:52%; left:6.55%; width:44.85%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'examination' showInPresentation: true, hasScriptWrapper: true} -->
+<!-- attr: { id:'examination', showInPresentation: true, hasScriptWrapper: true} -->
 # <a id="examination"></a>Exams @ Software Academy
 
 - **Exams** measure the individual performance
@@ -249,7 +249,7 @@
 
 <!-- section start -->
 
-<!-- attr: { id:'resources' class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
+<!-- attr: { id:'resources', class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
 # <a id="resources"></a>Resources
 <!-- ## What We Need in Addition to this Course Content? -->
 
