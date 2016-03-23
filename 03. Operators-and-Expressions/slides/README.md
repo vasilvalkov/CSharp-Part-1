@@ -217,7 +217,7 @@ Console.WriteLine((5>7) ^ (a==b)); // False
   - Like **!** for boolean expressions but bit by bit
 - The operators **|**, **&** and **^** behave like **||**, **&&** and **^** for boolean expressions but bit by bit
 - The **<<** and **>>** move the bits (left or right)
-- Behavior of the operators**|**, **&** and **^**:
+- Behavior of the operators **|**, **&** and **^**:
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
