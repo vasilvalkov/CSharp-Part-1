@@ -16,7 +16,7 @@ Write a program that applies bonus score to given score in the range **[1…9]**
 ## Constraints
 - The score will always be a valid integer number
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

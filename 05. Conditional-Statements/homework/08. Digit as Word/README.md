@@ -14,7 +14,7 @@ Write a program that read a digit **(0-9)** from the console, and depending on t
 ## Constraints
 - The input will never be an empty line.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

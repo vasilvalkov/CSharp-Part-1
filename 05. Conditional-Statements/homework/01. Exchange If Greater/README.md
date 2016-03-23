@@ -14,7 +14,7 @@ Use an if-statement. As a result print the values of the variables **A** and **B
 ## Constraints
 - **A** and **B** will always be valid real numbers between -100 and 100s
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

@@ -20,7 +20,7 @@ Write a program that, depending on the first line of the input, reads an **int**
 - The input will always be valid and in the described format.
 - All input numbers will be between -1000 and 1000.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 
