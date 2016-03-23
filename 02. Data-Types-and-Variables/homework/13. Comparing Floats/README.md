@@ -1,4 +1,4 @@
-# Comparing Floats\*
+# Comparing Floats
 
 ## Description
 Write a program that safely compares two floating-point numbers (double) with precision `eps = 0.000001`.
