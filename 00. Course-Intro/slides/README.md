@@ -45,7 +45,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:6.60%; left:87.22%; width:14.46%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'objectives', showInPresentation: true } -->
+<!-- attr: { id: 'objectives', showInPresentation: true } -->
 # <a id="objectives"></a>C# Track Objectives
 - The **C# Programming** track at the Academy:
   - Give the trainees the **fundamental** computer programming knowledge and skills
@@ -249,7 +249,7 @@
 
 <!-- section start -->
 
-<!-- attr: { id:'resources', class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
+<!-- attr: { id: 'resources', class: 'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
 # <a id="resources"></a>Resources
 <!-- ## What We Need in Addition to this Course Content? -->
 

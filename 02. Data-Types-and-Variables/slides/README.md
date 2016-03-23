@@ -15,26 +15,28 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 40px' } -->
 # Table of Contents
-- Primitive Data Types
-  - Integer
-  - Floating-Point / Decimal Floating-Point
-  - Boolean
-  - Character
-  - String
-  - Object
-- Declaring and Using Variables
-  - Identifiers
-  - Declaring Variables and Assigning Values
-  - Literals
-- **Nullable** Types
+- [Primitive Data Types](#primitive)
+  - [Integer](#integer)
+  - [Floating-Point / Decimal Floating-Point](#float)
+  - [Boolean](#bool)
+  - [Character](#char)
+  - [String](#string)
+  - [Object](#object)
+- [Declaring and Using Variables](#declaring)
+  - [Identifiers](#identifiers)
+  - [Declaring Variables and Assigning Values](#assign)
+  - [Literals](#literals)
+- [Nullable Types](#nullable)
+- [Dynamic Types](#dynamic)
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic01.png" style="top:33.50%; left:75.79%; width:28.21%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Primitive Data Types
+<!-- attr: { id:'primitive', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="primitive"></a>Primitive Data Types
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:41.08%; left:67.11%; width:35.41%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:41.08%; left:7.22%; width:52.01%; z-index:-1" /> -->
 
@@ -84,8 +86,8 @@ int count = 5;
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Integer Types
+<!-- attr: { id:'integer', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="integer"></a>Integer Types
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:42%; left:26.81%; width:50.38%; z-index:-1" /> -->
 
 
@@ -144,8 +146,8 @@ or {3} hours.", centuries, years, days, hours);
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Floating-Point and Decimal Floating-Point Types
+<!-- attr: { id:'float', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="float"></a>Floating-Point and Decimal Floating-Point Types
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:52.43%; left:30.88%; width:47.15%; z-index:-1" /> -->
 
 
@@ -226,8 +228,8 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Boolean Type
+<!-- attr: { id:'bool', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="bool"></a>Boolean Type
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:42.31%; left:53.33%; width:46.72%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic18.png" style="top:42.31%; left:14.03%; width:24.68%; z-index:-1" /> -->
 
@@ -266,8 +268,8 @@ Console.WriteLine(equalA1);    // True
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Character Type
+<!-- attr: { id:'char', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="char"></a>Character Type
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic21.png" style="top:42.31%; left:9.36%; width:40%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:9.43%; left:43.98%; width:54.66%; z-index:-1" /> -->
 
@@ -310,8 +312,8 @@ Console.WriteLine("The code of '{0}' is: {1}",
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# String Type
+<!-- attr: { id:'string', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="string"></a>String Type
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic25.png" style="top:39.21%; left:24.33%; width:30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic26.png" style="top:40%; left:60%; width:30%; z-index:-1" /> -->
 
@@ -358,8 +360,8 @@ Console.WriteLine("Your full name is {0}.",
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Object Type
+<!-- attr: { id:'object', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="object"></a>Object Type
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic28.png" style="top:40%; left:27%; width:45%; z-index:-1" /> -->
 
 
@@ -437,12 +439,12 @@ int counter = 5;
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Declaring And Using Variables
+<!-- attr: { id:'assign', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="declaring"></a>Declaring And Using Variables
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic37.png" style="top:50%; left:50.53%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'declaring', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
 # Declaring Variables
 - When declaring a variable we:
   - Specify its type
@@ -462,8 +464,8 @@ int height = 200;
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Identifiers
+<!-- attr: { id:'identifiers', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="identifiers"></a>Identifiers
 - Identifiers may consist of:
   - Letters (Unicode)
   - Digits [0-9]
@@ -512,8 +514,8 @@ int numberOfPrivateClientOfTheFirm = 100;
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Assigning Values To Variables
+<!-- attr: { id:'assign', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="assign"></a>Assigning Values To Variables
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic39.png" style="top:51.57%; left:30%; width:40%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic40.png" style="top:-1.97%; left:80.69%; width:15.89%; z-index:-1" /> -->
 
@@ -593,8 +595,8 @@ string message = greeting;
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Literals
+<!-- attr: { id:'literals', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="literals"></a>Literals
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic46.png" style="top:40%; left:25.85%; width:54.99%; z-index:-1" /> -->
 
 
@@ -779,8 +781,8 @@ string str = @"some
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic54.png" style="top:2.45%; left:75.79%; width:19.56%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Nullable Types
+<!-- attr: { id:'nullable', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="nullable"></a>Nullable Types
 - **Nullable** types are instances of the **System.Nullable** struct
   - Wrapper over the **primitive** **types**
   - E.g. **int?**, **double?**, etc.
@@ -831,8 +833,8 @@ Console.WriteLine(
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic57.png" style="top:55%; left:10%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Dynamic Types
+<!-- attr: { id:'dynamic', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="dynamic"></a>Dynamic Types
 - **Dynamic types**in C# (keyword **dynamic**)
   - Can hold anything (string, number, object, function / method reference)
   - Operations evaluated at runtime

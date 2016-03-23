@@ -1,3 +1,16 @@
 ## 00. Data Types and Variables
-### [View Presentation online](https://rawgit.com/TelerikAcademy/CSharp-Part-1/tree/master/02.%20Data-Types-and-Variables/slides/index.html)
+### [View Presentation online](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/02.%20Data-Types-and-Variables/slides/index.html)
 ### Table of Contents
+- [Primitive Data Types](slides/README.md#primitive)
+  - [Integer](slides/README.md#integer)
+  - [Floating-Point / Decimal Floating-Point](slides/README.md#float)
+  - [Boolean](slides/README.md#bool)
+  - [Character](slides/README.md#char)
+  - [String](slides/README.md#string)
+  - [Object](slides/README.md#object)
+- [Declaring and Using Variables](slides/README.md#declaring)
+  - [Identifiers](slides/README.md#identifiers)
+  - [Declaring Variables and Assigning Values](slides/README.md#assign)
+  - [Literals](slides/README.md#literals)
+- [Nullable Types](slides/README.md#nullable)
+- [Dynamic Types](slides/README.md#dynamic)

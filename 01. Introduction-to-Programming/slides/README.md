@@ -12,11 +12,11 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- What is Computer Programming?
-- Your First C# Program
-- What is .NET Framework?
-- What is Visual Studio?
-- What is MSDN Library?
+- [What is Computer Programming?](#programming)
+- [Your First C# Program](#first)
+- [What is .NET Framework?](#netframework)
+- [What is Visual Studio?](#visualstudio)
+- [What is MSDN Library?](#msdn)
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic05.png" style="top:32.52%; left:65%; width:26.45%; z-index:-1" /> -->
 
 <!-- section start -->
@@ -25,8 +25,8 @@
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic06.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Define: Computer Programming
+<!-- attr: { id:'programming', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="programming"></a>Define: Computer Programming
 - **Computer programming**: creating a sequence of instructions to enable the computer to do something
     - Definition by <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic08.png" style="top:26%; left:32%; width:20%; z-index:-1" /> -->
 
@@ -45,8 +45,8 @@
 <!-- # Your First C# Program -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic09.png" style="top:44.96%; left:30%; width:40%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# First Look at C# Language
+<!-- attr: { id:'', class:'first', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="first"></a>First Look at C# Language
 - Sample C# program:
 
 ```cs
@@ -158,8 +158,8 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic17.png" style="top:55%; left:35%; width:30%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# What is .NET Framework?
+<!-- attr: { id:'netframework', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="netframework"></a>What is .NET Framework?
 - Environment for execution of .NET programs
 - Powerful library of classes
 - Programming model
@@ -212,8 +212,8 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- # What is Visual Studio?
 ## Compiling, Running and Debugging C# Programs -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Visual Studio
+<!-- attr: { id:'visualstudio', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="visualstudio"></a>Visual Studio
 - Visual Studio – Integrated Development Environment (IDE)
 - Development tool that helps us to:
   - Write code
@@ -335,8 +335,8 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 ## [Demo]() -->
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# What is MSDN Library?
+<!-- attr: { id:'msdn', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="msdn"></a>What is MSDN Library?
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # What is MSDN Library? -->
