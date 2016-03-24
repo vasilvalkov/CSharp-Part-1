@@ -33,3 +33,41 @@ Primitive data types (`int`, `short`, `byte`, `long`, `bool`, `string`, `char`),
 [go to slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/02.%20Data-Types-and-Variables/slides/index.html)
 [watch the videos](/02. Data-Types-and-Variables/VIDEOS.md)
 
+### [3. Operators and Expressions](/03. Operators-and-Expressions)
+
+Logical, Arithmetic and Bitwise operators, expressions
+
+[go to slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/03.%20Operators-and-Expressions/slides/index.html)
+[watch the videos](/03. Operators-and-Expressions/VIDEOS.md)
+
+### [4. Console IO](/04. Console-In-and-Out)
+
+Using the `Console` object, reading from the console (strings, numbers), printing to the console with formats
+
+[go to slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/04.%20Console-In-and-Out/slides/index.html)
+[watch the videos](/04. Console-In-and-Out/VIDEOS.md)
+
+
+### [5. Conditional Statements](/05. Conditional-Statements)
+
+`if-else` constructs, `switch-case`
+
+[go to slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/05.%20Conditional-Statements/slides/index.html)
+[watch the videos](/05. Conditional-Statements/VIDEOS.md)
+
+
+
+### [6. Loops](/06. Loops)
+
+What is a loop? `for`, `while`, `do-while` and `foreach` loops, nested loops
+
+[go to slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/06.%20Loops/slides/index.html)
+[watch the videos](/06. Loops/VIDEOS.md)
+
+### [7. Exam Preparation](/07. Exam-Preparations)
+
+Solving tasks from previous exams
+
+[go to slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/07.%20Exam-Preparations/slides/index.html)
+[watch the videos](/07. Exam-Preparations/VIDEOS.md)
+
