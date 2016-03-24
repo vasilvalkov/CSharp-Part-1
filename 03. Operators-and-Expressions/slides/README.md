@@ -16,15 +16,15 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Table of Contents
-- Operators in C# and Operator Precedence
-- Arithmetic Operators
-- Logical Operators
-- Bitwise Operators
-- Comparison Operators
-- Assignment Operators
-- Other Operators
-- Implicit and Explicit Type Conversions
-- Expressions
+- [Operators in C# and Operator Precedence](#operators)
+- [Arithmetic Operators](#arithmetic)
+- [Logical Operators](#logical)
+- [Bitwise Operators](#bitwise)
+- [Comparison Operators](#comparison)
+- [Assignment Operators](#assignment)
+- [Other Operators](#other)
+- [Implicit and Explicit Type Conversions](#conversion)
+- [Expressions](#expressions)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:24.24%; left:73.92%; width:29.84%; z-index:-1" /> -->
 
 
@@ -48,8 +48,8 @@
 - **Expressions** are sequences of operators and operands that are evaluated to a single value
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Operators in _C#_
+<!-- attr: { id:'operators', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="operators"></a>Operators in _C#_
 - Operators in C# :
   - Unary – take one operand
   - Binary – take two operands
@@ -81,8 +81,8 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:40%; left:25%; width:50%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Arithmetic Operators
+<!-- attr: { id:'arithmetic', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="arithmetic"></a>Arithmetic Operators
 - Arithmetic operators **+**, **-**, ***** are the same as in math
 - Division operator **/** if used on integers returns integer (without rounding) or exception
 - Division operator **/** if used on real numbers returns real number or **Infinity** or **NaN**
@@ -168,8 +168,8 @@ checked
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic09.png" style="top:42%; left:26.41%; width:52.95%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Logical Operators
+<!-- attr: { id:'logical', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="logical"></a>Logical Operators
 - Logical operators take boolean operands and return boolean result
 - Operator **!** turns **true** to **false** and **false** to **true**
 - Behavior of the operators **&&**, **||** and **^** (**1** == **true**, **0** == **false**) :
@@ -211,8 +211,8 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic12.png" style="top:40%; left: 30%; width:40%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Bitwise Operators
+<!-- attr: { id:'bitwise', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="bitwise"></a>Bitwise Operators
 - Bitwise operator **~** turns all **0** to **1** and all **1** to **0**
   - Like **!** for boolean expressions but bit by bit
 - The operators **|**, **&** and **^** behave like **||**, **&&** and **^** for boolean expressions but bit by bit
@@ -303,8 +303,8 @@ Console.WriteLine(
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:55%; left:33%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Comparison Operators
+<!-- attr: { id:'comparison', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="comparison"></a>Comparison Operators
 - Comparison operators are used to compare variables
   - **==**, **<**, **>**, **>=**, **<=**, **!=**
 - Comparison operators example:
@@ -357,8 +357,8 @@ Console.WriteLine(x /= 2); // 5
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic21.png" style="top:39.08%; left:32%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Other Operators
+<!-- attr: { id:'other', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="other"></a>Other Operators
 - String concatenation operator **+** is used to concatenate strings
 - If the second operand is not a string, it is converted to string automatically
 
@@ -452,8 +452,8 @@ Console.WriteLine(d); // 0
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic24.png" style="top:50%; left:36.96%; width:33.94%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Implicit Type Conversion
+<!-- attr: { id:'conversion', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="conversion"></a>Implicit Type Conversion
 - **Implicittype conversion**
   - Automatic conversion of value of one data type to value of another data type
   - Allowed when no loss of data is possible
@@ -514,8 +514,8 @@ float maxHeightFloat = maxHeight; // Compilation error!
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic26.png" style="top:40%; left:32%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Expressions
+<!-- attr: { id:'expressions', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="expressions"></a>Expressions
 - Expressions are sequences of operators, literals and variables that are evaluated to some value
 - _Examples_:
 

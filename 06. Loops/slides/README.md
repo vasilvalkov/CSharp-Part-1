@@ -16,20 +16,20 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Table of Contents
-- What is a Loop?
-- Loops in C#
-  - **while** loops
-  - **do** … **while** loops
-  - **for** loops
-  - **foreach** loops
-- Special loop operators
-  - **break**, **continue**, **goto**
-- Nested loops
+- [What is a Loop?](#whatisloop)
+- [Loops in C#](#1)
+  - [**while** loops](#while)
+  - [**do** … **while** loops](#dowhile)
+  - [**for** loops](#for)
+  - [**foreach** loops](#foreach)
+- [Special loop operators](#specialoperators)
+  - [**break**, **continue**, **goto**](#breakcontinue)
+- [Nested loops](#nestedloops)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:19.39%; left:58.26%; width:42.96%; z-index:-1" /> -->
 
-
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# What Is Loop?
+<!-- section start -->
+<!-- attr: { id:'whatisloop', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="whatisloop"></a>What Is Loop?
 - A **loop** is a control statement that allows repeating execution of a block of statements
   - May execute a code block fixed number of times
   - May execute a code block while given condition holds
@@ -40,8 +40,8 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Using while(…) Loop
+<!-- attr: { id:'while', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="while"></a>WUsing while(…) Loop
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:48.48%; left:30%; width:45%; z-index:-1" /> -->
 
 
@@ -171,15 +171,17 @@ static void Main()
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Calculating Factorial
+<!-- # Calculating Factorial
+## Demo -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic09.png" style="top:40%; left:31.81%; width:44.08%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# do { … } while (…)Loop
+<!-- attr: { id:'dowhile', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="dowhile"></a>Wdo { … } while (…)Loop
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:40%; left:25%; width:50%; z-index:-1" /> -->
 
 
@@ -248,7 +250,9 @@ static void Main()
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Factorial (do ... while) -->
+<!-- # Factorial (do ... while)
+## Demo -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic13.png" style="top:40%; left:28.54%; width:40%; z-index:-1" /> -->
 
 
@@ -282,11 +286,12 @@ Console.WriteLine("product[n..m] = " + product);
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 <!-- # for Loops -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:39.67%; left:15.91%; width:73.17%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# For Loops
+<!-- attr: { id:'for', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="for"></a>WFor Loops
 - The typical **for** loop syntax is:
 - Consists of
   - Initialization statement
@@ -469,8 +474,8 @@ Console.WriteLine("sum = {0}", sum);
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic20.png" style="top:40%; left:30%; width:40%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# Foreach Loops
+<!-- attr: { id:'foreach', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="foreach"></a>WForeach Loops
 - The typical **foreach** loop syntax is:
 - Iterates over all elements of a collection
   - The **element** is the loop variable that takes sequentially all collection values
@@ -515,8 +520,8 @@ foreach (string day in days)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:40.55%; left:36.02%; width:36.14%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# What Is Nested Loop?
+<!-- attr: { id:'nestedloops', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="nestedloops"></a>WWhat Is Nested Loop?
 - A composition of loops is called a **nested loop**
   - A loop inside another loop
 - _Example_:
@@ -606,8 +611,8 @@ for (int number = n; number <= m; number++)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic25.png" style="top:40.55%; left:30%; width:45%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# C# Jump Statements
+<!-- attr: { id:'breakcontinue', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+# <a id="breakcontinue"></a>WC# Jump Statements
 - Jump statements are:
   - **break**, **continue**, **goto**
 - How **continue** works?
