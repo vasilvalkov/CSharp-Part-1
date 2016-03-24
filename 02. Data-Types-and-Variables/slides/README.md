@@ -66,6 +66,7 @@ int count = 5;
   - Positive integers: **1**, **2**, **3**, **…**
   - Alphabetical characters: **a**, **b**, **c**, **…**
   - Days of week: **Monday**, **Tuesday**, **…**
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:48.55%; left:86.08%; width:18.51%; z-index:-1" /> -->
 
 
@@ -80,6 +81,7 @@ int count = 5;
   - Name: **int**
   - Size: 32 bits (4 bytes)
   - Default value: **0**
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:40.99%; left:90.76%; width:14.10%; z-index:-1" /> -->
 
 
@@ -100,6 +102,7 @@ int count = 5;
 - The default value of integer types is:
   - **0** – for integer types, except
   - **0L** – for the **long** type
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:56.42%; left:77.66%; width:28.21%; z-index:-1" /> -->
 
 
@@ -119,6 +122,7 @@ int count = 5;
 - More integer types:
   - **long** (-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807): signed 64-bit
   - **ulong** (0 to 18,446,744,073,709,551,615): unsigned 64-bit
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:46.72%; left:60.82%; width:43.20%; z-index:-1" /> -->
 
 
@@ -158,6 +162,7 @@ or {3} hours.", centuries, years, days, hours);
   - May be signed or unsigned
   - Have range of values and different **precision** depending on the size of memory used
   - Can behave abnormally in the calculations
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic11.png" style="top:59.06%; left:13.10%; width:40%; z-index:-1" /> -->
 
 
@@ -215,6 +220,7 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
   - Almost no loss of precision
 - The default value of **decimal** type is:
   - **0.0M** (**M** is the suffix for decimal numbers)
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic14.png" style="top:13.66%; left:95.44%; width:11.02%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:37.87%; left:78.60%; width:25.86%; z-index:-1" /> -->
 
@@ -241,6 +247,7 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
   - Has two possible values: **true** and **false**
   - Is useful in logical expressions
 - The default value is **false**
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic19.png" style="top:43.20%; left:70.17%; width:34.71%; z-index:-1" /> -->
 
 
@@ -282,6 +289,7 @@ Console.WriteLine(equalA1);    // True
   - Gives each symbol a corresponding integer code
   - Has a **'\0'** default value
   - Takes 16 bits of memory (from **U+0000** to **U+FFFF**)
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic23.png" style="top:60.57%; left:64.56%; width:39.67%; z-index:-1" /> -->
 
 
@@ -371,6 +379,7 @@ Console.WriteLine("Your full name is {0}.",
   - Is declared by the **object** keyword
   - Is the base type of all other types
   - Can hold values of any type
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic29.png" style="top:52.01%; left:73.61%; width:28.72%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:51.13%; left:28.07%; width:34.38%; z-index:-1" /> -->
 
@@ -415,6 +424,7 @@ Console.WriteLine(dataContainer);
   - Store information
   - Retrieve the stored information
   - Manipulate the stored information
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic35.png" style="top:29.09%; left:72.98%; width:32.52%; z-index:-1" /> -->
 
 
@@ -473,6 +483,7 @@ int height = 200;
 - Identifiers
   - Can begin only with a letter or an underscore
   - Cannot be a C# keyword
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic38.png" style="top:19.39%; left:67.37%; width:30%; z-index:-1" /> -->
 
 
@@ -528,6 +539,7 @@ int numberOfPrivateClientOfTheFirm = 100;
   - Variable identifier on the left
   - Value of the corresponding data type on the right
   - Could be used in a cascade calling, where assigning is done from right to left
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic41.png" style="top:14.10%; left:83.27%; width:21.16%; z-index:-1" /> -->
 
 
@@ -563,6 +575,7 @@ thirdValue = firstValue = 3; // Avoid this!
   - By using the **new** keyword
   - By using a literal expression
   - By referring to an already initialized variable
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic43.png" style="top:38.79%; left:89.54%; width:13.58%; z-index:-1" /> -->
 
 
@@ -611,6 +624,7 @@ string message = greeting;
   - Character
   - String
   - The **null** literal
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic47.png" style="top:39.67%; left:55.20%; width:43.81%; z-index:-1" /> -->
 
 
@@ -624,6 +638,7 @@ string message = greeting;
   - Consist of digits
   - May have a sign (**+**,**-**)
   - May be in a hexadecimal format
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic48.png" style="top:10.58%; left:80.67%; width:21.61%; z-index:-1" /> -->
 
 
@@ -633,6 +648,7 @@ string message = greeting;
   - The **'0x'** and **'0X'** prefixes mean a hexadecimal value, e.g. **0xA8F1**
   - The **'u'** and **'U'** suffixes mean a **ulong** or **uint** type, e.g. **12345678U**
   - The **'l'** and **'L'** suffixes mean a **long** or **ulong** type, e.g. **9876543L**
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic49.png" style="top:54.35%; left:73.92%; width:29.97%; z-index:-1" /> -->
 
 
@@ -700,6 +716,7 @@ realNumber = 1.25e+7f;
   - Symbol
   - The code of the symbol
   - Escaping sequence
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic50.png" style="top:44.52%; left:64.99%; width:39.27%; z-index:-1" /> -->
 
 
@@ -874,6 +891,7 @@ Console.WriteLine(a + b); // 53 (string concatenation)
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
     - [telerikacademy.com](telerikacademy.com)
+    
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic63.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic64.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic65.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->

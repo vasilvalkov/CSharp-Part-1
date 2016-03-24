@@ -12,34 +12,36 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- Printing to the Console
-  - Printing Strings and Numbers 
-- Reading from the Console
-  - Reading Characters
-  - Reading Strings
-  - Parsing Strings to Numeral Types
-  - Reading Numeral Types
-- Various _Example_s
-<img class="slide-image" src="imgs/pic06.png" style="top:14.99%; left:83.27%; width:22.39%; z-index:-1" />
+- [Printing to the Console](#printing)
+  - [Printing Strings and Numbers](#printingtypes)
+- [Reading from the Console](#reading)
+  - [Reading Characters](#chars)
+  - [Reading Strings](#strings)
+  - [Reading Numeral Types](#numeral)
+  - [Parsing Strings to Numeral Types](#parsing)
+- [Various _Examples_](#examples)
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:14.99%; left:83.27%; width:22.39%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Printing to the Console
-<img class="slide-image" src="imgs/pic05.png" style="top:50%; left:25%; width:50%; z-index:-1" />
+<!-- # Printing to the Console -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:50%; left:25%; width:50%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Printing to the Console
+<!-- attr: { id:'printing', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="printing"></a>Printing to the Console
 - Console is used to display information in a text window
 - Can display different values:
   - Strings
   - Numeral types
   - All primitive data types
 - To print to the console use the class **Console** (Found in namespace **System**)
-<img class="slide-image" src="imgs/pic08.png" style="top:32.29%; left:76.23%; width:26.91%; z-index:-1" />
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:25%; left:76.23%; width:26.91%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -54,8 +56,8 @@
     - **WriteLine(…)** – prints specified data to the console and moves to the next line
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Console.Write -->
+<!-- attr: { id:'printingtypes', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="printingtypes"></a>Console.Write
 - Printing more than one variable using a formatting string
 
 ```cs
@@ -78,7 +80,7 @@ Console.Write("{0} + {1} = {2}", a, b, a + b);
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Console.WriteLine -->
+# Console.WriteLine
 - Printing more than one variable using a formatting string
 
 ```cs
@@ -119,7 +121,7 @@ static void Main()
 
     Console.WriteLine("Bye, bye, {0} from {1}.",
         name, town);
-} 
+}
 ```
 
 
@@ -148,7 +150,7 @@ static void Main()
     double pi = 1.234;
     Console.WriteLine("{0:0.000000}", pi);
     // 1.234000
-} 
+}
 ```
 
 
@@ -170,9 +172,9 @@ static void Main()
 
     float pi = 3.14159206;
     Console.WriteLine("{0:F2}", pi); // 3,14
-    
+
     Console.WriteLine("Bye – Bye!");
-} 
+}
 ```
 
 
@@ -201,16 +203,16 @@ Console.WriteLine("Have a nice day!");
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Printing to the Console
-## Demo
+<!-- # Printing to the Console
+## Demo -->
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading from the Console
+<!-- # Reading from the Console -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading from the Console
+<!-- attr: { id:'reading', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="reading"></a>Reading from the Console
 - We use the console to read information from the command line
 - We can read:
   - Characters
@@ -236,11 +238,11 @@ Console.WriteLine("The code of '{0}' is {1}.", ch, i);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading Characters from the Console
+<!-- attr: { id:'chars', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="chars"></a>Reading Characters from the Console
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Console.ReadKe -->
+# Console.ReadKey
 - Waits until a combination of keys is pressed
   - Reads a single character from console or a combination of keys
 - Returns a result of type **ConsoleKeyInfo**
@@ -257,11 +259,12 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading Keys from the Console
+<!-- # Reading Keys from the Console
+## Demo -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Console.ReadLin -->
+<!-- attr: { id:'strings', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="strings"></a>Console.ReadLine
 - Gets a line of characters
 - Returns a **string** value
 - Returns **null** if the end of the input is reached
@@ -280,11 +283,12 @@ Console.WriteLine("Hello, {0} {1}!",
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading Strings from the Console
+<!-- # Reading Strings from the Console
+## Demo -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Reading Numeral Types
+<!-- attr: { id:'numeral', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="numeral"></a>Reading Numeral Types
 - Numeral types can not be read directly from the console
 - To read a numeral type do the following:
   - Read a string value
@@ -335,8 +339,8 @@ static void Main()
 }
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Converting Strings to Numbers -->
+<!-- attr: { id:'parsing', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="parsing"></a>Converting Strings to Numbers
 - Converting can also be done using the methods of the **Convert** class
   - **Convert.ToInt32(string)** – **string** &rarr; **int**
   - **Convert.ToSingle(string)**– **string** &rarr; **float**
@@ -352,8 +356,8 @@ int value = Convert.ToInt32(invalid); // FormatException
 ```
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading Numbers from the Console
-## Live Demo
+<!-- # Reading Numbers from the Console
+## Live Demo -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Error Handling when Parsing
@@ -375,21 +379,21 @@ else
 ```
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Parsing with TryParse
-## Live Demo
+<!-- # Parsing with TryParse
+## Live Demo -->
 
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Regional Settings
+<!-- # Regional Settings
 ## Printing and Reading Special Characters
-## Regional Settings and the Number Formatting
+## Regional Settings and the Number Formatting -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # How to Print Special Characters on the Console?
 - Printing special characters on the console needs two steps: <!-- .element: style="width: 75%" -->
-  - Change the console properties to enable Unicode-friendly font 
-  - Enable Unicode for the **Console** by adjusting its output encoding 
+  - Change the console properties to enable Unicode-friendly font
+  - Enable Unicode for the **Console** by adjusting its output encoding
     - Prefer UTF8 (Unicode)
 ```cs
 using System.Text;
@@ -420,14 +424,15 @@ decimal value = decimal.Parse("1.33");
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Regional Settings
-## [Demo]()
-<img class="slide-image" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1" />
+<!-- # Regional Settings
+## Demo -->
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1" /> -->
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading and Printing to the Console
+<!-- attr: { id:'examples', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="examples"></a>Reading and Printing to the Console
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -441,9 +446,9 @@ Console.Write("Enter company name: ");
 string company = Console.ReadLine();
 
 Console.WriteLine("  Dear {0},", person);
-Console.WriteLine("We are pleased to tell you " + 
+Console.WriteLine("We are pleased to tell you " +
     "that {1} has chosen you to take part " +
-    "in the \"Introduction To Programming\" " + 
+    "in the \"Introduction To Programming\" " +
     "course. {1} wishes you good luck!",
     person, company);
 
@@ -454,7 +459,8 @@ Console.WriteLine("  {0}", company);
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Printing a Letter
+<!-- # Printing a Letter
+## Demo -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -478,10 +484,9 @@ Console.WriteLine("The area of your figure " +
     " is {0}", area);
 ```
 
-
-
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Calculating Area
+<!-- # Calculating Area
+## Demo -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -498,4 +503,15 @@ Console.WriteLine("The area of your figure " +
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Console Input / Output
 <img class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/cat-questions.png" style="width:80%; top:15%; left:10%" />
-<div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
+
+
+<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# Free Trainings @ Telerik Academy
+- Fundamentals of C# ProgrammingTrack of Courses
+    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
+  - Telerik Software Academy
+    - [academy.telerik.com](academy.telerik.com)
+  - Telerik Academy @ Facebook
+    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
+  - Telerik Academy Learning System
+    - telerikacademy.com

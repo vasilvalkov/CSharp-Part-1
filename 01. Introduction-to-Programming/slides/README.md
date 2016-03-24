@@ -17,6 +17,7 @@
 - [What is .NET Framework?](#netframework)
 - [What is Visual Studio?](#visualstudio)
 - [What is MSDN Library?](#msdn)
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic05.png" style="top:32.52%; left:65%; width:26.45%; z-index:-1" /> -->
 
 <!-- section start -->
@@ -28,7 +29,7 @@
 <!-- attr: { id:'programming', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # <a id="programming"></a>Define: Computer Programming
 - **Computer programming**: creating a sequence of instructions to enable the computer to do something
-    - Definition by <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic08.png" style="top:26%; left:32%; width:20%; z-index:-1" /> -->
+    - Definition by <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic08.png" style="top:26%; left:32%; width:20%; z-index:-1" />
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Programming Phases
@@ -131,6 +132,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - Easy to learn
   - Easy to read and understand
   - Object-oriented
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic11.png" style="top:49.27%; left:74.85%; width:28.21%; z-index:-1" /> -->
 
 
@@ -169,6 +171,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - Visual Basic .NET
   - Managed C++
   - ... and many others
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic18.png" style="top:54.11%; left:63.62%; width:37.98%; z-index:-1" /> -->
 
 
@@ -189,6 +192,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - Multiple versions support for assemblies
   - Integrated type safety and security
 - CLR
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic19.png" style="top:15%; left:80%; width:20%; z-index:-1" /> -->
 
 
@@ -222,6 +226,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - Execute / test / debug applications
   - Browse the help
   - Manage project's files
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic20.png" style="top:63.47%; left:79.09%; width:26.86%; z-index:-1" /> -->
 
 
@@ -233,6 +238,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - For different platforms (.NET CF, Silverlight, …)
 - Full integration of most development activities (coding, compiling, testing, debugging, deployment, version control, ...)
 - Very easy to use!
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic20.png" style="top:64.35%; left:79.82%; width:25.95%; z-index:-1" /> -->
 
 
@@ -246,6 +252,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 - File &rarr; New &rarr; Project ...
 - Choose C# console application
 - Choose project directory and name
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic24.png" style="top:35%; left:30%; width:62.31%; z-index:-1" /> -->
 
 
@@ -255,6 +262,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <div class="fragment balloon" style="top:25.26%; left:3.53%; width:23.80%">Namespace not required</div>
 <div class="fragment balloon" style="top:42.10%; left:52.89%; width:24.15%">Class name should be changed</div>
 <div class="fragment balloon" style="top:25.72%; left:48.48%; width:29.09%">Some imports are not required</div>
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic25.png" style="top:21.13%; left:10.56%; width:85.88%; z-index:-1" /> -->
 
 
@@ -268,6 +276,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 - You can start compilation by
   - Using **Build->Build Solution/Project**
   - Pressing **[F6]** or **[Shift+Ctrl+B]**
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic26.png" style="top:59.38%; left:86.08%; width:19.85%; z-index:-1" /> -->
 
 
@@ -298,6 +307,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - Breakpoints
   - Ability to trace the code execution
   - Ability to inspect variables at runtime
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic31.png" style="top:50.65%; left:19.43%; width:68.96%; z-index:-1" /> -->
 
 
@@ -346,6 +356,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 - Related articles
 - Library of samples
 - Use local copy or the Web version at http://msdn.microsoft.com/
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic41.png" style="top:50.90%; left:60.05%; width:42.16%; z-index:-1" /> -->
 
 
@@ -375,6 +386,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Introduction to Programming
 - Questions?
+
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic47.png" style="top:43.21%; left:82.34%; width:19.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic48.png" style="top:43.20%; left:42.10%; width:24.25%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic49.png" style="top:43.20%; left:8.19%; width:23.14%; z-index:-1" /> -->

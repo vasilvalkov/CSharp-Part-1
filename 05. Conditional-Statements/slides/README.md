@@ -12,11 +12,12 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- Comparison and Logical Operators
-- The **if** Statement
-- The **if-else** Statement
-- Nested **if** Statements
-- The **switch-case** Statement
+- [Comparison and Logical Operators](#operators)
+- [The **if** Statement](#if)
+- [The **if-else** Statement](#ifelse)
+- [Nested **if** Statements](#nestedif)
+- [The **switch-case** Statement](#switch)
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" /> -->
 
@@ -27,8 +28,8 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Comparison and Logical Operators -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 38px' } -->
-# Comparison Operators
+<!-- attr: { id:'operators', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 38px' } -->
+# <a id="operators"></a>Comparison Operators
 | Operator      | C# Notation   |
 | ------------- |:-------------:|
 | Equals        | ==            |
@@ -63,6 +64,7 @@ Console.WriteLine(result); // outputs True
   - **!!A** equals **A**
   - **!(A || B)** equals **!A && !B**
   - **!(A && B)** equals **!A || !B**
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:55.54%; left:60%; width:32.94%; z-index:-1" /> -->
 
 <!-- section start -->
@@ -71,8 +73,8 @@ Console.WriteLine(result); // outputs True
 ## Implementing Conditional Logic -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# The if Statement
+<!-- attr: { id:'if', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="if"></a>The if Statement
 - The most simple conditional statement
 - Enables you to test for a condition
 - Branch to different parts of the code depending on the result
@@ -96,6 +98,7 @@ if (condition)
 - The statement can be:
   - Single statement ending with a semicolon
   - Block enclosed in braces
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
 
@@ -136,8 +139,8 @@ static void Main()
 <!-- # The if Statement
 ## Demo -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# The if-else Statement
+<!-- attr: { id:'ifelse', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="ifelse"></a>The if-else Statement
 - More complex and useful conditional statement
 - Executes one branch if the condition is true, and another if it is false
 - The simplest form of an if-else statement:
@@ -192,11 +195,12 @@ else
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Nested if Statements
 ## Creating More Complex Logic -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:55%; left:27.5%; width:45%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Nested if Statements
+<!-- attr: { id:'nestedif', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="nestedif"></a>Nested if Statements
 - **if** and **if-else** statements can be **nested**, i.e. used inside another **if** or **else** statement
 - Every **else** corresponds to its closest preceding **if**
 
@@ -278,6 +282,7 @@ else …
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Multiple if-else Statements
 ## Demo -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:42%; left:30%; width:40%; z-index:-1" /> -->
 
 <!-- section start -->
@@ -285,8 +290,8 @@ else …
 <!-- # Switch-case
 ## Making Several Comparisons at Once -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# The switch-case Statement
+<!-- attr: { id:'switch', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="switch"></a>The switch-case Statement
 - Selects for execution a statement from a list depending on the value of the **switch** expression
 
 ```cs
@@ -374,9 +379,21 @@ switch (animal)
 - The **switch** statement easily and elegantly checks an expression for a sequence of values
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Conditional Statements
-- Questions? -->
+## Questions? -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/q3.png" style="top:43.21%; left:82.34%; width:19.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/q1.png" style="top:43.20%; left:42.10%; width:24.25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/q1.png" style="top:55%; left:42.10%; width:24.25%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/q2.png" style="top:43.20%; left:8.19%; width:23.14%; z-index:-1" /> -->
+
+<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# Free Trainings @ Telerik Academy
+- Fundamentals of C# ProgrammingTrack of Courses
+    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
+  - Telerik Software Academy
+    - [academy.telerik.com](academy.telerik.com)
+  - Telerik Academy @ Facebook
+    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
+  - Telerik Academy Learning System
+    - telerikacademy.com
