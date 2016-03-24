@@ -12,11 +12,11 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [What is Computer Programming?](#programming)
-- [Your First C# Program](#first)
-- [What is .NET Framework?](#netframework)
-- [What is Visual Studio?](#visualstudio)
-- [What is MSDN Library?](#msdn)
+- [What is Computer Programming?](#/programming)
+- [Your First C# Program](#/first)
+- [What is .NET Framework?](#/netframework)
+- [What is Visual Studio?](#/visualstudio)
+- [What is MSDN Library?](#/msdn)
 
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic05.png" style="top:32.52%; left:65%; width:26.45%; z-index:-1" /> -->
 

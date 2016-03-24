@@ -23,11 +23,11 @@
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Table of Contents
 
-- [Course Objectives](#objectives)
-- [Course Program](#topics)
+- [Course Objectives](#/objectives)
+- [Course Program](#/topics)
 - [Trainers Team]()
-- [Examination](#examination)
-- [Learning Resources](#resources)
+- [Examination](#/examination)
+- [Learning Resources](#/resources)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:52.89%; left:78.60%; width:23.35%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.34%; left:51.46%; width:52.28%; z-index:-1" /> -->

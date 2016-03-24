@@ -16,15 +16,15 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Table of Contents
-- [What is a Loop?](#whatisloop)
-- [Loops in C#](#1)
-  - [**while** loops](#while)
-  - [**do** … **while** loops](#dowhile)
-  - [**for** loops](#for)
-  - [**foreach** loops](#foreach)
-- [Special loop operators](#specialoperators)
-  - [**break**, **continue**, **goto**](#breakcontinue)
-- [Nested loops](#nestedloops)
+- [What is a Loop?](#/whatisloop)
+- [Loops in C#](#/1)
+  - [**while** loops](#/while)
+  - [**do** … **while** loops](#/dowhile)
+  - [**for** loops](#/for)
+  - [**foreach** loops](#/foreach)
+- [Special loop operators](#/specialoperators)
+  - [**break**, **continue**, **goto**](#/breakcontinue)
+- [Nested loops](#/nestedloops)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:19.39%; left:58.26%; width:42.96%; z-index:-1" /> -->
 

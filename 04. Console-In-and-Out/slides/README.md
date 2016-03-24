@@ -12,14 +12,14 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [Printing to the Console](#printing)
-  - [Printing Strings and Numbers](#printingtypes)
-- [Reading from the Console](#reading)
-  - [Reading Characters](#chars)
-  - [Reading Strings](#strings)
-  - [Reading Numeral Types](#numeral)
-  - [Parsing Strings to Numeral Types](#parsing)
-- [Various _Examples_](#examples)
+- [Printing to the Console](#/printing)
+  - [Printing Strings and Numbers](#/printingtypes)
+- [Reading from the Console](#/reading)
+  - [Reading Characters](#/chars)
+  - [Reading Strings](#/strings)
+  - [Reading Numeral Types](#/numeral)
+  - [Parsing Strings to Numeral Types](#/parsing)
+- [Various _Examples_](#/examples)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:14.99%; left:83.27%; width:22.39%; z-index:-1" /> -->
 

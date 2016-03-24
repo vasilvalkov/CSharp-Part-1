@@ -15,19 +15,19 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 40px' } -->
 # Table of Contents
-- [Primitive Data Types](#primitive)
-  - [Integer](#integer)
-  - [Floating-Point / Decimal Floating-Point](#float)
-  - [Boolean](#bool)
-  - [Character](#char)
-  - [String](#string)
-  - [Object](#object)
-- [Declaring and Using Variables](#declaring)
-  - [Identifiers](#identifiers)
-  - [Declaring Variables and Assigning Values](#assign)
-  - [Literals](#literals)
-- [Nullable Types](#nullable)
-- [Dynamic Types](#dynamic)
+- [Primitive Data Types](#/primitive)
+  - [Integer](#/integer)
+  - [Floating-Point / Decimal Floating-Point](#/float)
+  - [Boolean](#/bool)
+  - [Character](#/char)
+  - [String](#/string)
+  - [Object](#/object)
+- [Declaring and Using Variables](#/declaring)
+  - [Identifiers](#/identifiers)
+  - [Declaring Variables and Assigning Values](#/assign)
+  - [Literals](#/literals)
+- [Nullable Types](#/nullable)
+- [Dynamic Types](#/dynamic)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic01.png" style="top:33.50%; left:75.79%; width:28.21%; z-index:-1" /> -->
 
