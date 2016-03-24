@@ -25,6 +25,7 @@
 - [Special loop operators](#specialoperators)
   - [**break**, **continue**, **goto**](#breakcontinue)
 - [Nested loops](#nestedloops)
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:19.39%; left:58.26%; width:42.96%; z-index:-1" /> -->
 
 <!-- section start -->
@@ -537,10 +538,6 @@ for (initialization; test; update)
 }
 ```
 
-
-
-
-
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 <!-- # Nested Loops -->
@@ -566,8 +563,6 @@ for(int row = 1; row <= n; row++)
    Console.WriteLine();
 }
 ```
-
-
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 <!-- # Triangle
@@ -603,8 +598,6 @@ for (int number = n; number <= m; number++)
 }
 ```
 
-
-
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 <!-- # Primes in Range [n, m]
 ## Demo -->
@@ -639,8 +632,6 @@ for (int outer = 0; outer < 10; outer++)
 ```
 
 <div class="fragment balloon" style="top:51.11%; left:4.41%; width:14.93%">Label</div>
-
-
 
 
 <!-- section start -->
@@ -710,6 +701,7 @@ static void Main()
   - **foreach** loops
 - Nested loops can be used to implement more complex logic
 - The operators **continue**, **break** & **goto** can control the loop execution
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic29.png" style="top:23.63%; left:74.85%; width:28.21%; z-index:-1" /> -->
 
 
@@ -728,6 +720,7 @@ static void Main()
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
     - telerikacademy.com
+    
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic31.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic32.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->

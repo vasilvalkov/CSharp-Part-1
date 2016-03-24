@@ -64,6 +64,7 @@ Console.WriteLine(result); // outputs True
   - **!!A** equals **A**
   - **!(A || B)** equals **!A && !B**
   - **!(A && B)** equals **!A || !B**
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:55.54%; left:60%; width:32.94%; z-index:-1" /> -->
 
 <!-- section start -->
@@ -97,6 +98,7 @@ if (condition)
 - The statement can be:
   - Single statement ending with a semicolon
   - Block enclosed in braces
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
 

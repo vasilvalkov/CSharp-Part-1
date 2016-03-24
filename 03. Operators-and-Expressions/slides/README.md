@@ -25,6 +25,7 @@
 - [Other Operators](#other)
 - [Implicit and Explicit Type Conversions](#conversion)
 - [Expressions](#expressions)
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:24.24%; left:73.92%; width:29.84%; z-index:-1" /> -->
 
 
@@ -56,6 +57,7 @@
   - Ternary (**?:**) – takes three operands
 - Except for the assignment operators, all binary operators are left-associative
 - The assignment operators and the conditional operator (**?:**) are right-associative
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:12.34%; left:87.43%; width:19.12%; z-index:-1" /> -->
 
 
@@ -591,6 +593,7 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
     - telerikacademy.com
+    
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic29.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic31.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
