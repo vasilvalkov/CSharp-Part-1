@@ -328,7 +328,7 @@ void       Main(                  )   {   Console   .
 <!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Visual Studio  Blank Solution
 ## Creating a Solution Without Projects -->
-<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic35.png" style="top:55%; left:25%; width:50%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic36.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
 <!-- attr: {showInPresentation: true, hasScriptWrapper:'False', style:'font-size: 42px' } -->
