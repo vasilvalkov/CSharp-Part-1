@@ -44,7 +44,7 @@
 
 <!-- attr: { id: 'objectives', showInPresentation: true } -->
 # <a id="objectives"></a>C# Track Objectives
-- The **C# Programming** track at the Academy>>>:
+- The **C# Programming** track at the Academy:
   - Give the trainees the **fundamental** computer programming knowledge and skills
   - Establish the logical and **algorithmic thinking**
     - Development of **problems solving** skills
