@@ -5,8 +5,6 @@
 ## About the Course
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:11%; left:10%; width:20.28%; z-index:-1" />-->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:5%; right: 5%; width:15.87%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:5%; right:30%; width:12.87%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:40%; left:30.79%; width:13.05%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="bottom:10%; left:57.08%; width:46.91%; z-index:-1;  border-radius: 15px" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="bottom:10%; left:60.86%; width:39.78%; z-index:-1; border-radius: 15px" /> -->
