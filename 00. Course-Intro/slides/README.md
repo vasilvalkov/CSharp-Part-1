@@ -1,7 +1,7 @@
 <!-- section start -->
 
 <!-- attr: { class:'slide-title', showInPresentation: true, hasScriptWrapper: true} -->
-# C# Fundamentals <!-- .element: style="margin-top: 20%" -->
+# C# Fundamentals
 ## About the Course
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:11%; left:10%; width:20.28%; z-index:-1" />-->
