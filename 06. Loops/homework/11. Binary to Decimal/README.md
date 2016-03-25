@@ -24,3 +24,6 @@ Using loops write a program that converts a binary integer number to its decimal
 | 11                           | 3              |
 | 1010101010101011             | 43691          |
 | 1110000110000101100101000000 | 236476736      |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#10)

@@ -30,3 +30,6 @@ Write a sequence of operators (a few lines of C# code) that modifies **N** to ho
 |15   <br/>1 <br/>1 |00000000 00001111    |00000000 00001111 |15             |
 |5343 <br/>7 <br/>0 |00010100 11011111    |00010100 01011111 |5215           |
 |62241<br/>11<br/>0 |11110011 00100001    |11110011 00100001 |62241          |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#12)

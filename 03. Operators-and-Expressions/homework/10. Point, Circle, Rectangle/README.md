@@ -24,3 +24,6 @@ Write a program that reads a pair of coordinates **x** and **y** and uses an exp
 |2.5<br/>2       |no              |
 |0<br/>1         |no              |
 |2.5<br/>1       |no              |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#9)

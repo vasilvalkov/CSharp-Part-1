@@ -28,3 +28,6 @@ Write a program that does the following:
 |7               |false 7         |
 |35              |true 35         |
 |140             |true 140        |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#2)

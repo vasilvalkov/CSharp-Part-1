@@ -21,3 +21,6 @@ Write a program that reads an integer number **N** from the console and prints a
 | 3     |1<br/>2<br/>3|
 | 5     |1<br/>2<br/>3<br/>4<br/>5|
 | 1     | 1      |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#6)

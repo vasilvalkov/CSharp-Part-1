@@ -29,3 +29,6 @@ Your task is to write a program that calculates `N! / (K! * (N - K)!)` for given
 |4 <br/>2|6                  |
 |10<br/>6|210                |
 |52<br/>5|2598960            |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#6)

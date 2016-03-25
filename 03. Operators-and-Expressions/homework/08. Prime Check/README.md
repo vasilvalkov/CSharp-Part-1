@@ -25,3 +25,6 @@ Write a program that reads an integer **N** (which will always be less than **10
 |23              |true            |
 |-3              |false           |
 |0               |false           |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#7)

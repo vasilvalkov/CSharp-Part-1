@@ -21,3 +21,6 @@ Write a program that reads from the console a positive integer
 |----------------|:--------------:|
 |10              |1 2 4 5 8 10    |
 |3               |1 2             |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#1)

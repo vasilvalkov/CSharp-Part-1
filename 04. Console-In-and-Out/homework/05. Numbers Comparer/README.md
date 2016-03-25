@@ -23,3 +23,6 @@ Write a program that gets two numbers from the console and prints the greater of
 |0<br />0    | 0        |
 |-5<br />-2  | -2       |
 |1.5<br />1.6| 1.6      |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#3)

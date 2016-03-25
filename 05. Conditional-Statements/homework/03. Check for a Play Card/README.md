@@ -26,3 +26,6 @@ Classical play cards use the following signs to designate the card face:
 | P         | no P              |
 | 10        | yes 10             |
 | 500       | no 500              |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#2)

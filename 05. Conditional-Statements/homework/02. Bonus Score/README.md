@@ -26,3 +26,6 @@ Write a program that applies bonus score to given score in the range **[1…9]**
 |4               |400             |
 |9               |1000            |
 |10              |invalid score   |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#1)

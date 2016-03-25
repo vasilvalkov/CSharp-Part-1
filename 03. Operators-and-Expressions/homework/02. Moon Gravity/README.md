@@ -25,3 +25,6 @@ Output all values with **exactly 3-digit precision** after the floating point.
 |86              |14.620          |
 |74.6            |12.682          |
 |53.7            |9.129           |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#1)

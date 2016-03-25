@@ -25,3 +25,6 @@ Using loops write a program that converts an integer number to its binary repres
 | 3                 | 11                           |
 | 43691             | 1010101010101011             |
 | 236476736         | 1110000110000101100101000000 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#11)

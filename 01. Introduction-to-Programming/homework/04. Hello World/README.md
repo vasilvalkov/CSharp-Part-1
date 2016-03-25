@@ -14,4 +14,4 @@ Create, compile and run a **Hello World** application - it should print the stri
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code in [Introduction to Programming](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming) contest at [www.bgcoder.com](http://bgcoder.com/).
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/314#0)

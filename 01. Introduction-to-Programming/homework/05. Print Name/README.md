@@ -5,4 +5,4 @@
 - Ensure you have named the application well (e.g. “PrintMyName”).
 
 ## Submission
-- You do not have to submit anything for this problem.
+- You do not have to submit anything for this problem

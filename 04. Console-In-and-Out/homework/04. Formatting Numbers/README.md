@@ -11,8 +11,6 @@
 	- The number **b** should be printed with 2 digits after the decimal point, right aligned
 	- The number c should be printed with 3 digits after the decimal point, left aligned. 
 
-- You do not have to submit anything for this problem.
-
 _Examples:_
 
 |  a  |    b    |    c    |                      result                    |
@@ -20,3 +18,6 @@ _Examples:_
 | 254 | 11.6    | 0.5     | `FE        |0011111110|     11.60|0.500     |` |
 | 499 | -0.5559 | 10000   | `1F3       |0111110011|     -0.56|10000.000 |` |
 | 0   | 3       | -0.1234 | `0         |0000000000|      3.00|-0.123    |` |
+
+## Submission
+- You do not have to submit anything for this problem

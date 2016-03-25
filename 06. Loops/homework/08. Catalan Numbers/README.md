@@ -25,3 +25,6 @@ In combinatorics, the Catalan numbers are calculated by the following formula:
 |5               |42              |
 |10              |16796           |
 |15              |9694845         |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#7)

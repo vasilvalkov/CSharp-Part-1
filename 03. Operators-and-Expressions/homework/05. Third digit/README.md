@@ -25,3 +25,6 @@ Write a program that reads an integer **N** from the console and prints **true**
 |877             |false 8         |
 |777877          |false 8         |
 |9999799         |true            |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#4)

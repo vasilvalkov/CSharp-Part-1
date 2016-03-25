@@ -7,5 +7,5 @@
 	- Find information about the Console class.
 	- Find information about the class keyword.
 
-## Submission	
-- You do not have to submit anything for this problem.
+## Submission
+- You do not have to submit anything for this problem

@@ -5,4 +5,4 @@
   For each problem (exercises) add a separate project with self-descriptive name like **Hello-World** and **Print-Your-Name**.
 
 ## Submission
-- You do not have to submit anything for this problem.
+- You do not have to submit anything for this problem

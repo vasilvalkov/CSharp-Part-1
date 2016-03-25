@@ -26,3 +26,6 @@ Otherwise, print **odd**, again followed by a whitespace and the number's value.
 |-2              |even -2         |
 |-1              |odd -1          |
 |0               |even 0          |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#0)

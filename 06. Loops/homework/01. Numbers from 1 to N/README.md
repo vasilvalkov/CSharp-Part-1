@@ -19,3 +19,6 @@ Write a program that enters from the console a positive integer n and prints all
 |----------------|:--------------:|
 |5               |1 2 3 4 5|
 |1               |1|
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#0)

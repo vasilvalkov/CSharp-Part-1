@@ -29,3 +29,6 @@ Write a program that, depending on the first line of the input, reads an **int**
 |integer<br/>2   |3               |
 |real<br/>-2.5   |-1.50           |
 |text<br/>gosho  |gosho*          |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#8)

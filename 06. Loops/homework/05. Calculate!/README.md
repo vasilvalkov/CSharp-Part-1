@@ -26,3 +26,6 @@ Write a program that, for a given two integer numbers **N** and **x**, calculate
 |3<br/>2          |2.75000 |
 |4<br/>3          |2.07407 |
 |5<br/>-4         |0.75781 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#4)

@@ -31,3 +31,6 @@ The program should then print **"yes DISTANCE"** if the point is inside the circ
 |0.2<br/>-0.8    |true   |
 |0.9<br/>-1.93   |false  |
 |1<br/>1.655     |true   |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#6)

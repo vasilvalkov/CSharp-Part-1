@@ -28,3 +28,6 @@ _Hint: Use double.Parse(Console.ReadLine()) to read input_
 | -0.0000007<br>0.00000007 |    true                                | The difference `0.00000077 < eps`                                                     |
 | -4.999999<br>-4.999998   |    false                               | Border case. The difference `0.000001 == eps`. We consider the numbers are different. |
 | 4.999999<br>4.999998     |    false                               | Border case. The difference `0.000001 == eps`. We consider the numbers are different. |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/313#1)

@@ -6,4 +6,4 @@
 - Set a breakpoint in the line, which prints the next number in the Visual Studio code editor. Run the program through the debugger using the `[F5]` key. When the debugger stops at the breakpoint trace the code execution with `[F10]` key.
 
 ## Submission
-- You do not have to submit anything in your homework for this problem. Just play with the debugger to learn how it works.
+- You do not have to submit anything for this problem

@@ -5,4 +5,4 @@
 - Start Visual Studio and familiarize yourself with it. Create a simple C# program (console application), compile and run it.
 
 ## Submission
-- You do not have to submit anything for this problem.
+- You do not have to submit anything for this problem

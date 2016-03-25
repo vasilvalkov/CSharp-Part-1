@@ -24,3 +24,6 @@ Using loops write a program that converts an integer number to its hexadecimal r
 |254             |FE              |
 |6883            |1AE3            |
 |338583669684    |4ED528CBB4      |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#12)

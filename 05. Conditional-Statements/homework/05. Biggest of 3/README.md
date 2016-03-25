@@ -20,3 +20,6 @@ Write a program that finds the biggest of three numbers that are read from the c
 |--------------|:--------------:|
 |4<br/>4<br/>4|4|
 |-0.5<br/>-10<br/>0|0|
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#4)

@@ -22,3 +22,7 @@ Write a program that shows the sign (+, - or 0) of the product of three real num
 |2<br/>5<br/>2   |+               |
 |2<br/>5<br/>-2  |-               |
 |-0.5<br/>0<br/>-2|0            |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#3)
+- You do not have to submit anything for this problem

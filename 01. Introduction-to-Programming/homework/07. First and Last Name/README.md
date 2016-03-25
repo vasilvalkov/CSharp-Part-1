@@ -4,4 +4,4 @@
 - Create console application that prints your first and last name, each at a separate line.
 
 ## Submission
-  - You do not have to submit anything for this problem.
+- You do not have to submit anything for this problem

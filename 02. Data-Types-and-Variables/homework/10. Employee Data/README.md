@@ -11,4 +11,5 @@ A marketing company wants to keep record of its employees. Each record would hav
 
 Declare the variables needed to keep the information for a single employee using appropriate primitive data types. Use descriptive names. Print the data at the console.
 
-_You do not have to submit anything for this problem._
+## Submission
+- You do not have to submit anything for this problem

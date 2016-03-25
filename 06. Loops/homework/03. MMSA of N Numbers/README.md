@@ -30,3 +30,6 @@ avg=4.5
 |----------------|--------------|
 |3<br>2<br>5<br>1|min=1<br>max=5<br>sum=8<br>avg=2.67|
 |3<br>2<br>-1<br>4|min=-1<br>max=4<br>sum=5<br>avg=1.67|
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#2)

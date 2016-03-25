@@ -23,3 +23,6 @@ Use an if-statement. As a result print the values of the variables **A** and **B
 |5<br/>3         |3 5             |
 |2<br/>4         |2 4             |
 |3.3<br/>3.3     |3.3 3.3         |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#0)

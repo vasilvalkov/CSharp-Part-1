@@ -22,4 +22,4 @@ Write a program that prints the first 10 members of the sequence: `2, -3, 4, -5,
 - Memory limit: **16MB**
 
 ## Submission
-- Submit your code in [Introduction to Programming](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming) contest at [www.bgcoder.com](http://bgcoder.com/).
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/314#3)

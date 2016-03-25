@@ -23,3 +23,6 @@ Your output should consist only of a single line - the sum of the three numbers.
 |1<br/>2<br/>3 |6|
 |-2<br/>0<br/>3|1|
 |5.5<br/>4.5<br/>20.1|30.1|
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#0)

@@ -25,3 +25,6 @@ The **width** and **height** should be read from the console.
 |3<br/>4         |14.00 12.00     |
 |2.5<br/>3       |11.00 7.50      |
 |5<br/>5         |20.00 25.00     |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#3)

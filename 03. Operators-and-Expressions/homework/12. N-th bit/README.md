@@ -24,3 +24,6 @@ Write a program that reads from the console two integer numbers **P** and **N** 
 |15<br/>1        |00000000 00001111      |1               |
 |5343<br/>7      |00010100 11011111      |1               |
 |62241<br/>11    |11110011 00100001      |0               |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#11)

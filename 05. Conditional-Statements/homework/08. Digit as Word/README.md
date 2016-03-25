@@ -25,3 +25,6 @@ Write a program that read a digit **(0-9)** from the console, and depending on t
 |9|nine|
 |-9|not a digit|
 |kek|not a digits|
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#7)

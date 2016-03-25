@@ -22,3 +22,6 @@ Write a program that reads a number **N** and prints
 |1|0|
 |3|0, 1, 1|
 |10|0, 1, 1, 2, 3, 5, 8, 13, 21, 34|
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#8)

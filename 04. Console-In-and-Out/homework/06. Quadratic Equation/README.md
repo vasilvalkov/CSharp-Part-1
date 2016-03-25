@@ -26,3 +26,6 @@ Write a program that reads the coefficients **a**, **b** and **c** of a quadrati
 |-1<br/>3<br/>0   |0.00<br/>3.00   |
 |-0.5<br/>4<br/>-8|4.00            |
 |5<br/>2<br/>8    |no real roots   |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#4)

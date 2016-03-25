@@ -22,3 +22,6 @@ Write a program that calculates with how many **zeroes** the factorial of a give
 |10              |2               | 3628800            |
 |20              |4               | 2432902008176640000|
 |100000          |24999           | think why          |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#15)

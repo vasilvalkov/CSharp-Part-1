@@ -28,3 +28,6 @@ Write a program that takes as input a four-digit number in format **abcd** (e.g.
 |3333            |12<br/>3333<br/>3333<br/>3333|
 |9876            |30<br/>6789<br/>6987<br/>9786|
 |1230            |6<br/>321<br/>123<br/>1320   |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#5)

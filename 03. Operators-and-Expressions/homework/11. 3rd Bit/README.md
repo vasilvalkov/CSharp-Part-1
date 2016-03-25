@@ -22,3 +22,6 @@ Using bitwise operators, write a program that uses an expression to find the val
 |----------------|----------------|
 |15              |1               |
 |1024            |0               |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#10)

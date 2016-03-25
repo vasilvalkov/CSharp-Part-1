@@ -5,4 +5,5 @@ Declare a character variable and assign it with the symbol that has Unicode code
 
 _Hint: first, use the Windows Calculator to find the hexadecimal representation of `42`. The output should be `*`._
 
-_You do not have to submit anything for this problem._
+## Submission
+- You do not have to submit anything for this problem

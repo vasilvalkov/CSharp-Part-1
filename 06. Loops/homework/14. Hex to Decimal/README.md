@@ -23,3 +23,6 @@ Using loops write a program that converts a hexadecimal integer number to its de
 |FE                |254                          |
 |1AE3              |6883                         |
 |4ED528CBB4        |338583669684                 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#13)
