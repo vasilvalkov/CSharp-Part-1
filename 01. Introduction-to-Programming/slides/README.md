@@ -1,16 +1,19 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-title', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Introduction to Programming
 ## Creating and Running Your First C# Program
-<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic00.png" style="top:55%; left:30%; width:20.28%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic00.png" style="top:45%; left:30%; width:20.28%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true"  showInPresentation="true" src="imgs/pic01.png" style="top:55%; left:70%; width:15.87%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic02.png" style="top:10%; left:2%; width:12.87%; z-index:-1" /> -->
-
-
+<div class="signature">
+  <p class="signature-course">C# Fundamentals</p>
+  <p class="signature-initiative">Telerik Software Academy</p>
+  <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
+</div>
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Table of Contents
 - [What is Computer Programming?](#/programming)
 - [Your First C# Program](#/first)
@@ -21,32 +24,32 @@
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic05.png" style="top:32.52%; left:65%; width:26.45%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # What is Computer Programming? -->
-<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic06.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic06.png" style="top:55%; left:30%; width:40%; border-radius: 15px" /> -->
 
 
-<!-- attr: { id:'programming', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'programming',  showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # <a id="programming"></a>Define: Computer Programming
 - **Computer programming**: creating a sequence of instructions to enable the computer to do something
     - Definition by <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic08.png" style="top:26%; left:32%; width:20%; z-index:-1" />
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Programming Phases
-- `Define` a task/problem **= Specification**
-- Plan your solution **= Design**
+- **Define** a task/problem **= Specification**
+- **Plan** your solution **= Design**
   - Find suitable algorithm to solve it
   - Find suitable data structures to use
-- Write code **= Implementation**
-- Fix program error (bugs) **= Testing & Debugging**
-- Make your customer happy **= Deployment**
+- **Write** code **= Implementation**
+- **Fix** program error (bugs) **= Testing & Debugging**
+- **Make** your customer happy **= Deployment**
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Your First C# Program -->
-<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic09.png" style="top:44.96%; left:30%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic09.png" style="top:44.96%; left:30%; width:40%;  border-radius: 15px" /> -->
 
-<!-- attr: { id:'', class:'first', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'first', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # <a id="first"></a>First Look at C# Language
 - Sample C# program:
 
@@ -62,7 +65,7 @@ class HelloCSharp
 }
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # C# Code – How It Works?
 
 ```cs
@@ -77,13 +80,13 @@ class HelloCSharp
 }
 ```
 
-<div class="fragment balloon" style="top:14.03%; left:2.64%; width:42.97%">Include the standard namespace "**System**"</div>
-<div class="fragment balloon" style="top:12.16%; left:55.54%; width:40.81%">Define a class called "**HelloCSharp**"</div>
-<div class="fragment balloon" style="top:29.01%; left:58.18%; width:40.81%">Define the **Main()** method – the program entry point</div>
-<div class="fragment balloon" style="top:63.62%; left:25.56%; width:61.65%">Print a text on the console by calling the method "**WriteLine**" of the class "**Console**"</div>
+<div class="fragment balloon" style="top:12%; left:31%">Include the standard namespace `System`</div>
+<div class="fragment balloon" style="top:23%; left:35%">Define a class called `HelloCSharp`</div>
+<div class="fragment balloon" style="top:30%; left:61%">Define the `Main()` method – the program entry point</div>
+<div class="fragment balloon" style="top:53%; left:24%;width: 50%; text-align: center;">Print a text on the console by calling the method `WriteLine` of the class `Console`</div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # C# Code Should Be Well Formatted
 
 ```cs
@@ -98,36 +101,41 @@ class HelloCSharp
 }
 ```
 
-<div class="fragment balloon" style="top:31.81%; left:52.89%; width:44.08%">The **{** symbol should be alone on a new line.</div>
-<div class="fragment balloon" style="top:62.69%; left:59.93%; width:38.33%">The block after the **{** symbol should be indented by a **TAB**.</div>
-<div class="fragment balloon" style="top:62.69%; left:14.99%; width:40.81%">The **}** symbol should be under the corresponding **{**.</div>
-<div class="fragment balloon" style="top:13.10%; left:29.97%; width:68.76%">Class names should use **PascalCase** and start with a **CAPITAL** letter.</div>
+ <ol style="font-size: 0.9em">
+  <li class="fragment">The `{` symbol should be alone on a new line</li>
+  <li class="fragment">The block after the `{` symbol should be indented by a **TAB**</li>
+  <li class="fragment">The `}` symbol should be under the corresponding `{`</li>
+  <li class="fragment">Class names should use **PascalCase** and start with a **CAPITAL** letter</li>
+</ol>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px; top:0 !important' } -->
 # Example of Bad Formatting
+
+- Don't do this!
 
 ```cs
          using
 System
-                                                ;
+                         ;
 
-    class         HelloCSharp                   {
+    class         HelloCSharp         {
 	    static
-void       Main(                  )   {   Console   .      WriteLine    ("Hello, C#"     )  ;Console.
+void       Main(                  )   {   Console   .
+       WriteLine    ("Hello, C#"     )  ;Console.
    WriteLine        (               "Hello again"
                     )                         ;}}
 ```
 
-<div class="fragment balloon" style="top:14.97%; left:49.37%; width:35.22%">Such formatting makes the source code unreadable.</div>
+<div class="fragment balloon" style="top:63%; left:30%; width:35.22%; text-align: center">Such formatting makes the source code unreadable.</div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # What is "C#"?
-- Programming language
+- A programming language
   - A syntax that allow to give instructions to the computer
 - C# features:
-  - New cutting edge language
+  - Cutting edge language
   - Extremely powerful
   - Easy to learn
   - Easy to read and understand
@@ -136,7 +144,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic11.png" style="top:49.27%; left:74.85%; width:28.21%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # What You Need to Program?
 - Knowledge of a programming language
   - **C#**, **Javascript**, **C++**, **Java**, **Python**, etc
@@ -150,17 +158,17 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic12.png" style="top:49.81%; left:80.00%; width:23.36%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Your First C# Program
 ## [Demo]() -->
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # What is .NET Framework? -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic17.png" style="top:55%; left:35%; width:30%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'netframework', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'netframework',  showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # <a id="netframework"></a>What is .NET Framework?
 - Environment for execution of .NET programs
 - Powerful library of classes
@@ -175,13 +183,13 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic18.png" style="top:54.11%; left:63.62%; width:37.98%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper:'False', style:'font-size: 40px' } -->
 # Inside .NET Framework
 - Building blocks of .NET Framework
 
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/dot-net-blocks.png" style="top:25%; left:10%; width:80%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # CLR – The Heart of .NET Framework
 - Common Language Runtime (CLR)
   - Managed execution environment
@@ -196,7 +204,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic19.png" style="top:15%; left:80%; width:20%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Framework Class Library
 - Framework Class Library (FCL)
   - Provides basic functionality to developers:
@@ -209,17 +217,15 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
     - Applications for mobile devices
 
 
-
-
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # What is Visual Studio?
 ## Compiling, Running and Debugging C# Programs -->
 
-<!-- attr: { id:'visualstudio', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'visualstudio',  showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # <a id="visualstudio"></a>Visual Studio
-- Visual Studio – Integrated Development Environment (IDE)
-- Development tool that helps us to:
+- Visual Studio is an **I**ntegrated **D**evelopment **E**nvironment (IDE)
+- Development tool that helps us to: **&nbsp;**
   - Write code
   - Design user interface
   - Compile code
@@ -230,7 +236,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic20.png" style="top:63.47%; left:79.09%; width:26.86%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Benefits of Visual Studio
 - Single tool for:
   - Writing code in many languages (C#, VB, …)
@@ -242,12 +248,12 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic20.png" style="top:64.35%; left:79.82%; width:25.95%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Visual Studio – Example -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic23.png" style="top:12.34%; left:13.10%; width:81.10%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Creating New Console Application
 - File &rarr; New &rarr; Project ...
 - Choose C# console application
@@ -256,7 +262,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic24.png" style="top:35%; left:30%; width:62.31%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Creating New Console Application -->
 - Visual Studio creates some source code for you
 <div class="fragment balloon" style="top:25.26%; left:3.53%; width:23.80%">Namespace not required</div>
@@ -266,7 +272,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic25.png" style="top:21.13%; left:10.56%; width:85.88%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Compiling Source Code
 - The process of **compiling** includes:
   - Syntactic checks
@@ -280,7 +286,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic26.png" style="top:59.38%; left:86.08%; width:19.85%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Running Programs
 - The process of **running** application includes:
   - Compiling (if project not compiled)
@@ -290,7 +296,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - By pressing **[F5]** or **[Ctrl+F5]**
   - _Note_: Not all types of projects are startable!
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Debugging The Code
 - The process of **debugging** application includes:
   - Spotting an error
@@ -300,7 +306,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 - Iterative and continuous process
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Debugging in Visual Studio
 - Visual Studio has built-in debugger
 - It provides:
@@ -311,7 +317,7 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic31.png" style="top:50.65%; left:19.43%; width:68.96%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Visual Studio - Compiling, Running and Debugging C# Programs
 ## [Demo]() -->
 
@@ -319,13 +325,13 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Visual Studio  Blank Solution
 ## Creating a Solution Without Projects -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic35.png" style="top:55%; left:25%; width:50%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # What Is a Blank Solution?
 - A Visual Studio blank solution
   - Solution with no projects in it
@@ -335,20 +341,20 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
     - And not working in this project
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # VS Blank Solution -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic36.png" style="top:12.34%; left:8.27%; width:90.19%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Visual Studio  Blank Solution
 ## [Demo]() -->
 
 <!-- section start -->
-<!-- attr: { id:'msdn', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'msdn', class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # <a id="msdn"></a>What is MSDN Library?
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # What is MSDN Library? -->
 - Complete documentation of all classes and their functionality
   - With descriptions of all methods, properties, events, etc.
@@ -360,12 +366,12 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic41.png" style="top:50.90%; left:60.05%; width:42.16%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # MSDN Library -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic42.png" style="top:13.22%; left:6.43%; width:93.55%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # How to Use MSDN Library?
 - Offline version (obsolete)
   - Use the table of contents
@@ -377,13 +383,13 @@ void       Main(                  )   {   Console   .      WriteLine    ("Hello,
   - Use the built-in search: [F1]
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # MSDN Library
 ## Browsing and Searching Documentation
 ## [Demo]() -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Introduction to Programming
 - Questions?
 
