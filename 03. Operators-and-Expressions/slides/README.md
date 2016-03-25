@@ -16,15 +16,15 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Table of Contents
-- [Operators in C# and Operator Precedence](#operators)
-- [Arithmetic Operators](#arithmetic)
-- [Logical Operators](#logical)
-- [Bitwise Operators](#bitwise)
-- [Comparison Operators](#comparison)
-- [Assignment Operators](#assignment)
-- [Other Operators](#other)
-- [Implicit and Explicit Type Conversions](#conversion)
-- [Expressions](#expressions)
+- [Operators in C# and Operator Precedence](#/operators)
+- [Arithmetic Operators](#/arithmetic)
+- [Logical Operators](#/logical)
+- [Bitwise Operators](#/bitwise)
+- [Comparison Operators](#/comparison)
+- [Assignment Operators](#/assignment)
+- [Other Operators](#/other)
+- [Implicit and Explicit Type Conversions](#/conversion)
+- [Expressions](#/expressions)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:24.24%; left:73.92%; width:29.84%; z-index:-1" /> -->
 

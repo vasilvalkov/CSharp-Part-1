@@ -8,14 +8,14 @@ Write a program that reads your birthday(in the format `MM.DD.YYYY`) from the co
 
 ## Output
 - You should print two lines with one number on the each line:
-  1. How old are you now on the first line.
-  2. How old will you be after 10 years.
+  1. How old are you now, on the first line.
+  2. How old will you be after 10 years, on the second line.
   
 ## Constraints
 - The date read from the console will always be in a valid DateTime format.
 - All dates will be earlier than 2016.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample Tests
 
@@ -23,3 +23,6 @@ Write a program that reads your birthday(in the format `MM.DD.YYYY`) from the co
 |----------|---------|
 |03.05.2016|0<br/>10 |
 |05.16.1994|21<br/>31|
+
+## Submission
+- Submit your code in [Introduction to Programming](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming) contest at [www.bgcoder.com](http://bgcoder.com/).

@@ -11,4 +11,7 @@ Write a program that prints the numbers **1**, **101** and **1001**, each on a s
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
+
+## Submission
+- Submit your code in [Introduction to Programming](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming) contest at [www.bgcoder.com](http://bgcoder.com/).

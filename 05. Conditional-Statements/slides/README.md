@@ -12,11 +12,11 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [Comparison and Logical Operators](#operators)
-- [The **if** Statement](#if)
-- [The **if-else** Statement](#ifelse)
-- [Nested **if** Statements](#nestedif)
-- [The **switch-case** Statement](#switch)
+- [Comparison and Logical Operators](#/operators)
+- [The **if** Statement](#/if)
+- [The **if-else** Statement](#/ifelse)
+- [Nested **if** Statements](#/nestedif)
+- [The **switch-case** Statement](#/switch)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" /> -->

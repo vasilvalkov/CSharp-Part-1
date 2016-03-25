@@ -11,4 +11,7 @@ Write a program that calculates the square root of the number **12345** and prin
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
+
+## Submission
+- Submit your code in [Introduction to Programming](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming) contest at [www.bgcoder.com](http://bgcoder.com/).
