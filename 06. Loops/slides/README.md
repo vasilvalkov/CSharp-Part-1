@@ -720,7 +720,7 @@ static void Main()
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
     - telerikacademy.com
-    
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic31.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic32.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
