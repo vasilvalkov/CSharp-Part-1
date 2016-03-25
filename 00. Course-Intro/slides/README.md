@@ -296,7 +296,7 @@
   - Share source code / discuss ideas
 - The C# Fundamentals official web site:
 - [Forum thread](http://telerikacademy.com/Forum/Category/18/csharp-part-1)
-- [Course site](http://telerikacademy.com/Courses/Courses/Details/212)
+- [Course site](http://telerikacademy.com/Courses/Courses/Details/323)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic51.png" style="top:40.76%; left:82.34%; width:16.54%; z-index:-1" /> -->
 

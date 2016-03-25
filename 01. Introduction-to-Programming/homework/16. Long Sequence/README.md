@@ -22,3 +22,6 @@ Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -
 ## Constraints
 - Time limit: **0.1s**
 - Memory limit: **8MB**
+
+## Submission
+- Submit your code in [Introduction to Programming](http://bgcoder.com/Contests/314/CSharp-Fundamentals-01-Introduction-to-Programming) contest at [www.bgcoder.com](http://bgcoder.com/).
