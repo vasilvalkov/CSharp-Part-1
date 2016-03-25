@@ -4,7 +4,7 @@ Primitive data types (`int`, `short`, `byte`, `long`, `bool`, `string`, `char`),
 
 ## Resources
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/02.%20Data-Types-and-Variables/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/02. Data-types-and-Variables/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/02. Data-Types-and-Variables/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/02. Data-Types-and-Variables/VIDEOS.md)
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/Topics/02.%20Data-Types-and-Variables/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](VIDEOS.md)
 
 ## Table of Contents
 - [Primitive Data Types](slides/README.md#/primitive)
@@ -21,4 +21,4 @@ Primitive data types (`int`, `short`, `byte`, `long`, `bool`, `string`, `char`),
 - [Nullable Types](slides/README.md#/nullable)
 - [Dynamic Types](slides/README.md#/dynamic)
 
-#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](../README.md)
+#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](/README.md)
