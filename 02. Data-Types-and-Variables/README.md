@@ -1,4 +1,4 @@
-### 02. Data Types and Variables
+## 02. Data Types and Variables
 
 Primitive data types (`int`, `short`, `byte`, `long`, `bool`, `string`, `char`), creating and using variables
 
@@ -6,7 +6,7 @@ Primitive data types (`int`, `short`, `byte`, `long`, `bool`, `string`, `char`),
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/02.%20Data-Types-and-Variables/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/02. Data-types-and-Variables/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/02. Data-Types-and-Variables/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/02. Data-Types-and-Variables/VIDEOS.md)
 
-### Table of Contents
+## Table of Contents
 - [Primitive Data Types](slides/README.md#/primitive)
   - [Integer](slides/README.md#/integer)
   - [Floating-Point / Decimal Floating-Point](slides/README.md#/float)

@@ -6,7 +6,7 @@ Using the `Console` object, reading from the console (strings, numbers), printin
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/04.%20Console-In-and-Out/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/04. Console-In-and-Out/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/04. Console-In-and-Out/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/04. Console-In-and-Out/VIDEOS.md)
 
-### Table of Contents
+## Table of Contents
 - [Printing to the Console](slides/README.md#/printing)
   - [Printing Strings and Numbers](slides/README.md#/printingtypes)
 - [Reading from the Console](slides/README.md#/reading)

@@ -1,4 +1,4 @@
-### 03. Operators and Expressions
+## 03. Operators and Expressions
 
 Logical, Arithmetic and Bitwise operators, expressions
 
@@ -6,7 +6,7 @@ Logical, Arithmetic and Bitwise operators, expressions
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/03.%20Operators-and-Expressions/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/03. Operators-and-Expressions/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/03. Operators-and-Expressions/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/03. Operators-and-Expressions/VIDEOS.md)
 
-### Table of Contents
+## Table of Contents
 - [Operators in C# and Operator Precedence](slides/README.md#/operators)
 - [Arithmetic Operators](slides/README.md#/arithmetic)
 - [Logical Operators](slides/README.md#/logical)
