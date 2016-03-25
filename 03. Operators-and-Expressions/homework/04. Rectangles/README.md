@@ -6,8 +6,8 @@ The **width** and **height** should be read from the console.
 
 ## Input
 - The input will consist of 2 lines:
-  1. On the first line, you will receive a floating-point number that will represent the **width** of the rectangle.
-  1. On the second line, you will receive another floating-point number that will represent the **height** of the rectangle.
+  - On the first line, you will receive a floating-point number that will represent the **width** of the rectangle.
+  - On the second line, you will receive another floating-point number that will represent the **height** of the rectangle.
 
 ## Output
 - Output a single line - the rectangle's **perimeter** and **area**, separated by a **whitespace**.
