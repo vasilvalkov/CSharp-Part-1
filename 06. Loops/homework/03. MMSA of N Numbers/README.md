@@ -19,7 +19,7 @@ avg=4.5
 ```
 
 ## Constraints
-- 1 <= N <= 1000
+- 1 <= **N** <= 1000
 - All numbers will be valid floating-point numbers that will be in the range `[-10000, 10000]`
 - Time limit: **0.1s**
 - Memory limit: **16MB**
