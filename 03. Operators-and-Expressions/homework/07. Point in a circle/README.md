@@ -10,7 +10,7 @@ The program should then print **"yes DISTANCE"** if the point is inside the circ
 - You will receive exactly two lines, the first containing the **x** coordinate, the second containing the **y** coordinate.
 
 ## Output
-- Output a single line in the format described above. The distance should be always printed with _5-digit precision_ after the floating point.
+- Output a single line in the format described above. The distance should be always printed with _2-digit precision_ after the floating point.
 
 ## Constraints
 - The numbers **x** and **y** will always be valid floating point numbers in the range `(-1000, 1000)`

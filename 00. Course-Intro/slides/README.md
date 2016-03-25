@@ -4,19 +4,17 @@
 # C# Fundamentals
 ## About the Course
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:12.34%; left:8.42%; width:20.28%; z-index:-1" />-->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:2.67%; left:92.63%; width:15.87%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:4.76%; left:68.30%; width:12.87%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:36.74%; left:30.79%; width:13.05%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:51.57%; left:57.08%; width:46.91%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:53.98%; left:60.86%; width:39.78%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:50.25%; left:7.49%; width:27.86%; z-index:-1" /> -->
-
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">C# Fundamentals</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
 </div>
+
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:11%; left:10%; width:20.28%; z-index:-1" />-->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:40%; left:30.79%; width:13.05%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="bottom:10%; left:57.08%; width:46.91%; z-index:-1;  border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="bottom:10%; left:60.86%; width:39.78%; z-index:-1; border-radius: 15px" /> -->
 
 
 <!-- section start -->
@@ -29,36 +27,35 @@
 - [Examination](#/examination)
 - [Learning Resources](#/resources)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:52.89%; left:78.60%; width:23.35%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.34%; left:51.46%; width:52.28%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:16.93%; left:66.09%; width:36.03%; z-index:-1" /> -->
-
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="bottom:10%; right:5%; width:23.35%;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.34%; left:51.46%; width:45%; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="bottom:10%; left:5%; width:60%; border-radius: 15px; box-shadow: -3px 3px 3px #cf3" /> -->
 
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
 <!-- # C# Programming: Objectives & Program
-## What Topics Shall We Cover? -->
+## Topics to be covered -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:40%; left:87%; width:15%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:0%; left:24.33%; width:31.74%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:6.60%; left:87.22%; width:14.46%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:56%; left:1%; width:24.74%; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:6.60%; left:87.22%; width:14.46%; border-radius: 15px;" /> -->
 
 
 <!-- attr: { id: 'objectives', showInPresentation: true } -->
 # <a id="objectives"></a>C# Track Objectives
-- The **C# Programming** track at the Academy:
+- The **C# Programming** track at the Academy>>>:
   - Give the trainees the **fundamental** computer programming knowledge and skills
   - Establish the logical and **algorithmic thinking**
     - Development of **problems solving** skills
   - Learn basic **data structures**, **algorithms** and object-oriented programming (**OOP**) concepts
   - Learn to produce **high-quality code**
   - **Prepare** for learning the software technologies
-    - HTML5, DB & SQL, Cloud, Web, Mobile, QA, …
+    - `HTML5`, `DB` & `SQL`, `Cloud`, `Web`, `Mobile`, `QA`, …
 
 
 <!-- attr: { id: 'topics', showInPresentation: true, hasScriptWrapper: true} -->
-# <a id="topics"></a>C# Fundamentals – Course Topics
+# <a id="topics"></a>C# Fundamentals:<br/>Course Topics
 
 - Introduction to Programming
 - Primitive Data Types and Variables
@@ -69,18 +66,15 @@
 - Exam Preparation
 - **C# Practical Exam**
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:12.94%; left:91.97%; width:13.28%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:48.48%; left:58.01%; width:43.66%; z-index:-1" /> -->
-
-
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:56%; left:55%; width:40%; border-radius: 15px" /> -->
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
 <!-- # C# Programming Course – More Details
 
 ## Duration, Languages, Technologies -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:62%; left:11.23%; width:30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:62%; left:65.50%; width:25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:70%; left:11.23%; width:25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:70%; left:65.50%; width:20%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -95,14 +89,13 @@
     - April 2016
   - Exam: TBD
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:11.75%; left:88.26%; width:15.43%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:54%; left:50.53%; width:47.83%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:57%; left:40%; width:40%; border-radius: 15px" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Why C# and .NET Framework?
 
-- Microsoft is very strong industry leader
+- Microsoft is very strong   industry leader
   - **.NET Framework** and **C#** are the primary development technologies in the MS ecosystem
 - The **C#** language
   - Modern object-oriented language
@@ -111,8 +104,6 @@
   - Easy to learn
   - Easy to switch to other languages
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic28.png" style="top:55.54%; left:84.21%; width:18.86%; z-index:-1" /> -->
-
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Why English?
@@ -120,20 +111,19 @@
 - Why the slides are in **English**?
   - English is the native languageof the software engineers
   - **Just learn it!**
-  - Specific terminology shouldbe in English
-    - Translations areinaccurate and funny
+  - Specific terminology should be in English
+    - Translations are inaccurate and funny
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:51.77%; left:72.05%; width:30.85%; z-index:-1" /> -->
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic30.png" style="top:19.39%; left:77.66%; width:23.80%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:60%; left:10%; width:30.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic30.png" style="top:60%; left:58%; width:23.80%; z-index:-1" /> -->
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
 <!-- # C# Fundamentals Exams
 ## Examination Criteria -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:52%; left:58.07%; width:44.02%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:52%; left:6.55%; width:44.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:54%; left:58.07%; width:37%; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic32.png" style="top:54%; left:6.55%; width:37%; border-radius: 15px;" /> -->
 
 
 <!-- attr: { id:'examination', showInPresentation: true, hasScriptWrapper: true} -->
@@ -144,8 +134,8 @@
   - Score formed by **many components**:
     - Exam results, forums activity, homework, lectures attendance, etc.
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic34.png" style="top:46.20%; left:7.49%; width:40.55%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic35.png" style="top:46.20%; left:57.17%; width:44.57%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic34.png" style="top:50%; left:7.49%; width:40.55%; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic35.png" style="top:50%; left:57.17%; width:44.57%; border-radius: 15px" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -160,7 +150,7 @@
 - **Forums** **activity** – bonus up to **5%**
 - **Helping** the **other** students – bonus up to **10%**
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:13.22%; left:81.71%; width:22.11%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:25%; left:75%; width:22.11%; border-radius: 15px" /> -->
 
 
 <!-- attr: { showInPresentation: true} -->
@@ -201,7 +191,7 @@
   - Use Student ID Card
   - Check in +/-30 min. <br />before/after lecture starts
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic37.png" style="top:57.30%; left:50%; width:45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic37.png" style="top:59%; left:55%; width:45%; border-radius: 5px" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -215,9 +205,9 @@
 	- **Fail**
 		- Low total results or low exam results
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic38.png" style="top:48.48%; left:61.75%; width:14.10%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic39.png" style="top:22.04%; left:76.96%; width:23.36%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic40.png" style="top:61.71%; left:88.89%; width:13.22%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic38.png" style="top:41%; left:67%; width:14.10%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic39.png" style="top:16%; left:51%; width:23.36%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic40.png" style="top:57%; left:79%; width:13.22%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true} -->
@@ -271,7 +261,7 @@
 - The C# track is based on the book
 - C# Fundamentals &rarr; chapters 1..6 (up to Loops)
 
-	<img class="slide-image" showInPresentation="true" src="imgs/pic49.png" style="top:22.04%; left:75%; width:26.15%; z-index:-1" />
+	<img class="slide-image" showInPresentation="true" src="imgs/pic49.png" style="top:29%; left:79%; width:14%" />
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 <!-- # Telerik IntegratedLearning System (TILS) -->
@@ -283,8 +273,6 @@
   - Presence cards (barcodes)
   - Calendar, team work, forum
   - Etc.
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic50.png" style="top:51.13%; left:70.65%; width:32.72%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -298,7 +286,7 @@
 - [Forum thread](http://telerikacademy.com/Forum/Category/18/csharp-part-1)
 - [Course site](http://telerikacademy.com/Courses/Courses/Details/323)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic51.png" style="top:40.76%; left:82.34%; width:16.54%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic51.png" style="top:53%; left:64%; width:16.54%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -310,9 +298,6 @@
     - Visual Studio 2012, 2013 is also OK
     - Other IDEs (e.g. Visual Studio Code, MonoDevelop, Xamarin Studio) are OK, too
   - .NET Framework 4.5 (included in Visual Studio)
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic52.png" style="top:62%; left:50.53%; width:51.79%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic53.png" style="top:62%; left:6.87%; width:37.30%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
