@@ -4,17 +4,17 @@
 # C# Fundamentals
 ## About the Course
 
+<div class="signature">
+	<p class="signature-course">C# Fundamentals</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
+</div>
+
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:11%; left:10%; width:20.28%; z-index:-1" />-->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:40%; left:30.79%; width:13.05%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="bottom:10%; left:57.08%; width:46.91%; z-index:-1;  border-radius: 15px" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="bottom:10%; left:60.86%; width:39.78%; z-index:-1; border-radius: 15px" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="bottom:10%; left:10%; width:27.86%; z-index:-1; border-radius: 15px" /> -->
-
-<div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
-</div>
 
 
 <!-- section start -->
@@ -44,14 +44,14 @@
 
 <!-- attr: { id: 'objectives', showInPresentation: true } -->
 # <a id="objectives"></a>C# Track Objectives
-- The **C# Programming** track at the Academy:
+- The **C# Programming** track at the Academy>>>:
   - Give the trainees the **fundamental** computer programming knowledge and skills
   - Establish the logical and **algorithmic thinking**
     - Development of **problems solving** skills
   - Learn basic **data structures**, **algorithms** and object-oriented programming (**OOP**) concepts
   - Learn to produce **high-quality code**
   - **Prepare** for learning the software technologies
-    - HTML5, DB & SQL, Cloud, Web, Mobile, QA, …
+    - `HTML5`, `DB` & `SQL`, `Cloud`, `Web`, `Mobile`, `QA`, …
 
 
 <!-- attr: { id: 'topics', showInPresentation: true, hasScriptWrapper: true} -->
