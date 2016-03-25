@@ -1,5 +1,11 @@
-## 04. Console-In-and-Out
-### [View Presentation online](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/04.%20Console-In-and-Out/slides/index.html)
+### 04. Console IO
+
+Using the `Console` object, reading from the console (strings, numbers), printing to the console with formats
+
+## Resources
+
+##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](https://rawgit.com/TelerikAcademy/CSharp-Part-1/master/04.%20Console-In-and-Out/slides/index.html) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/04. Console-In-and-Out/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/04. Console-In-and-Out/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/04. Console-In-and-Out/VIDEOS.md)
+
 ### Table of Contents
 - [Printing to the Console](slides/README.md#/printing)
   - [Printing Strings and Numbers](slides/README.md#/printingtypes)
@@ -9,3 +15,5 @@
   - [Reading Numeral Types](slides/README.md#/numeral)
   - [Parsing Strings to Numeral Types](slides/README.md#/parsing)
 - [Various _Examples_](slides/README.md#/examples)
+
+#### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](../README.md)
