@@ -13,7 +13,7 @@ Write a program that reads your birthday(in the format `MM.DD.YYYY`) from the co
   
 ## Constraints
 - The date read from the console will always be in a valid DateTime format.
-- All dates will be earlier than 2016.
+- All dates will be earlier than 2017.
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 
