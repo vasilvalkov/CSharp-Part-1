@@ -13,4 +13,4 @@ Homework: Conditional Statements
 1. [Biggest of 5](./06. Biggest of 5)
 1. [Sort 3 Numbers](./07. Sort 3 Numbers)
 1. [Digit as Word](./08. Digit as Word)
-1. [](./09. Int, Double and String)
+1. [Int, Double, String](./09. Int, Double and String)
