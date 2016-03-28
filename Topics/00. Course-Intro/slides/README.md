@@ -166,20 +166,6 @@
   - Use the same email address in both systems!
 
 
-<!-- attr: { showInPresentation: true} -->
-# Homework Peer Reviews
-
-- Everyone will **get feedback** for their homework
-- Everyone will **give feedback** for few random homework submissions
-  - Students submit homework **anonymously**
-    - Please exclude your name from the submissions!
-  - For each homework submitted
-    - Students **evaluate 3 random homeworks**
-    - From the same topic, **up to 3 days** after the deadline
-    - Give written feedback, at least 200 characters
-    - Low-quality feedback &rarr; report for punishment
-
-
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Attendance in Class
 
@@ -223,7 +209,7 @@
   - For each test passed you get some score
 
 
-<!-- attr: { showInPresentation: true} -->
+<!-- attr: { showInPresentation: true, style: 'font-size: 40px'} -->
 # Homework Assignments
 
 - Doing your homework is very important!
@@ -233,7 +219,9 @@
   - The rest are your homework
 - Homework assignments due 1 week after each lecture – no excuses for being late
   - Deadlines are final & enforced by the system
-- Submit homework through telerikacademy.com
+- Submit all your homework in our **judge system**
+  - [bgcoder.com](http://bgcoder.com)
+  - You will get real-time feedback for all the tasks
 
 
 
