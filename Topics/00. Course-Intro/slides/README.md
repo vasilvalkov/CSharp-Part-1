@@ -141,14 +141,13 @@
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Scoring System for C# Fundamentals
 
--	**TBD**
-- **Exam** – **75%**
+- **Exam** – **65%**
      - Serves as primary **pass/fail** criteria
-- **Attendance** in class – **10%**
+- **Online test** - **10%**
 - **Homework** – **10%**
-- **Homework evaluation** – **5%**
+- **Attendance** in class – **5%**
 - **Forums** **activity** – bonus up to **5%**
-- **Helping** the **other** students – bonus up to **10%**
+- **Helping** the **other** students – bonus up to **5%**
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:25%; left:75%; width:22.11%; border-radius: 15px" /> -->
 
