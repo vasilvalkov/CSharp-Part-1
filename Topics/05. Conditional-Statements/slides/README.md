@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Conditional Statements
 ## Implementing Control Logic in C*#*
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic01.png" style="top:45%; left:6.55%; width:20.83%; z-index:-1" /> -->
@@ -10,13 +10,13 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Table of Contents
 - [Comparison and Logical Operators](#/operators)
-- [The **if** Statement](#/if)
-- [The **if-else** Statement](#/ifelse)
-- [Nested **if** Statements](#/nestedif)
-- [The **switch-case** Statement](#/switch)
+- [The `if` Statement](#/if)
+- [The `if-else` Statement](#/ifelse)
+- [Nested `if` Statements](#/nestedif)
+- [The `switch-case` Statement](#/switch)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" /> -->
@@ -25,19 +25,19 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Comparison and Logical Operators -->
 
-<!-- attr: { id:'operators', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 38px' } -->
+<!-- attr: { id:'operators', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 38px' } -->
 # <a id="operators"></a>Comparison Operators
 | Operator      | C# Notation   |
 | ------------- |:-------------:|
-| Equals        | ==            |
-| Not Equals    | !=            |
-| Greater than  | >             |
-| Greater than or equal | >=    |
-| Less than     | <             |
-| Less than or equal | <=       |
+| Equals        | `==`          |
+| Not Equals    | `!=`          |
+| Greater than  | `>`           |
+| Greater than or equal | `>=`  |
+| Less than     | `<`           |
+| Less than or equal | `<=`     |
 
 - _Example_:
 
@@ -48,37 +48,37 @@ Console.WriteLine(result); // outputs True
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Logical Operators
 | **Logical Operator**      | C# Notation   |
-| ----------------------- |:-------------:|
-| **AND**                   | &&            |
-| **NOT**                   | >             |
-| **OR**                    | &#124; &#124; |
-| **Greater than or equal** | !             |
-| **XOR(Exclusive OR)**     | ^             |
+| ------------------------- |:-------------:|
+| **AND**                   | `&&`          |
+| **NOT**                   | `>`           |
+| **OR**                    | <code>&#124;&#124;</code> |
+| **Greater than or equal** | `!`           |
+| **XOR (Exclusive OR)**    | `^`           |
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # De Morgan Laws
 - De Morgan laws
-  - **!!A** equals **A**
-  - **!(A || B)** equals **!A && !B**
-  - **!(A && B)** equals **!A || !B**
+  - `!!A` equals `A`
+  - `!(A || B)` equals `!A && !B`
+  - `!(A && B)` equals `!A || !B`
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:55.54%; left:60%; width:32.94%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # if and if-else
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # `if` and `if-else`
 ## Implementing Conditional Logic -->
 
 
-<!-- attr: { id:'if', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# <a id="if"></a>The if Statement
+<!-- attr: { id:'if', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# <a id="if"></a>The `if` Statement
 - The most simple conditional statement
 - Enables you to test for a condition
 - Branch to different parts of the code depending on the result
-- The simplest form of an **if** statement:
+- The simplest form of an `if` statement:
 
 ```cs
 if (condition)
@@ -87,7 +87,7 @@ if (condition)
 }
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Condition and Statement
 - The condition can be:
   - Boolean variable
@@ -102,16 +102,16 @@ if (condition)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:13.22%; left:81.46%; width:24.64%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # How It Works?
 - The condition is evaluated
-  - If it is true, the statement is executed
-  - If it is false, the statement is skipped
+  - If it is `true`, the statement is executed
+  - If it is `false`, the statement is skipped
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/block-schema.png" style="top:35%; left:20%; width:55%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# The if Statement – _Example_
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# The `if` Statement – _Example_
 
 ```cs
 static void Main()
@@ -129,21 +129,21 @@ static void Main()
     }
 
     Console.WriteLine("The greater number is: {0}",
-        biggerNumber);
+                                        biggerNumber);
 }
 ```
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # The if Statement
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # The `if` Statement
 ## Demo -->
 
-<!-- attr: { id:'ifelse', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# <a id="ifelse"></a>The if-else Statement
+<!-- attr: { id:'ifelse', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# <a id="ifelse"></a>The `if-else` Statement
 - More complex and useful conditional statement
-- Executes one branch if the condition is true, and another if it is false
-- The simplest form of an if-else statement:
+- Executes one branch if the condition is `true`, and another if it is `false`
+- The simplest form of an `if-else` statement:
 
 ```cs
 if (expression)
@@ -158,17 +158,17 @@ else
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # How It Works ?
 - The condition is evaluated
-  - If it is true, the first statement is executed
-  - If it is false, the second statement is executed
+  - If it is `true`, the first statement is executed
+  - If it is `false`, the second statement is executed
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/if-else-block-schema.png" style="top:35%; left:15%; width:70%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# if-else Statement – _Example_
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# `if-else` Statement – _Example_
 - Checking a number if it is odd or even
 
 ```cs
@@ -187,22 +187,22 @@ else
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # The if-else Statement
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # The `if-else` Statement
 ## Demo -->
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Nested if Statements
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Nested `if` Statements
 ## Creating More Complex Logic -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:55%; left:27.5%; width:45%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'nestedif', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# <a id="nestedif"></a>Nested if Statements
-- **if** and **if-else** statements can be **nested**, i.e. used inside another **if** or **else** statement
-- Every **else** corresponds to its closest preceding **if**
+<!-- attr: { id:'nestedif', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# <a id="nestedif"></a>Nested `if` Statements
+- `if` and `if-else` statements can be `nested`, i.e. used inside another `if` or `else` statement
+- Every `else` corresponds to its closest preceding `if`
 
 ```cs
 if (expression)
@@ -222,17 +222,17 @@ else
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Nested if – Good Practices
-- Always use **{** **…** **}** blocks to avoid ambiguity
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# Nested `if` – Good Practices
+- Always use `{ … }` blocks to avoid ambiguity
   - Even when a single statement follows
-- Avoid using more than three levels of nested **if** statements
+- Avoid using more than three levels of nested `if` statements
 - Put the case you normally expect to process first, then write the unusual cases
 - Arrange the code to make it more readable
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Nested if Statements – _Example_
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# Nested `if` Statements – _Example_
 
 ```cs
 if (first == second)
@@ -256,14 +256,14 @@ else
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Nested if Statements
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Nested `if` Statements
 ## Demo -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Multiple if-else-if-else-…
-- Sometimes we need to use another **if**-construction in the **else** block
-  - Thus **else if** can be used:
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# Multiple `if-else-if-else-…`
+- Sometimes we need to use another `if`-construction in the `else` block
+  - Thus `else if` can be used:
 
 ```cs
 int ch = 'X';
@@ -279,20 +279,20 @@ else if  …
 else …
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Multiple if-else Statements
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Multiple `if-else` Statements
 ## Demo -->
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:42%; left:30%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:52%; left:30%; width:40%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Switch-case
 ## Making Several Comparisons at Once -->
 
-<!-- attr: { id:'switch', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# <a id="switch"></a>The switch-case Statement
-- Selects for execution a statement from a list depending on the value of the **switch** expression
+<!-- attr: { id:'switch', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# <a id="switch"></a>The `switch-case` Statement
+- Selects for execution a statement from a list depending on the value of the `switch` expression
 
 ```cs
 switch (day)
@@ -310,31 +310,31 @@ switch (day)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# How switch-case Works?
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# How `switch-case` Works?
 - The expression is evaluated
 - When one of the constants specified in a case label is equal to the expression
-  - The statement that corresponds to that case is executed
-- If no case is equal to the expression
-  - If there is default case, it is executed
-  - Otherwise the control is transferred to the end point of the switch statement
+  - The statement that corresponds to that `case` is executed
+- If no `case` is equal to the expression
+  - If there is `default` case, it is executed
+  - Otherwise the control is transferred to the end point of the `switch` statement
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # The switch-case Statement
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # The `switch-case` Statement
 ## Demo -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Using switch: Rules
-- Variables types like **string**, **enum** and integral types can be used for **switch** expression
-- The value **null** is permitted as a case label constant
-- The keyword **break** exits the switch statement
-- "No fall through" rule – you are obligated to use **break** after each case  
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# Using `switch`: Rules
+- Variables types like `string`, `enum` and integral types can be used for `switch` expression
+- The value `null` is permitted as a case label constant
+- The keyword `break` exits the switch statement
+- "No fall through" rule – you are obligated to use `break` after each case  
 - Multiple labels that correspond to the same statement are permitted
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Multiple Labels – _Example_
 
 ```cs
@@ -357,29 +357,29 @@ switch (animal)
 - You can use multiple labels to execute the same statement in more than one case
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Multiple Labels in a switch-case
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Multiple Labels in a `switch-case`
 ## Demo -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Using switch – Good Practices
-- There must be a separate **case** for every normal situation
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# Using `switch` – Good Practices
+- There must be a separate `case` for every normal situation
 - Put the normal case first
   - Put the most frequently executed cases first and the least frequently executed last
 - Order cases alphabetically or numerically
-- In **default** use case that cannot be reached under normal circumstances
+- In `default` use case that cannot be reached under normal circumstances
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Summary
 - Comparison and logical operators are used to compose logical conditions
-- The conditional statements **if** and **if-else** provide conditional execution of blocks of code
+- The conditional statements `if` and `if-else` provide conditional execution of blocks of code
   - Constantly used in computer programming
   - Conditional statements can be nested
-- The **switch** statement easily and elegantly checks an expression for a sequence of values
+- The `switch` statement easily and elegantly checks an expression for a sequence of values
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 <!-- # Conditional Statements
 ## Questions? -->
 
@@ -387,13 +387,13 @@ switch (animal)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/q1.png" style="top:55%; left:42.10%; width:24.25%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/q2.png" style="top:43.20%; left:8.19%; width:23.14%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Free Trainings @ Telerik Academy
-- Fundamentals of C# ProgrammingTrack of Courses
+- Fundamentals of C# Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
-    - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
+    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
-    - telerikacademy.com
+    - [telerikacademy.com](https://telerikacademy.com)
