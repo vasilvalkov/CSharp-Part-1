@@ -7,7 +7,7 @@
 <div class="signature">
 	<p class="signature-course">C# Fundamentals</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
-	<a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
+	<a href="http://telerikacademy.com" class="signature-link">http://telerikacademy.com</a>
 </div>
 
 

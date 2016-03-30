@@ -8,7 +8,7 @@
 <div class="signature">
   <p class="signature-course">C# Fundamentals</p>
   <p class="signature-initiative">Telerik Software Academy</p>
-  <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
+  <a href="http://telerikacademy.com" class="signature-link">http://telerikacademy.com</a>
 </div>
 
 
@@ -160,7 +160,7 @@ void       Main(                  )   {   Console   .
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Your First C# Program
-## [Demo]() -->
+## [Demo](./../demos/00.HelloCSharp) -->
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
