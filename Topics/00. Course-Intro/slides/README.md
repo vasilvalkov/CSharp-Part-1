@@ -7,7 +7,7 @@
 <div class="signature">
 	<p class="signature-course">C# Fundamentals</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
-	<a href="http://telerikacademy.com" class="signature-link">http://telerikacademy.com</a>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 
@@ -23,7 +23,6 @@
 
 - [Course Objectives](#/objectives)
 - [Course Program](#/topics)
-- [Trainers Team]()
 - [Examination](#/examination)
 - [Learning Resources](#/resources)
 
@@ -73,8 +72,8 @@
 <!-- # C# Programming Course – More Details
 
 ## Duration, Languages, Technologies -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:70%; left:11.23%; width:25%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:70%; left:65.50%; width:20%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic24.png" style="top:67%; left:11.23%; width:25%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:67%; left:65.50%; width:20%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -85,7 +84,7 @@
 - Homework: ~20-60 hours
 - Exam: 6 hours, 5 problems, http://bgcoder.com
 - Allocation
-  - Timeframe
+  - Time frame
     - April 2016
   - Exam: TBD
 
@@ -95,7 +94,7 @@
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Why C# and .NET Framework?
 
-- Microsoft is very strong   industry leader
+- Microsoft is very strong industry leader
   - **.NET Framework** and **C#** are the primary development technologies in the MS ecosystem
 - The **C#** language
   - Modern object-oriented language
@@ -109,7 +108,7 @@
 # Why English?
 
 - Why the slides are in **English**?
-  - English is the native languageof the software engineers
+  - English is the native language of the software engineers
   - **Just learn it!**
   - Specific terminology should be in English
     - Translations are inaccurate and funny
@@ -176,19 +175,19 @@
   - Use Student ID Card
   - Check in +/-30 min. <br />before/after lecture starts
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic37.png" style="top:59%; left:55%; width:45%; border-radius: 5px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic37.png" style="top:59%; left:57%; width:45%; border-radius: 5px" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Pass / Excellence / Fail Criteria
 - Criteria for pass / pass with excellence / fail
-	- **Pass with excellence**
-	  - Very high exam results
-	  - or High total results
-	- **Pass**
-		- Average total results
-	- **Fail**
-		- Low total results or low exam results
+  - **Pass with excellence**
+    - Very high exam results
+    - or High total results
+  - **Pass**
+    - Average total results
+  - **Fail**
+    - Low total results or low exam results
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic38.png" style="top:41%; left:67%; width:14.10%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic39.png" style="top:16%; left:51%; width:23.36%; z-index:-1" /> -->
@@ -232,7 +231,7 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic41.png" style="top:43.09%; left:7.49%; width:45.33%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic42.png" style="top:43.14%; left:83.62%; width:19.94%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic43.png" style="top:7.42%; left:33.06%; width:19.61%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic43.png" style="top:4%; left:33.06%; width:19.61%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic44.png" style="top:4.19%; left:58.09%; width:16.09%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic45.png" style="top:3.53%; left:75.48%; width:14.10%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic46.png" style="top:5.73%; left:94.27%; width:12.78%; z-index:-1" /> -->
@@ -244,16 +243,16 @@
 
 - A very helpful resource for the course
   - “Fundamentals of Programming with C#”, Nakov S. and his team, 2013
-  - Freely downloadable from: www.introprogramming.info
+  - Freely downloadable from: [www.introprogramming.info](http://www.introprogramming.info)
 - The C# track is based on the book
 - C# Fundamentals &rarr; chapters 1..6 (up to Loops)
 
 	<img class="slide-image" showInPresentation="true" src="imgs/pic49.png" style="top:29%; left:79%; width:14%" />
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-<!-- # Telerik IntegratedLearning System (TILS) -->
+<!-- # Telerik Integrated Learning System (TILS) -->
 - The Telerik Integrated Learning System (TILS)
-  - www.telerikacademy.com
+  - [telerikacademy.com](https://www.telerikacademy.com)
   - Important resource for all students
   - Homework submissions
   - Reports about your results
@@ -270,8 +269,8 @@
   - Find solutions for the exercises
   - Share source code / discuss ideas
 - The C# Fundamentals official web site:
-- [Forum thread](http://telerikacademy.com/Forum/Category/18/csharp-part-1)
-- [Course site](http://telerikacademy.com/Courses/Courses/Details/323)
+- [Forum thread](https://telerikacademy.com/Forum/Category/18/csharp-part-1)
+- [Course site](https://telerikacademy.com/Courses/Courses/Details/323)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic51.png" style="top:53%; left:64%; width:16.54%; z-index:-1" /> -->
 
@@ -281,23 +280,23 @@
 
 - Software needed for this course:
   - Microsoft Windows (XP / Win7 / Win8, Win10)
-  - Microsoft **Visual Studio2015** or Visual Studio Community 2015 (free version of  VS 2015)
+  - Microsoft **Visual Studio 2015** or Visual Studio Community 2015 (free version of VS 2015)
     - Visual Studio 2012, 2013 is also OK
     - Other IDEs (e.g. Visual Studio Code, MonoDevelop, Xamarin Studio) are OK, too
   - .NET Framework 4.5 (included in Visual Studio)
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-# Free Trainings @ Telerik Academy
+# Free Training @ Telerik Academy
 
-- Fundamentals of C# ProgrammingTrack of Courses
+- Fundamentals of C# Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
-    - [academy.telerik.com](http://academy.telerik.com)
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
-    - [facebook.com/TelerikAcademy](http://facebook.com/TelerikAcademy)
+    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
-    - [telerikacademy.com](http://telerikacademy.com)
+    - [telerikacademy.com](https://telerikacademy.com)
 
 <img class="slide-image" showInPresentation="true" src="imgs/pic54.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" />
 <img class="slide-image" showInPresentation="true" src="imgs/pic55.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" />
