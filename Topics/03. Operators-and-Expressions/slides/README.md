@@ -367,8 +367,8 @@ Console.WriteLine(
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
-<!-- # Bitwise Operators
-## [Demo](../demos/BitwiseOperators) -->
+<!-- # Bitwise Operators -->
+## [Demo](../demos/BitwiseOperators)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:45%; left:65%; width:25%; z-index:-1; border-radius: 15px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic16.png" style="top:45%; left:9.60%; width:25%; z-index:-1; border-radius: 15px;" /> -->
 
@@ -422,8 +422,8 @@ Console.WriteLine(x /= 2); // 5
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
-<!-- # Comparison and Assignment Operators
-## [Demo](../demos/ComparisonAndAssignmentOperators) -->
+<!-- # Comparison and Assignment Operators -->
+## [Demo](../demos/ComparisonAndAssignmentOperators)
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
@@ -513,8 +513,8 @@ Console.WriteLine(d); // 0
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
-<!-- # Other Operators
-## [Demo](../demos/OtherOperators) -->
+<!-- # Other Operators -->
+## [Demo](../demos/OtherOperators)
 
 
 <!-- section start -->
@@ -575,8 +575,8 @@ float maxHeightFloat = maxHeight; // Compilation error!
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
-<!-- # Type Conversions
-## [Demo](../demos/TypeConversions) -->
+<!-- # Type Conversions -->
+## [Demo](../demos/TypeConversions)
 
 
 
@@ -621,8 +621,8 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
-<!-- # Expressions
-## [Demo](../demos/Expressions) -->
+<!-- # Expressions -->
+## [Demo](../demos/Expressions)
 
 
 <!-- attr: { showInPresentation:'True',   } -->
