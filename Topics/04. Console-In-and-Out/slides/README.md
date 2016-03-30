@@ -2,6 +2,13 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Console Input / Output
 ## Reading and Writing to the Console
+
+<div class="signature">
+    <p class="signature-course">HTML Basics</p>
+    <p class="signature-initiative">Telerik Software Academy</p>
+    <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
+</div>
+
 <!-- <img class="slide-image" src="imgs/pic03.png" style="top:10%; left:0%; width:20.93%; z-index:-1" /> -->
 <!-- <img class="slide-image" src="imgs/pic04.png" style="top:50%; left:70%; width:26.32%; z-index:-1" /> -->
 <img class="slide-image" src="imgs/pic05.png" style="top:50%; left:20%; width:40.60%; z-index:-1" />
@@ -519,7 +526,7 @@ Console.WriteLine("The area of your figure " +
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Free Trainings @ Telerik Academy
-- Fundamentals of C# ProgrammingTrack of Courses
+- Fundamentals of C# Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
     - [academy.telerik.com](academy.telerik.com)
