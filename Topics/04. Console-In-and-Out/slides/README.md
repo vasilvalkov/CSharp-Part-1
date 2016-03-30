@@ -205,7 +205,7 @@ Console.WriteLine("Have a nice day!");
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Printing to the Console -->
-## [Demo](../demos/PrintingToConsole)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingToConsole)
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -263,7 +263,7 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Reading Keys from the Console -->
-## [Demo](../demos/ReadingKeys)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingKeys)
 
 
 <!-- attr: { id:'strings', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -286,7 +286,7 @@ Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Reading Strings from the Console -->
-## [Demo](../demos/ReadingString)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingString)
 
 
 <!-- attr: { id:'numeral', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -359,7 +359,7 @@ int value = Convert.ToInt32(invalid); // FormatException
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Reading Numbers from the Console--> 
-## [Demo](../demos/ReadingNumbers)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingNumbers)
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Error Handling when Parsing
@@ -383,7 +383,7 @@ else
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Parsing with TryParse --> 
-## [Demo](../demos/TryParse)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/TryParse)
 
 
 <!-- section start -->
@@ -471,7 +471,7 @@ Console.WriteLine("  {0}", company);
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Printing a Letter -->
-## [Demo](../demos/PrintingLetter) 
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingLetter) 
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -498,7 +498,7 @@ Console.WriteLine("The area of your figure " +
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Calculating Area -->
-## [Demo](../demos/CalculatingArea)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/CalculatingArea)
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
