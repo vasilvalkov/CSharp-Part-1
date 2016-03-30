@@ -21,7 +21,7 @@
   - [Parsing Strings to Numeral Types](#/parsing)
 - [Various _Examples_](#/examples)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:14.99%; left:83.27%; width:22.39%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:14.99%; left:75%; width:22.39%; z-index:-1; border-radius: 15px; border: 3px solid yellowgreen" /> -->
 
 
 
@@ -34,44 +34,44 @@
 
 <!-- attr: { id:'printing', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # <a id="printing"></a>Printing to the Console
-- Console is used to display information in a text window
-- Can display different values:
+- The **Console** is used to display information in a text window
+- **Can display different values**:
   - Strings
-  - Numeral types
+  - Numeric types
   - All primitive data types
 - To print to the console use the class **Console** (Found in namespace **System**)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:25%; left:76.23%; width:26.91%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:25%; left:76.23%; width:26.91%; z-index:-1; border-radius: 5px; box-shadow: 5px 5px 5px rgba(244, 245, 247, 0.5)" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # The Console Class
-- Provides methods for console input and output
-  - Input
-    - **Read(…)** – reads a single character
-    - **ReadKey(…)** – reads a combination of keys
-    - **ReadLine(…)** – reads a single line of characters
-  - Output
-    - **Write(…)** – prints the specified argument on the console
-    - **WriteLine(…)** – prints specified data to the console and moves to the next line
+- Provides methods for console **input** and **output**
+  - **Input**
+    - `Read(…)` – reads a single character
+    - `ReadKey(…)` – reads a combination of keys
+    - `ReadLine(…)` – reads a single line of characters
+  - **Output**
+    - `Write(…)` – prints the specified argument on the console
+    - `WriteLine(…)` – prints specified data to the console and moves to the next line
 
 
 <!-- attr: { id:'printingtypes', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # <a id="printingtypes"></a>Console.Write
-- Printing more than one variable using a formatting string
+- Printing an integer variable
 
 ```cs
 int a = 15;
-...
+
 Console.Write(a); // 15
 ```
 
-- Printing an integer variable
+- Printing more than one variable using a formatting string
 
 ```cs
 double a = 15.5;
 int b = 14;
-...
+
 Console.Write("{0} + {1} = {2}", a, b, a + b);
 // 15.5 + 14 = 29.5
 ```
@@ -81,20 +81,20 @@ Console.Write("{0} + {1} = {2}", a, b, a + b);
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Console.WriteLine
-- Printing more than one variable using a formatting string
+- Printing a string variable
 
 ```cs
 string str = "Hello C#!";
-...
+
 Console.WriteLine(str);
 ```
 
-- Printing a string variable
+- Printing more than one variable using a formatting string
 
 ```cs
 string name = "Marry";
 int year = 1987;
-...
+
 Console.WriteLine("{0} was born in {1}.", name, year);
 // Marry was born in 1987.
 ```
@@ -113,14 +113,16 @@ static void Main()
     string town = "Sofia";
 
     Console.Write("{0} is {1} years old from {2}.",
-        name, age, town);
+                  name, age, town);
     // Result: Peter is 18 years old from Sofia.
+    
     Console.Write("This is on the same line!");
+    
     Console.WriteLine("Next sentence will be" +
-        " on a new line.");
+                      " on a new line.");
 
     Console.WriteLine("Bye, bye, {0} from {1}.",
-        name, town);
+                      name, town);
 }
 ```
 
@@ -128,7 +130,7 @@ static void Main()
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Formatting Strings
-- **{**index[**,**alignment][**:**formatString]**}**
+- `{`**index**[`,`**alignment**][`:`**formatString**]`}`
 - **index**
   - The zero-based index of the argument whose string representation is to be included at this position in the string
 - **alignment**
@@ -139,9 +141,9 @@ static void Main()
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Formatting Strings
-- **{**index[**,**alignment][**:**formatString]**}**
+- `{`**index**[`,`**alignment**][`:`**formatString**]`}`
 - **formatString**
-  - Specifies the format of the corresponding argument's result string, e.g. "**X**", "**C**", "**0.00**"
+  - Specifies the format of the corresponding argument's result string, e.g. "`X`", "`C`", "`0.00`"
 - _Example_:
 
 ```cs
@@ -161,13 +163,13 @@ static void Main()
 ```cs
 static void Main()
 {
-    int a=2, b=3;
+    int a=2;
+    int b=3;
     Console.Write("{0} + {1} =", a, b);
-    Console.WriteLine(" {0}", a+b);
+    Console.WriteLine(" {0}", a + b);
     // 2 + 3 = 5
 
-    Console.WriteLine("{0} * {1} = {2}",
-        a, b, a*b);
+    Console.WriteLine("{0} * {1} = {2}", a, b, a * b);
     // 2 * 3 = 6
 
     float pi = 3.14159206;
@@ -183,20 +185,19 @@ static void Main()
 # Printing a Menu – _Example_
 
 ```cs
-double colaPrice = 1.20;
 string cola = "Coca Cola";
-double fantaPrice = 1.20;
+double colaPrice = 1.20;
+
 string fanta = "Fanta Dizzy";
-double zagorkaPrice = 1.50;
+double fantaPrice = 1.20;
+
 string zagorka = "Zagorka";
+double zagorkaPrice = 1.50;
 
 Console.WriteLine("Menu:");
-Console.WriteLine("1. {0} – {1}",
-	cola, colaPrice);
-Console.WriteLine("2. {0} – {1}",
-	fanta, fantaPrice);
-Console.WriteLine("3. {0} – {1}",
-	zagorka, zagorkaPrice);
+Console.WriteLine("1. {0} – {1}", cola, colaPrice);
+Console.WriteLine("2. {0} – {1}", fanta, fantaPrice);
+Console.WriteLine("3. {0} – {1}", zagorka, zagorkaPrice);
 Console.WriteLine("Have a nice day!");
 ```
 
@@ -213,25 +214,26 @@ Console.WriteLine("Have a nice day!");
 
 <!-- attr: { id:'reading', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # <a id="reading"></a>Reading from the Console
-- We use the console to read information from the command line
+- We use the console to **read information** from the command line
 - We can read:
-  - Characters
-  - Strings
-  - Numeral types (after conversion)
+  - `Characters`
+  - `Strings`
+  - `Numeric types` (after conversion)
 - To read from the console we use the methods **Console.Read()** and **Console.ReadLine()**
-<img class="slide-image" src="imgs/pic11.png" style="top:21.16%; left:67.37%; width:25%; z-index:-1" />
+<!-- <img class="slide-image" showInpresentation="True" src="imgs/pic11.png" style="top:21.16%; left:67.37%; width:25%; z-index:-1; transform: rotate(10deg)" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Console.Read()
-- Gets a single character from the console (after [Enter] is pressed)
-  - Returns a result of type **int**
-  - Returns **-1** if there aren’t more symbols
-- To get the actually read character we need to cast it to **char**
+- **Gets a single character** from the console (after `[Enter]` is pressed)
+  - Returns a result of type `int`
+  - Returns `-1` if there aren’t more symbols
+- To get the actually read character we need to cast it to `char`
 
 ```cs
 int i = Console.Read();
 char ch = (char) i;  // Cast the int to char
+
 // Gets the code of the entered symbol
 Console.WriteLine("The code of '{0}' is {1}.", ch, i);
 ```
@@ -247,7 +249,7 @@ Console.WriteLine("The code of '{0}' is {1}.", ch, i);
   - Reads a single character from console or a combination of keys
 - Returns a result of type **ConsoleKeyInfo**
   - **KeyChar** – holds the entered character
-  - **Modifiers** – holds the state of [Ctrl], [Alt], …
+  - **Modifiers** – holds the state of `[Ctrl]`, `[Alt]`, …
 
 ```cs
 ConsoleKeyInfo key = Console.ReadKey();
@@ -265,9 +267,9 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 
 <!-- attr: { id:'strings', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # <a id="strings"></a>Console.ReadLine
-- Gets a line of characters
-- Returns a **string** value
-- Returns **null** if the end of the input is reached
+- **Gets a line of characters**
+- Returns a `string` value
+- Returns `null` if the end of the input is reached
 
 ```cs
 Console.Write("Please enter your first name: ");
@@ -276,8 +278,7 @@ string firstName = Console.ReadLine();
 Console.Write("Please enter your last name: ");
 string lastName = Console.ReadLine();
 
-Console.WriteLine("Hello, {0} {1}!",
-    firstName, lastName);
+Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 ```
 
 
@@ -289,34 +290,35 @@ Console.WriteLine("Hello, {0} {1}!",
 
 <!-- attr: { id:'numeral', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # <a id="numeral"></a>Reading Numeral Types
-- Numeral types can not be read directly from the console
+- Numeric types can not be read directly from the console
 - To read a numeral type do the following:
-  - Read a string value
-  - Convert (parse) it to the required numeral type
-- **int.Parse(string)**
-  - Parses (converts) a **string** to **int**
+  - **Read a `string` value**
+  - **Convert (parse) it to the required numeric type**
+- **int.Parse(`string`)**
+  - Parses (converts) a `string` to `int`
 
 ```cs
-string str = Console.ReadLine()
-int number = int.Parse(str);
+string input = Console.ReadLine()
+int number = int.Parse(input);
 
 Console.WriteLine("You entered: {0}", number);
 ```
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Converting Strings to Numbers
-- Numeral types have a method **Parse(…)** for extracting the numeral value from a string
-  - **int.Parse(string)** – **string** &rarr; **int**
-  - **long.Parse(string)** – **string** &rarr; **long**
-  - **float.Parse(string)** – **string** &rarr; **float**
+- Numeric types have a method **Parse(…)** for extracting the numeral value from a string
+  - **int.Parse(`string`)** – `string` &rarr; `int`
+  - **long.Parse(`string`)** – `string` &rarr; `long`
+  - **float.Parse(`string`)** – `string` &rarr; `float`
   - Causes **FormatException** in case of error
 
 ```cs
 string s = "123";
 int i = int.Parse(s); // i = 123
 long l = long.Parse(s); // l = 123L
+
 string invalid = "xxx1845";
-int value = int.Parse(invalid); // FormatException
+int value = int.Parse(invalid); // FormatException is thrown
 ```
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -328,29 +330,28 @@ static void Main()
     int a = int.Parse(Console.ReadLine());
     int b = int.Parse(Console.ReadLine());
 
-    Console.WriteLine("{0} + {1} = {2}",
-        a, b, a+b);
-    Console.WriteLine("{0} * {1} = {2}",
-        a, b, a*b);
+    Console.WriteLine("{0} + {1} = {2}", a, b, a + b);
+    Console.WriteLine("{0} * {1} = {2}", a, b, a * b);
 
     float f = float.Parse(Console.ReadLine());
-    Console.WriteLine("{0} * {1} / {2} = {3}",
-        a, b, f, a*b/f);
+    Console.WriteLine("{0} * {1} / {2} = {3}", 
+                      a, b, f, a * b / f);
 }
 ```
 
 <!-- attr: { id:'parsing', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # <a id="parsing"></a>Converting Strings to Numbers
 - Converting can also be done using the methods of the **Convert** class
-  - **Convert.ToInt32(string)** – **string** &rarr; **int**
-  - **Convert.ToSingle(string)**– **string** &rarr; **float**
-  - **Convert.ToInt64(string)**– **string** &rarr; **long**
-  - It uses the parse methods of the numeral types
+  - **Convert.ToInt32(`string`)** - `string` &rarr; `int`
+  - **Convert.ToSingle(`string`)** - `string` &rarr; `float`
+  - **Convert.ToInt64(`string`)** - `string` &rarr; `long`
+  - It uses the parse methods of the numeric types
 
 ```cs
 string s = "123";
 int i = Convert.ToInt32(s); // i = 123
 long l = Convert.ToInt64(s); // l = 123L
+
 string invalid = "xxx1845";
 int value = Convert.ToInt32(invalid); // FormatException
 ```
@@ -362,12 +363,13 @@ int value = Convert.ToInt32(invalid); // FormatException
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Error Handling when Parsing
 - Sometimes we want to handle the errors when parsing a number
-  - Two options: use **try-catch** block or **TryParse()**
-- Parsing with **TryParse()**:
+  - Two options: use **try-catch** block or **TryParse** method
+- Parsing with **TryParse**:
 
 ```cs
 string str = Console.ReadLine();
 int number;
+
 if (int.TryParse(str, out number))
 {
    Console.WriteLine("Valid number: {0}", number);
@@ -391,9 +393,9 @@ else
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # How to Print Special Characters on the Console?
-- Printing special characters on the console needs two steps: <!-- .element: style="width: 75%" -->
-  - Change the console properties to enable Unicode-friendly font
-  - Enable Unicode for the **Console** by adjusting its output encoding
+- Printing <!-- .element: style="width: 75%" -->**special characters** on the console needs two steps: 
+  - **Change the console properties** to enable Unicode-friendly font
+  - **Enable Unicode** for the **Console** by adjusting its output encoding
     - Prefer UTF8 (Unicode)
 ```cs
 using System.Text;
@@ -407,9 +409,9 @@ Console.WriteLine("Това е кирилица: ☺");
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Decimal Separator
-- The currency format and number formats are different in different countries
-  - E.g. the decimal separator could be "**.**" or "**,**"
-- To ensure the decimal separator is "." use the following code:
+- The **currency** and **number formats** are different in different countries
+  - E.g. the decimal separator could be "`.`" or "`,`"
+- To ensure the decimal separator is "`.`" use the following code:
 
 ```cs
 using System.Threading;
@@ -417,6 +419,7 @@ using System.Globalization;
 …
 Thread.CurrentThread.CurrentCulture =
   CultureInfo.InvariantCulture;
+  
 Console.WriteLine(3.54); // 3.54
 decimal value = decimal.Parse("1.33");
 ```
@@ -447,10 +450,10 @@ string company = Console.ReadLine();
 
 Console.WriteLine("  Dear {0},", person);
 Console.WriteLine("We are pleased to tell you " +
-    "that {1} has chosen you to take part " +
-    "in the \"Introduction To Programming\" " +
-    "course. {1} wishes you good luck!",
-    person, company);
+                  "that {1} has chosen you to take part " +
+                  "in the \"Introduction To Programming\" " +
+                  "course. {1} wishes you good luck!",
+                  person, company);
 
 Console.WriteLine("  Yours,");
 Console.WriteLine("  {0}", company);
@@ -467,21 +470,22 @@ Console.WriteLine("  {0}", company);
 # Calculating Area – _Example_
 
 ```cs
-Console.WriteLine("This program calculates " +
-    "the area of a rectangle or a triangle");
+Console.WriteLine("This program calculates the area " +
+                  "of a rectangle or a triangle");
 
 Console.Write("Enter a and b (for rectangle) " +
-    " or a and h (for triangle): ");
+              "or a and h (for triangle): ");
+
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 
 Console.Write("Enter 1 for a rectangle or 2 " +
-    "for a triangle: ");
+              "for a triangle: ");
 
 int choice = int.Parse(Console.ReadLine());
-double area = (double) (a*b) / choice;
+double area = (double)(a * b) / choice;
 Console.WriteLine("The area of your figure " +
-    " is {0}", area);
+                  "is {0}", area);
 ```
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -491,13 +495,13 @@ Console.WriteLine("The area of your figure " +
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Summary
-- We have discussed the basic input and output methods of the class **Console**
-  - **Write(…)** and **WriteLine(…)**
+- We have discussed the basic **input** and **output** methods of the class **Console**
+  - **Write** and **WriteLine** methods
     - Used to write values to the console
-  - **Read(…)** and **ReadLine(…)**
+  - **Read** and **ReadLine** methods
     - Used to read values from the console
 - Parsing numbers to strings
-  - **int.Parse(…)**, **double.Parse(…)**, …
+  - **int.Parse**, **double.Parse**, and so on methods
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
