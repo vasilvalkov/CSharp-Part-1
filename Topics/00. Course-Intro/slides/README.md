@@ -286,6 +286,11 @@
   - .NET Framework 4.5 / 4.6 (included in Visual Studio)
 
 
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
+# C# Fundamentals Course Introduction
+- Questions?
+
+
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Free Training @ Telerik Academy
 
@@ -302,7 +307,3 @@
 <img class="slide-image" showInPresentation="true" src="imgs/pic55.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" />
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic56.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
-
-<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
-# C# Fundamentals Course Introduction
-- Questions?
