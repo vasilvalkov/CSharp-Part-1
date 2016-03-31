@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { class:'slide-title', showInPresentation:'true', hasScriptWrapper:'true' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Operators and Expressions
 ## Performing Simple Calculations with _C#_
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:40%; left:65%; width:35%; z-index:-1; border-radius:15px;" /> -->
@@ -11,7 +11,7 @@
 </div>
 
 <!-- section start -->
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
 - [Operators in C# and Operator Precedence](#/operators)
 - [Arithmetic Operators](#/arithmetic)
@@ -26,14 +26,14 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:24.24%; left:73.92%; width:29.84%; z-index:-1" /> -->
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Operators in _C#_
 ## Arithmetic, Logical, Comparison, Assignment, Etc. -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:65%; left:71.11%; width:20%; z-index:-1; border-radius:15px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:65%; left:11.23%; width:25%; z-index:-1; border-radius:15px;" /> -->
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 # What is an Operator?
 - `Operator` is an operation performed over data at runtime
   - Takes one or more `arguments` (`operands`)
@@ -43,7 +43,7 @@
 - `Expressions` are sequences of operators and operands that are evaluated to a single value
 
 
-<!-- attr: { id:'operators', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { id:'operators', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="operators"></a>Operators in _C#_
 - Operators in C# :
   - `Unary` – take one operand
@@ -52,16 +52,16 @@
 - Except for the assignment operators, all binary operators are left-associative
 - The assignment operators and the conditional operator (`?:`) are right-associative
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:12.34%; left:80%; width:15%; z-index:-1; border-radius:15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:12.34%; left:80%; width:15%; z-index:-1; border-radius:15px;" /> -->
 
-<!-- attr: { id:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 0.75em' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.7em' } -->
 # Categories of Operators in _C#_
 
 | Category             | Operators                                               |
 |:---------------------|:--------------------------------------------------------|
-| Arithmetic           | `+ - * /  %  ++  --`                                    |
+| Arithmetic           | `+ -  * / %  ++ --`                                     |
 | Logical              | `&&` <code>&#124;&#124;</code> `^ !`                    |
-| Binary               | `&` <code>&#124;</code> `^ ~ << >>`                     |
+| Binary               | `&` <code>&#124;</code> `^  ~  << >>`                   |
 | Comparison           | `== != < > <= >=`                                       |
 | Assignment           | `= += -= *= /= %= &=` <code>&#124;</code>`= ^= <<= >>=` |
 | String concatenation | `+`                                                     |
@@ -71,11 +71,11 @@
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Operators Precedence -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:45%; left:32.75%; width:35%; z-index:-1; border-radius:15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic06.png" style="top:45%; left:32.75%; width:35%; z-index:-1; border-radius:15px;" /> -->
 
-<!-- attr: { showInPresentation:'True',  style:'font-size: 0.8em' } -->
+<!-- attr: { showInPresentation:true, style:'font-size: 0.7em' } -->
 # Operators Precedence
 
 | Precedence           | Operators                        |
@@ -87,10 +87,10 @@
 |                      | `+ -`                            |
 |                      | `<< >>`                          |
 |                      | `< > <= >= is as`                |
-|                      | `== != `                         |
+|                      | `== !=`                          |
 | Lower                | `&`                              |
 
-<!-- attr: { showInPresentation:'True',hasScriptWrapper:'True',  style:'font-size: 0.8em' } -->
+<!-- attr: { showInPresentation:true,hasScriptWrapper:true, style:'font-size: 0.75em' } -->
 # Operators Precedence
 
 | Precedence           | Operators                           |
@@ -100,7 +100,7 @@
 |                      | `&&`                                |
 |                      | <code>&#124;&#124;</code>           |
 |                      | `?:`                                |
-| Lowest               | `= *= /= %= += -= <<= >>= &= ^=` <code>&#124;</code>`=` |
+| Lowest               | `= *= /= %= += -= <<= >>= &= ^=` <code>&#124;=</code> |
 
 - Parenthesis operator always has highest precedence
 - _Note_: prefer using `parentheses`, even when it seems stupid to do so
@@ -109,12 +109,12 @@
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Arithmetic Operators -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:45%; left:33%; width:35%; z-index:-1; border-radius:15px;" /> -->
 
 
-<!-- attr: { id:'arithmetic', showInPresentation:'True' } -->
+<!-- attr: { id:'arithmetic', showInPresentation:true } -->
 # <a id="arithmetic"></a>Arithmetic Operators
 - `Arithmetic` operators `+`, `-`, `*` are the same as in math
 - `Division` operator `/` if used on integers returns integer (without rounding) or exception
@@ -123,7 +123,7 @@
 - The `special addition` operator `++` increments a variable
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 # Arithmetic Operators – _Example_
 
 ```cs
@@ -146,7 +146,7 @@ Console.WriteLine(11 / 3); // 3
 
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 <!-- # Arithmetic Operators – _Example_ -->
 
 ```cs
@@ -166,7 +166,7 @@ Console.WriteLine(5 / x); // DivideByZeroException
 
 
 
-<!-- attr: { showInPresentation:'True',   } -->
+<!-- attr: { showInPresentation:true,   } -->
 # Arithmetic Operators – Overflow _Examples_
 
 ```cs
@@ -187,7 +187,7 @@ checked
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Arithmetic Operators -->
 ## [Demo](../demos/ArithmeticOperators)
 
@@ -195,35 +195,35 @@ checked
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Logical Operators -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic09.png" style="top:42%; left:32%; width:40%; z-index:-1; border-radius:15px;" /> -->
 
 
-<!-- attr: { id:'logical', showInPresentation:'True', hasScriptWrapper: true } -->
+<!-- attr: { id:'logical', showInPresentation:true, hasScriptWrapper: true } -->
 # <a id="logical"></a>Logical Operators
-- Logical operators take boolean operands and return boolean result
+- Logical operators take boolean operands and return **boolean** result
 - Operator `!` turns `true` to `false` and `false` to `true`
 - Behavior of the operators `&&`, `||` and `^` (`1` == `true`, `0` == `false`) :
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper: true } -->
-# Logical Operator ||
+<!-- attr: { showInPresentation:true, hasScriptWrapper: true } -->
+# Logical Operator `||`
 |Operation | <code>&#124;&#124;</code>   | <code>&#124;&#124;</code>   | <code>&#124;&#124;</code>   | <code>&#124;&#124;</code>   |
 |:---------|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
 | Operand1 | `0`                         | `0`                         | `1`                         | `1`                         |
 | Operand2 | `0`                         | `1`                         | `0`                         | `1`                         |
 | Result   | `0`                         | `1`                         | `1`                         | `1`                         |
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper: true } -->
-# Logical Operator &&
+<!-- attr: { showInPresentation:true, hasScriptWrapper: true } -->
+# Logical Operator `&&`
 |Operation | `&&`    | `&&`    | `&&`    | `&&`    |
 |:---------|:-------:|:-------:|:-------:|:-------:|
 | Operand1 | `0`     | `0`     | `1`     | `1`     |
 | Operand2 | `0`     | `1`     | `0`     | `1`     |
 | Result   | `0`     | `0`     | `0`     | `1`     |
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper: true } -->
-# Logical Operator ^
+<!-- attr: { showInPresentation:true, hasScriptWrapper: true } -->
+# Logical Operator `^`
 |Operation | `^`     | `^`     | `^`     | `^`     |
 |:---------|:-------:|:-------:|:-------:|:-------:|
 | Operand1 | `0`     | `0`     | `1`     | `1`     |
@@ -232,7 +232,7 @@ checked
 
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 # Logical Operators – _Example_
 - Using the logical operators:
 
@@ -253,7 +253,7 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Logical Operators -->
 ## [Demo](../demos/LogicalOperators)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:45%; left:62%; width:25%; z-index:-1; border-radius:15px;" /> -->
@@ -263,37 +263,37 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Bitwise Operators -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic12.png" style="top:45%; left: 35%; width:30%; z-index:-1; border-radius:15px;" /> -->
 
 
-<!-- attr: { id:'bitwise', showInPresentation:'True' } -->
+<!-- attr: { id:'bitwise', showInPresentation:true } -->
 # <a id="bitwise"></a>Bitwise Operators
-- `Bitwise operator` `~` turns all `0` to `1` and all `1` to `0`
+- **Bitwise operator** `~` turns all `0` to `1` and all `1` to `0`
   - Like `!` for boolean expressions but bit by bit
 - The operators `|`, `&` and `^` behave like `||`, `&&` and `^` for boolean expressions but bit by bit
 - The `<<` and `>>` move the bits (left or right)
 - Behavior of the operators `|`, `&` and `^`:
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper: true } -->
-# Bitwise Operator |
+<!-- attr: { showInPresentation:true, hasScriptWrapper: true } -->
+# Bitwise Operator `|`
 |Operation | <code>&#124;</code>   | <code>&#124;</code>   | <code>&#124;</code>   | <code>&#124;</code>   |
 |:---------|:---------------------:|:---------------------:|:---------------------:|:---------------------:|
 | Operand1 | `0`                   | `0`                   | `1`                   | `1`                   |
 | Operand2 | `0`                   | `1`                   | `0`                   | `1`                   |
 | Result   | `0`                   | `1`                   | `1`                   | `1`                   |
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper: true } -->
-# Bitwise Operator &
+<!-- attr: { showInPresentation:true, hasScriptWrapper: true } -->
+# Bitwise Operator `&`
 |Operation | `&`    | `&`    | `&`    | `&`    |
 |:---------|:------:|:------:|:------:|:------:|
 | Operand1 | `0`    | `0`    | `1`    | `1`    |
 | Operand2 | `0`    | `1`    | `0`    | `1`    |
 | Result   | `0`    | `0`    | `0`    | `1`    |
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper: true } -->
-# Bitwise Operator ^
+<!-- attr: { showInPresentation:true, hasScriptWrapper: true } -->
+# Bitwise Operator `^`
 |Operation | `^`     | `^`     | `^`     | `^`     |
 |:---------|:-------:|:-------:|:-------:|:-------:|
 | Operand1 | `0`     | `0`     | `1`     | `1`     |
@@ -301,10 +301,10 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 | Result   | `0`     | `1`     | `1`     | `0`     |
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 <!-- # Bitwise Operators -->
-- `Bitwise` operators are used on integer numbers (`byte`, `sbyte`, `int`, `uint`, `long`, `ulong`)
-- `Bitwise` operators are applied bit by bit
+- **Bitwise** operators are used on integer numbers (`byte`, `sbyte`, `int`, `uint`, `long`, `ulong`)
+- **Bitwise** operators are applied bit by bit
 - _Examples_:
 
 ```cs
@@ -320,9 +320,9 @@ Console.WriteLine( a >> 1);  // 00000000 00000001
 
 
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Bitwise Operators – Tips & Tricks
-- How to `get the bit` at position `p` in a number `n`?
+- How to **get the bit** at position `p` in a number `n`?
 
 ```cs
 int p = 5;
@@ -332,9 +332,9 @@ int nAndMask = n & mask;  // 00000000 00100000
 int bit = nAndMask >> p;  // 00000000 00000001
 Console.WriteLine(bit);   // 1
 ```
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Bitwise Operators – Tips & Tricks
-- How to `set the bit` at position `p` to `0`?
+- How to **set the bit** at position `p` to `0`?
 
 ```cs
 int p = 5;
@@ -344,9 +344,9 @@ int result = n & mask;      // 00000000 00000011
 Console.WriteLine(result);  // 3
 ```
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:1em' } -->
 <!-- # Bitwise Operators – Tips & Tricks -->
-- How to `set the bit` at position `p` to `1`?
+- How to **set the bit** at position `p` to `1`?
 
 ```cs
 int p = 4;
@@ -356,7 +356,7 @@ int result = n | mask;      // 00000000 00110011
 Console.WriteLine(result);  // 51
 ```
 
-- How to `print a binary` number to the console?
+- How to **print a binary** number to the console?
 
 ```cs
 Console.WriteLine(
@@ -366,7 +366,7 @@ Console.WriteLine(
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Bitwise Operators -->
 ## [Demo](../demos/BitwiseOperators)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:45%; left:65%; width:25%; z-index:-1; border-radius: 15px;" /> -->
@@ -376,12 +376,12 @@ Console.WriteLine(
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Comparison and Assignment Operators -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'comparison', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { id:'comparison', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="comparison"></a>Comparison Operators
 - `Comparison` operators are used to compare variables
   - `==`, `<`, `>`, `>=`, `<=`, `!=`
@@ -401,7 +401,7 @@ Console.WriteLine(a > b); // False
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic18.png" style="top:38.79%; left:75%; width:22.92%; z-index:0; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'assignment', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { id:'assignment', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="assignment"></a>Assignment Operators
 - Assignment operators are used to assign a value to a variable ,
   - `=`, `+=`, `-=`, <code>&vert;</code>`=`, ...
@@ -421,19 +421,19 @@ Console.WriteLine(x /= 2); // 5
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic19.png" style="top:39.67%; left:75%; width:24.71%; z-index:0; border-radius: 15px;" /> -->
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Comparison and Assignment Operators -->
 ## [Demo](../demos/ComparisonAndAssignmentOperators)
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Other Operators -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic21.png" style="top:45%; left:38%; width:25%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'other', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { id:'other', showInPresentation:true, hasScriptWrapper:true } -->
 # <a id="other"></a>Other Operators
-- `String concatenation` operator `+` is used to concatenate strings
+- **String concatenation** operator `+` is used to concatenate strings
 - If the second operand is not a string, it is converted to string automatically
 
 ```cs
@@ -449,7 +449,7 @@ Console.WriteLine(output + number);
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:37.02%; left:80%; width:15%; z-index:0; border-radius: 15px;" /> -->
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 <!-- # Other Operators -->
 - Member access operator  `.`  is used to access object members
 - Square brackets `[]` are used with arrays indexers and attributes
@@ -457,7 +457,7 @@ Console.WriteLine(output + number);
 - Class cast operator `(type)` is used to cast one compatible type to another
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 <!-- # Other Operators -->
 - **Conditional** operator `?:` has the form
   - (if `b` is true then the result is `x` else the result is `y`)
@@ -471,7 +471,7 @@ b ? x : y
 
 
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Other Operators
 - **Null-coalescing** operator `??` is used to define a default value for both **nullable** **value** types and **reference** types
   - It returns the left-hand operand if it is not null
@@ -488,11 +488,11 @@ int? x = 1;
 int y = x ?? -1;
 ```
 
-<div class="fragment balloon" style="top:60%; left:30%;">Here the value of y is -1</div>
-<div class="fragment balloon" style="top:74%; left:30%;">Here the value of y is 1</div>
+<div class="fragment balloon" style="top:60%; left:33%;">Here the value of y is -1</div>
+<div class="fragment balloon" style="top:74%; left:33%;">Here the value of y is 1</div>
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 # Other Operators – _Example_
 - Using some other operators:
 
@@ -512,18 +512,18 @@ Console.WriteLine(d); // 0
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Other Operators -->
 ## [Demo](../demos/OtherOperators)
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Implicit and Explicit Type Conversions -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic24.png" style="top:55%; left:38%; width:25%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'conversion', showInPresentation:'True' } -->
+<!-- attr: { id:'conversion', showInPresentation:true } -->
 # <a id="conversion"></a>Implicit Type Conversion
 - **Implicit type conversion**
   - Automatic conversion of value of one data type to value of another data type
@@ -538,7 +538,7 @@ long l = i;
 
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 # Explicit Type Conversion
 - **Explicit type conversion**
   - Manual conversion of a value of one data type to a value of another data type
@@ -553,7 +553,7 @@ int i = (int) l;
 
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true, style:'font-size:0.95em' } -->
 # Type Conversions – _Example_
 - _Example_ of implicit and explicit conversions:
 
@@ -574,7 +574,7 @@ float maxHeightFloat = maxHeight; // Compilation error!
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Type Conversions -->
 ## [Demo](../demos/TypeConversions)
 
@@ -582,12 +582,12 @@ float maxHeightFloat = maxHeight; // Compilation error!
 
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Expressions -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic26.png" style="top:45%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'expression', showInPresentation:'True' } -->
+<!-- attr: { id:'expression', showInPresentation:true } -->
 # <a id="expression"></a>Expressions
 - Expressions are sequences of operators, literals and variables that are evaluated to some value
 - _Examples_:
@@ -602,7 +602,7 @@ double perimeter = 2 * Math.PI * r;
 
 
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Expressions -->
 - **Expressions** have:
   - `Type` (integer, real, boolean, ...)
@@ -620,12 +620,12 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
 <div class="fragment balloon" style="top:59%; left:77%;">Calculated at runtime.</div>
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Expressions -->
 ## [Demo](../demos/Expressions)
 
 
-<!-- attr: { showInPresentation:'True',   } -->
+<!-- attr: { showInPresentation:true,   } -->
 # Summary
 - We discussed the **operators** in C#:
   - **Arithmetic**, **logical**, **bitwise**, **comparison**, **assignment** and others
@@ -635,7 +635,7 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
 - We learned how to use **expressions**
 
 
-<!-- attr: { showInPresentation:'True' } -->
+<!-- attr: { showInPresentation:true } -->
 # Resources
 - Boolean algebra (logic)
   - [Boolen algebra](http://en.wikipedia.org/wiki/Boolean_algebra_%28logic%29)
@@ -647,12 +647,12 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
   - [Bit hacks](http://graphics.stanford.edu/~seander/bithacks.html)
 
 <!-- section start -->
-<!-- attr: { class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Operators and Expressions
 ## Questions? -->
 
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - Fundamentals of C# ProgrammingTrack of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
