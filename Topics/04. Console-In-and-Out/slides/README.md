@@ -2,8 +2,15 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Console Input / Output
 ## Reading and Writing to the Console
-<img class="slide-image" src="imgs/pic03.png" style="top:10%; left:0%; width:20.93%; z-index:-1" />
-<img class="slide-image" src="imgs/pic04.png" style="top:50%; left:70%; width:26.32%; z-index:-1" />
+
+<div class="signature">
+    <p class="signature-course">HTML Basics</p>
+    <p class="signature-initiative">Telerik Software Academy</p>
+    <a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
+</div>
+
+<!-- <img class="slide-image" src="imgs/pic03.png" style="top:10%; left:0%; width:20.93%; z-index:-1" /> -->
+<!-- <img class="slide-image" src="imgs/pic04.png" style="top:50%; left:70%; width:26.32%; z-index:-1" /> -->
 <img class="slide-image" src="imgs/pic05.png" style="top:50%; left:20%; width:40.60%; z-index:-1" />
 
 
@@ -204,8 +211,8 @@ Console.WriteLine("Have a nice day!");
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Printing to the Console
-## Demo -->
+<!-- # Printing to the Console -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingToConsole)
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -220,6 +227,7 @@ Console.WriteLine("Have a nice day!");
   - `Strings`
   - `Numeric types` (after conversion)
 - To read from the console we use the methods **Console.Read()** and **Console.ReadLine()**
+
 <!-- <img class="slide-image" showInpresentation="True" src="imgs/pic11.png" style="top:21.16%; left:67.37%; width:25%; z-index:-1; transform: rotate(10deg)" /> -->
 
 
@@ -240,8 +248,8 @@ Console.WriteLine("The code of '{0}' is {1}.", ch, i);
 
 
 
-<!-- attr: { id:'chars', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="chars"></a>Reading Characters from the Console
+<!-- attr: { id:'chars', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Reading Characters from the Console -->
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Console.ReadKey
@@ -261,8 +269,8 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Reading Keys from the Console
-## Demo -->
+<!-- # Reading Keys from the Console -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingKeys)
 
 
 <!-- attr: { id:'strings', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -284,8 +292,8 @@ Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Reading Strings from the Console
-## Demo -->
+<!-- # Reading Strings from the Console -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingString)
 
 
 <!-- attr: { id:'numeral', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -357,8 +365,8 @@ int value = Convert.ToInt32(invalid); // FormatException
 ```
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Reading Numbers from the Console
-## Live Demo -->
+<!-- # Reading Numbers from the Console--> 
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingNumbers)
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Error Handling when Parsing
@@ -381,8 +389,8 @@ else
 ```
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Parsing with TryParse
-## Live Demo -->
+<!-- # Parsing with TryParse --> 
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/TryParse)
 
 
 <!-- section start -->
@@ -393,10 +401,18 @@ else
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # How to Print Special Characters on the Console?
-- Printing <!-- .element: style="width: 75%" -->**special characters** on the console needs two steps: 
-  - **Change the console properties** to enable Unicode-friendly font
-  - **Enable Unicode** for the **Console** by adjusting its output encoding
-    - Prefer UTF8 (Unicode)
+<ul>
+    <li> Printing <!-- .element: style="width: 75%" --> <strong>special characters</strong> on the console needs two steps: 
+        <ul>
+            <li><strong>Change the console properties</strong> to enable Unicode-friendly font</li>
+            <li><strong>Enable Unicode</strong> for the <strong>Console</strong> by adjusting its output encoding
+                <ul>
+                    <li>Prefer UTF8 (Unicode)</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
 ```cs
 using System.Text;
 …
@@ -428,14 +444,13 @@ decimal value = decimal.Parse("1.33");
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Regional Settings
-## Demo -->
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1" /> -->
+## Demo
+<img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1" /> -->
 
 
 <!-- section start -->
 <!-- attr: { id:'examples', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="examples"></a>Reading and Printing to the Console
+<!-- # <a id="examples"></a>Reading and Printing to the Console -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -462,8 +477,8 @@ Console.WriteLine("  {0}", company);
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Printing a Letter
-## Demo -->
+<!-- # Printing a Letter -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingLetter) 
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -489,8 +504,8 @@ Console.WriteLine("The area of your figure " +
 ```
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Calculating Area
-## Demo -->
+<!-- # Calculating Area -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/CalculatingArea)
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -504,14 +519,14 @@ Console.WriteLine("The area of your figure " +
   - **int.Parse**, **double.Parse**, and so on methods
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } 
 # Console Input / Output
-<img class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/cat-questions.png" style="width:80%; top:15%; left:10%" />
+<img class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/cat-questions.png" style="width:80%; top:15%; left:10%" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Free Trainings @ Telerik Academy
-- Fundamentals of C# ProgrammingTrack of Courses
+- Fundamentals of C# Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
     - [academy.telerik.com](academy.telerik.com)

@@ -2,13 +2,13 @@
 <!-- attr: {  class:'slide-title', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # Introduction to Programming
 ## Creating and Running Your First C# Program
-<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic00.png" style="top:45%; left:30%; width:20.28%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic00.png" style="top:42%; left:35%; width:20.28%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true"  showInPresentation="true" src="imgs/pic01.png" style="top:55%; left:70%; width:15.87%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic02.png" style="top:10%; left:2%; width:12.87%; z-index:-1" /> -->
 <div class="signature">
   <p class="signature-course">C# Fundamentals</p>
   <p class="signature-initiative">Telerik Software Academy</p>
-  <a href="http://academy.telerik.com" class="signature-link">http://academy.telerik.com</a>
+  <a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 
@@ -160,7 +160,7 @@ void       Main(                  )   {   Console   .
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # Your First C# Program
-## [Demo]() -->
+## [Demo](./../demos/00.HelloCSharp) -->
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->

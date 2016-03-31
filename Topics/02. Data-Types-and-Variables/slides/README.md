@@ -11,6 +11,7 @@
 
 
 <!-- section start -->
+
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true, style:'font-size: 0.8em' } -->
 # Table of Contents
 - [Primitive Data Types](#/primitive)
@@ -32,7 +33,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'primitive', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="primitive"></a>Primitive Data Types
+<!-- # <a id="primitive"></a>Primitive Data Types -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:41.08%; left:67.11%; width:35.41%; z-index:-1; border-radius: 15px" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:41.08%; left:7.22%; width:52.01%; z-index:-1; border-radius: 15px" /> -->
 
@@ -87,12 +88,12 @@ int count = 5;
 
 <!-- section start -->
 <!-- attr: { id:'integer', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="integer"></a>Integer Types
+<!-- # <a id="integer"></a>Integer Types -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:42%; left:26.81%; width:50.38%; z-index:-1" /> -->
 
 
 <!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
-# What are Integer Types?
+# Integer Types
 
 - **Integer types**:
   - Represent **integer numbers**
@@ -106,7 +107,7 @@ int count = 5;
 
 
 <!-- attr: {  class:'', showInPresentation: true, style: 'font-size: 0.8em' } -->
-# Integer Types
+<!-- # Integer Types -->
 - `sbyte` (signed 8-bit)
   - Min: `-128`
   - Max: `127`
@@ -120,7 +121,7 @@ int count = 5;
   - Min: `0`
   - Max: `65,535`
 <!-- attr: {  class:'', showInPresentation: true, style: 'font-size: 0.8em' } -->
-<!-- # Integer Types -->
+<!-- # Integer Types (cont.) -->
 - `int` (signed 32-bit)
   - Min: `-2,147,483,648`
   - Max: `2,147,483,647`
@@ -138,10 +139,10 @@ int count = 5;
 
 
 <!-- attr: {  class:'', showInPresentation: true } -->
-# Measuring Time – _Example_
+<!-- # Integer Types: _Example_ -->
 - Depending on the unit of measure we may use different data types:
 
-- _Example:_
+- _Example: Measuring times_
 
 ```cs
 byte centuries = 20;    // Usually a small number
@@ -156,13 +157,13 @@ Console.WriteLine("{0} centuries is {1} years," +
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Integer Types
-## [Demo]() -->
+<!-- # Integer Types -->
+## [Demo]()
 
 
 <!-- section start -->
 <!-- attr: { id:'float', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="float"></a>Floating-point and Decimal Floating-Point Types
+<!-- # <a id="float"></a>Floating-point and Decimal Floating-Point Types -->
 
 <div style="text-align:center;height: 25%">
 <!-- <img showInPresentation="true" src="imgs/pic10.png" /> -->
@@ -242,13 +243,13 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Floating-Point and Decimal Floating-Point Types
-## [Demo](../demos/....) -->
+<!-- # Floating-Point and Decimal Floating-Point Types -->
+## [Demo](../demos/....)
 
 
 <!-- section start -->
 <!-- attr: { id:'bool', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="bool"></a>Boolean Type
+<!-- # <a id="bool"></a>Boolean Type -->
 <!-- <img showInPresentation="true"  src="imgs/pic17.png" style="top:42.31%; left:53.33%; width:46.72%; z-index:-1; border-radius: 15px" /> -->
 <!-- <img showInPresentation="true"  src="imgs/pic18.png" style="top:42.31%; left:14.03%; width:24.68%; z-index:-1; border-radius: 15px" /> -->
 
@@ -272,8 +273,8 @@ Console.WriteLine(equalA1);    // True
 ```
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Boolean Type
-## [Demo]() -->
+<!-- # Boolean Type -->
+## [Demo]()
 <div style="text-align: center">
 <!-- <img showInPresentation="true"  src="imgs/pic20.png" style="border-radius: 15px;" /> -->
 </div>
@@ -281,7 +282,7 @@ Console.WriteLine(equalA1);    // True
 
 <!-- section start -->
 <!-- attr: { id:'char', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="char"></a>Character Type
+<!-- # <a id="char"></a>Character Type -->
 <div style="text-align">
 <!-- <img showInPresentation="true"  src="imgs/pic21.png" style="top:42.31%; left:9.36%; width:40%; z-index:-1" /> -->
 </div>
@@ -330,13 +331,13 @@ Console.WriteLine("The code of '{0}' is: {1}",
 </ul>
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Character Type
-## [Demo]() -->
+<!-- # Character Type -->
+## [Demo]()
 <!-- <img showInPresentation="true"  src="imgs/pic24.png" style="border-radius: 15px" /> -->
 
 <!-- section start -->
 <!-- attr: { id:'string', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="string"></a>String Type
+<!-- # <a id="string"></a>String Type -->
 <!-- <img showInPresentation="true"  src="imgs/pic25.png" style="width:30%" /> -->
 
 
@@ -374,14 +375,14 @@ Console.WriteLine("Your full name is {0}.",
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # String Type
-## [Demo]() -->
+<!-- # String Type -->
+## [Demo]()
 <!-- <img showInPresentation="true"  src="imgs/pic27.png" style="width:40%" /> -->
 
 
 <!-- section start -->
 <!-- attr: { id:'object', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="object"></a>Object Type
+<!-- # <a id="object"></a>Object Type -->
 <!-- <img showInPresentation="true"  src="imgs/pic28.png" style="width:45%" /> -->
 
 
@@ -398,7 +399,7 @@ Console.WriteLine("Your full name is {0}.",
 </div>
 
 <!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
-# Using Objects
+<!-- # Using Objects -->
 - _Example_ of an object variable taking different types of data:
 
 ```cs
@@ -415,8 +416,8 @@ Console.WriteLine(dataContainer);
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # The Object type
-## [Demo]() -->
+<!-- # The Object type -->
+## [Demo]()
 <!-- <img showInPresentation="true"  src="imgs/pic32.png" style="top:30%; left:50.53%; width:25%; z-index:-1" /> -->
 
 
@@ -424,7 +425,7 @@ Console.WriteLine(dataContainer);
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# Introducing Variables
+<!-- # Introducing Variables -->
 <!-- <img showInPresentation="true"  src="imgs/pic33.png" style="width:38.79%" /> -->
 
 
@@ -454,7 +455,7 @@ int counter = 5;
 
 <!-- section start -->
 <!-- attr: { id:'declaring', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="declaring"></a>Declaring And<br/>Using Variables
+<!-- # <a id="declaring"></a>Declaring and<br/>Using Variables -->
 <!-- <img showInPresentation="true"  src="imgs/pic37.png" style="width:35%" /> -->
 
 
@@ -501,7 +502,7 @@ int height = 200;
 
 
 <!-- attr: {  class:'', showInPresentation: true, style: 'font-size: 0.9em' } -->
-# Identifiers – _Examples_
+<!-- # Identifiers – _Examples_ -->
 - _Examples_ of correct identifiers:
 
 ```cs
@@ -529,7 +530,7 @@ int 2Pac; // Cannot begin with a digit
 <!-- section start -->
 
 <!-- attr: { id:'assign', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="assign"></a>Assigning Values To Variables
+<!-- # <a id="assign"></a>Assigning Values To Variables -->
 <!-- <img showInPresentation="true"  src="imgs/pic39.png" style=" width:40%; z-index:-1" /> -->
 
 
@@ -578,8 +579,8 @@ firstValue = secondValue = 3; // Avoid this!
     ```
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Assigning and Initializing Variables
-## [Demo]() -->
+<!-- # Assigning and Initializing Variables -->
+## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic44.png" style="top:40.55%; left: 6%; width:25.65%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic45.png" style="top:40.55%; right: 6%; width:23.80%; z-index:-1" /> -->
 
@@ -588,7 +589,7 @@ firstValue = secondValue = 3; // Avoid this!
 
 <!-- section start -->
 <!-- attr: { id:'literals', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-# <a id="literals"></a>Literals
+<!-- # <a id="literals"></a>Literals -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic46.png" style="top:40%; left:25.85%; width:54.99%; z-index:-1" /> -->
 
 
@@ -642,7 +643,7 @@ firstValue = secondValue = 3; // Avoid this!
       ```
 
 <!-- attr: {  class:'', showInPresentation: true } -->
-# Integer Literals – _Example_
+<!-- # Integer Literals – _Example_ -->
 - _Note_: the letter `'l'` is easily confused with the digit `1` so it’s better to use `'L'`!!!
 
 ```cs
@@ -675,7 +676,7 @@ int longInt = 234L;
 
 
 <!-- attr: {  class:'', showInPresentation: true } -->
-# Real Literals – _Example_
+<!-- # Real Literals – _Example_ -->
 - _Example_ of incorrect `float` literal:
 
 ```cs
@@ -719,7 +720,7 @@ realNumber = 1.25e+7f;
 
 
 <!-- attr: {  class:'', showInPresentation: true } -->
-# Character Literals – _Example_
+<!-- # Character Literals – _Example_ -->
 - _Examples_ of different character literals:
 
 ```cs
@@ -750,7 +751,7 @@ string s = "I am a sting literal";
 
 
 <!-- attr: {  class:'', showInPresentation: true } -->
-# String Literals – _Example_
+<!-- # String Literals – _Example_ -->
 - Benefits of quoted strings (the `@` prefix):
 - In quoted strings `\"` is used instead of `""`!
 
@@ -770,8 +771,8 @@ string str = @"some
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # String Literals
-## [Demo]() -->
+<!-- # String Literals -->
+## [Demo]()
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
@@ -790,7 +791,7 @@ string str = @"some
 - Useful when dealing with **Databases** or other structures that have default value `null`
 
 <!-- attr: {  class:'', showInPresentation: true } -->
-# Nullable Types – _Example_
+<!-- # Nullable Types – _Example_ -->
 - _Example_ with **Integer**:
 
 ```cs
@@ -817,8 +818,8 @@ Console.WriteLine(
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Nullable Types
-## [Demo]() -->
+<!-- # Nullable Types -->
+## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic55.png" style="top:45.84%; left:8.56%; width:37.13%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic56.png" style="top:49.18%; left:61.45%; width:33.81%; z-index:-1" /> -->
 
@@ -850,9 +851,8 @@ Console.WriteLine(a + b); // 53 (string concatenation)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Dynamic Types
-## [Demo]() -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic58.png" style="top:45%; left:15%; width:35%; z-index:-1" /> -->
+<!-- # Dynamic Types -->
+## [Demo]()
 
 <!-- section start  -->
 

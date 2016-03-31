@@ -279,11 +279,16 @@
 # Required Software
 
 - Software needed for this course:
-  - Microsoft Windows (XP / Win7 / Win8, Win10)
+  - Microsoft Windows (8, 8.1 and 10 preferably)
   - Microsoft **Visual Studio 2015** or Visual Studio Community 2015 (free version of VS 2015)
-    - Visual Studio 2012, 2013 is also OK
+    - Visual Studio 2013 is also OK
     - Other IDEs (e.g. Visual Studio Code, MonoDevelop, Xamarin Studio) are OK, too
-  - .NET Framework 4.5 (included in Visual Studio)
+  - .NET Framework 4.5 / 4.6 (included in Visual Studio)
+
+
+<!-- attr: {showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
+# C# Fundamentals Course Introduction
+- Questions?
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
