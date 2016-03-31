@@ -1,57 +1,53 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true } -->
 # Loops
 ## Execute Blocks of Code Multiple Times
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic00.png" style="top:52.01%; left:58.48%; width:44.15%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic01.png" style="top:-1.96%; left:21.73%; width:20.77%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic00.png" style="top:48%; left:58.48%; width:44.15%; z-index:-1; border-radius: 15px;" /> -->
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">C# Fundamentals</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
 - [What is a Loop?](#/whatisloop)
-- [Loops in C#](#/1)
-  - [**while** loops](#/while)
-  - [**do** … **while** loops](#/dowhile)
-  - [**for** loops](#/for)
-  - [**foreach** loops](#/foreach)
-- [Special loop operators](#/specialoperators)
-  - [**break**, **continue**, **goto**](#/breakcontinue)
+- Loops in C#
+  - [`while` loops](#/while)
+  - [`do` … `while` loops](#/dowhile)
+  - [`for` loops](#/for)
+  - [`foreach` loops](#/foreach)
+- Special loop operators
+  - [`break`, `continue`, `goto`](#/breakcontinue)
 - [Nested loops](#/nestedloops)
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:19.39%; left:58.26%; width:42.96%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:19.39%; left:58.26%; width:42.96%; z-index:-1; border-radius: 15px;" /> -->
 
 <!-- section start -->
-<!-- attr: { id:'whatisloop', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'whatisloop', class:'', showInPresentation:true, hasScriptWrapper:false } -->
 # <a id="whatisloop"></a>What Is Loop?
-- A **loop** is a control statement that allows repeating execution of a block of statements
+- A `loop` is a control statement that allows repeating execution of a block of statements
   - May execute a code block fixed number of times
   - May execute a code block while given condition holds
   - May execute a code block for each member of a collection
-- Loops that never end are called an **infiniteloops**
+- Loops that never end are called an `infinite loops`
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'while', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# <a id="while"></a>WUsing while(…) Loop
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:48.48%; left:30%; width:45%; z-index:-1" /> -->
+<!-- attr: { id:'while', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # <a id="while"></a>Using while(…) Loop -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:48.48%; left:30%; width:45%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # How To Use While Loop?
 - The simplest and most frequently used loop
-- The repeat condition
-  - Returns a boolean result of **true** or **false**
-  - Also called **loop condition**
 
 ```cs
 while (condition)
@@ -60,17 +56,21 @@ while (condition)
 }
 ```
 
+- The repeat condition
+  - Returns a boolean result of `true` or `false`
+  - Also called `loop condition`
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # While Loop – How It Works?
-- true
-- condition
-- statement
-- false
+
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/while-loop.png" style="top:15%; left:10%; width:80%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # While Loop – _Example_
 
 ```cs
@@ -82,17 +82,17 @@ while (counter < 10)
 }
 ```
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:43.82%; left:7.50%; width:91.13%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:43.82%; left:5%; width:90%; z-index:-1; border-radius: 15px;" /> -->
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # While -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:40%; left:30%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:40%; left:30%; width:40%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Sum 1..N – _Example_
 - Calculate and print the sum of the first N natural numbers
 
@@ -113,12 +113,13 @@ Console.WriteLine(" = {0}", sum);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Calculating Sum 1..N
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:43.20%; left:28%; width:45%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Calculating Sum 1..N -->
+## [Demo](../demos/Sum)
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Prime Number – _Example_
 - Checking whether a number is prime or not
 
@@ -142,15 +143,16 @@ Console.WriteLine("Prime? {0}", prime);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Checking Whether a Number Is Prime
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:44.96%; left:70.17%; width:28%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:44.96%; left:0%; width:35%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Checking Whether a Number Is Prime -->
+## [Demo](../demos/IsPrime)
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:44.96%; left:70.17%; width:28%; z-index:-1; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:44.96%; left:0%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Using break Operator
-- **break** operator exits the inner-most loop
+- `break` operator exits the inner-most loop
 
 ```cs
 static void Main()
@@ -171,27 +173,24 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Calculating Factorial
-## Demo -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Calculating Factorial -->
+## [Demo](../demos/FactorialBreak)
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic09.png" style="top:40%; left:31.81%; width:44.08%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic09.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'dowhile', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# <a id="dowhile"></a>Wdo { … } while (…)Loop
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:40%; left:25%; width:50%; z-index:-1" /> -->
+<!-- attr: { id:'dowhile', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # <a id="dowhile"></a>do { … } while (…)Loop -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:45%; left:25%; width:50%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Using Do-While Loop
 - Another loop structure is:
-- The block of statements is repeated
-  - While the boolean loop condition holds
-- The loop is executed at least once
 
 ```cs
 do
@@ -201,26 +200,32 @@ do
 while (condition);
 ```
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic11.png" style="top:15.13%; left:87.95%; width:18.55%; z-index:-1" /> -->
+- The block of statements is repeated
+  - While the boolean loop condition holds
+- The loop is executed at least once
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic11.png" style="top:15.13%; left:80%; width:18.55%; z-index:1; border-radius: 15px;" /> -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Do-While Statement
-- true
-- condition
-- statement
-- false
+
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/while-loop.png" style="top:15%; left:10%; width:80%; z-index:-1; border-radius: 15px;" /> -->
+
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # do { … } while -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic12.png" style="top:38.92%; left:28%; width:40%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # do { … } while
+## _Examples_ -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic12.png" style="top:45%; left:28%; width:40%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Factorial – _Example_
 - Calculating N factorial
 
@@ -244,20 +249,34 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Factorial with BigInteger – _Example_
-- Calculating N factorial with **BigInteger**
-<div class="fragment balloon" style="top:22.46%; left:54.66%; width:44.96%">Don't forget to add reference to System.Numerics.dll.</div>
+- Calculating N factorial with `BigInteger`
+
+```cs
+using System.Numerics;
+static void Main()
+{
+    int n = 1000;
+    BigInteger factorial = 1;
+    do
+    {
+        factorial *= n;
+        n--;
+    }
+    while (n > 0);
+    Console.WriteLine("n! = " + factorial);
+}
+```
+
+<div class="fragment balloon" style="top:34%; left:40%;">Don't forget to add reference to System.Numerics.dll.</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Factorial (do ... while)
-## Demo -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Factorial (do ... while) -->
+## [Demo](../demos/FactorialDoWhile)
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic13.png" style="top:40%; left:28.54%; width:40%; z-index:-1" /> -->
-
-
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Product[N..M] – _Example_
 - Calculating the product of all numbers in the interval [n..m]:
 
@@ -277,28 +296,23 @@ Console.WriteLine("product[n..m] = " + product);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Product of the Numbers in the Interval [n..m]
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic14.png" style="top:55%; left:30%; width:35%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Product of the Numbers in the Interval [n..m] -->
+## [Demo](../demos/Product)
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # for Loops -->
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:39.67%; left:15.91%; width:73.17%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:45%; left:20%; width:60%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'for', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# <a id="for"></a>WFor Loops
-- The typical **for** loop syntax is:
-- Consists of
-  - Initialization statement
-  - Boolean test expression
-  - Update statement
-  - Loop body block
+<!-- attr: { id:'for', class:'', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="for"></a>For Loops
+- The typical `for` loop syntax is:
 
 ```cs
 for (initialization; test; update)
@@ -307,13 +321,18 @@ for (initialization; test; update)
 }
 ```
 
+- Consists of
+  - `Initialization` statement
+  - `Boolean test` expression
+  - `Update` statement
+  - `Loop` body block
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # The Initialization Expression
-- Executed once, just before the loop is entered
-  - Like it is out of the loop, before it
-- Usually used to declare a counter variable
 
 ```cs
 for (int number = 0; ...; ...)
@@ -323,14 +342,16 @@ for (int number = 0; ...; ...)
 // Cannot use number here
 ```
 
+- Executed once, just before the loop is entered
+  - Like it is out of the loop, before it
+- Usually used to declare a counter variable
+
+<div class="balloon" style="top:17%; left:13%; width:175px; height:20px; opacity: 0.3"></div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # The Test Expression
-- Evaluated before each iteration of the loop
-  - If **true**, the loop body is executed
-  - If **false**, the loop body is skipped
-- Used as a **loop condition**
 
 ```cs
 for (int number = 0; number < 10; ...)
@@ -340,12 +361,18 @@ for (int number = 0; number < 10; ...)
 // Cannot use number here
 ```
 
+- Evaluated before each iteration of the loop
+  - If `true`, the loop body is executed
+  - If `false`, the loop body is skipped
+- Used as a `loop condition`
+
+<div class="balloon" style="top:17%; left:36%; width:135px; height:20px; opacity: 0.3"></div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # The Update Expression
-- Executed at each iteration **after** the body of the loop is finished
-- Usually used to update the counter
 
 ```cs
 for (int number = 0; number < 10; number++)
@@ -355,17 +382,22 @@ for (int number = 0; number < 10; number++)
 // Cannot use number here
 ```
 
+- Executed at each iteration `after` the body of the loop is finished
+- Usually used to update the counter
+
+
+<div class="balloon" style="top:17%; left:54%; width:100px; height:20px; opacity: 0.3"></div>
+
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # for Loop
-## Demo -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic16.png" style="top:41.65%; left:28%; width:45%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # for Loop -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic16.png" style="top:41.65%; left:28%; width:45%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Simple for Loop – _Example_
-- A simple for-loop to print the numbers 0…9:
+- A simple `for`-loop to print the numbers 0…9:
 
 ```cs
 for (int number = 0; number < 10; number++)
@@ -386,9 +418,9 @@ for (int i = 1; i <= n; i++)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Complex for Loop – _Example_
-- Complex **for**-loops could have several counter variables:
+- Complex `for`-loops could have several counter variables:
 
 ```cs
 for (int i=1, sum=1; i<=128; i=i*2, sum+=i)
@@ -409,15 +441,15 @@ i=8, sum=15
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # For Loops
-## Demo -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:40%; left:35%; width:30%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # For Loops -->
+## [Demo](../demos/ForLoops)
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:55%; left:35%; width:30%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # N^M – _Example_
-- Calculating **n** to power **m** (denoted as **n^m**):
+- Calculating `n` to power `m` (denoted as `n^m`):
 
 ```cs
 static void Main()
@@ -435,14 +467,14 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Calculating N^M
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic18.png" style="top:40.08%; left:30%; width:40%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Calculating N^M -->
+## [Demo](../demos/Power)
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Using continue Operator
-- **continue** operator ends the iteration of the inner-most loop
+- `continue` operator ends the iteration of the inner-most loop
 - _Example_: sum all odd numbers in [1, n] that are not divisors of 7:
 
 ```cs
@@ -461,36 +493,39 @@ Console.WriteLine("sum = {0}", sum);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Using continue Operator
-## Demo -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Using continue Operator -->
+## [Demo](../demos/Continue)
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic19.png" style="top:55%; left:35%; width:30%; z-index:-1; border-radius: 15px;" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # foreach Loop -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic20.png" style="top:40%; left:30%; width:40%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # foreach Loop
+## iteretion over a collection of elements-->
 
-
-<!-- attr: { id:'foreach', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# <a id="foreach"></a>WForeach Loops
-- The typical **foreach** loop syntax is:
-- Iterates over all elements of a collection
-  - The **element** is the loop variable that takes sequentially all collection values
-  - The **collection** can be list, array or other group of elements of the same type
+<!-- attr: { id:'foreach', class:'', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="foreach"></a>Foreach Loops
+- The typical `foreach` loop syntax is:
 
 ```cs
-foreach (Type element in collection){    statements;}
+foreach (Type element in collection)
+{
+    statements;
+}
 ```
 
+- Iterates over all elements of a collection
+  - The `element` is the loop variable that takes sequentially all collection values
+  - The `collection` can be list, array or other group of elements of the same type
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # foreach Loop – _Example_
-- _Example_ of **foreach** loop:
+- _Example_ of `foreach` loop:
 
 ```cs
 string[] days = {
@@ -503,27 +538,24 @@ foreach (string day in days)
 ```
 
 - The above loop iterates of the array of days
-  - The variable **day** takes all its values
-- In the **foreach** loop we cannot set the value of the current item
+  - The variable `day` takes all its values
+- In the `foreach` loop we cannot set the value of the current item
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # foreach Loop
-## Demo -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic21.png" style="top:40%; left:33%; width:35%; z-index:-1" /> -->
-
-
-
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # foreach Loop -->
+## [Demo](../demos/Foreach)
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Nested Loops -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:40.55%; left:36.02%; width:36.14%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Nested Loops
+## Using loops inside a loop -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:55%; left:36.02%; width:30%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'nestedloops', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# <a id="nestedloops"></a>WWhat Is Nested Loop?
-- A composition of loops is called a **nested loop**
+<!-- attr: { id:'nestedloops', class:'', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="nestedloops"></a>What Is Nested Loop?
+- A composition of loops is called a `nested loop`
   - A loop inside another loop
 - _Example_:
 
@@ -539,18 +571,24 @@ for (initialization; test; update)
 ```
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Nested Loops -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic23.png" style="top:38.79%; left:36.78%; width:34.55%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Nested Loops
+## _Examples_ -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic23.png" style="top:55%; left:35%; width:30%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:0.8em;' } -->
 # Triangle – _Example_
 - Print the following triangle:
-    - 1
-    - 1 2
-    - …
-    - 1 2 3 ... n
+
+     1
+
+     1 2
+
+     …
+
+     1 2 3 ... n
+
 
 ```cs
 int n = int.Parse(Console.ReadLine());
@@ -564,13 +602,12 @@ for(int row = 1; row <= n; row++)
 }
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Triangle
-## Demo -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic24.png" style="top:39.67%; left:31.81%; width:44.08%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Triangle -->
+## [Demo](../demos/Triangle)
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:0.8em;' } -->
 # Primes[N, M] – _Example_
 - Print all prime numbers in the interval [n, m]:
 
@@ -598,51 +635,61 @@ for (int number = n; number <= m; number++)
 }
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Primes in Range [n, m]
-## Demo -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic25.png" style="top:40.55%; left:30%; width:45%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Primes in Range [n, m] -->
+## [Demo](../demos/Primes)
 
 
-<!-- attr: { id:'breakcontinue', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-# <a id="breakcontinue"></a>WC# Jump Statements
+<!-- attr: { id:'breakcontinue', class:'', showInPresentation:true, hasScriptWrapper:false } -->
+# <a id="breakcontinue"></a>C# Jump Statements
 - Jump statements are:
-  - **break**, **continue**, **goto**
-- How **continue** works?
-  - In **while** and **do-while** loops jumps to the test expression
-  - In **for** loops jumps to the update expression
-- To exit an inner loop use **break**
-- To exit outer loops use **goto** with a label
-  - Avoid using **goto**! (it is considered harmful)
+  - `break`, `continue`, `goto`
+- How `continue` works?
+  - In `while` and `do-while` loops jumps to the test expression
+  - In `for` loops jumps to the update expression
+- To exit an inner loop use `break`
+- To exit outer loops use `goto` with a label
+  - Avoid using `goto`! (it is considered harmful)
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# C# Jump Statements – _Example_
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size:0.8em' } -->
+# _C#_ Jump Statements – _Example_
 
 ```cs
 int outerCounter = 0;
 for (int outer = 0; outer < 10; outer++)
-{    for (int inner = 0; inner < 10; inner++)
-    {        if (inner % 3 == 0)
-            continue;        if (outer == 7)
-            break;        if (inner + outer > 9)
-            goto breakOut;    }
+{    
+    for (int inner = 0; inner < 10; inner++)
+    {        
+        if (inner % 3 == 0)
+        {
+            continue;
+        }
+        if (outer == 7)
+        {
+            break;
+        }
+        if (inner + outer > 9)
+        {
+            goto breakOut;
+        }
+    }
     outerCounter++;
-}breakOut:
+}
+breakOut:
 ```
-
-<div class="fragment balloon" style="top:51.11%; left:4.41%; width:14.93%">Label</div>
+<div class="balloon" style="top:80%; left:18%">Label</div>
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Loops – More _Examples_ -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic26.png" style="top:40%; left:30%; width:50%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic26.png" style="top:45%; left:35%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Nested Loops – _Examples_
-- Print all four digit numbers in format **ABCD** such that **A**+**B** = **C**+**D** (known as happy numbers)
+- Print all four digit numbers in format `ABCD` such that `A`+`B` = `C`+`D` (known as happy numbers)
 
 ```cs
 static void Main()
@@ -657,15 +704,16 @@ static void Main()
 }
 ```
 
-<div class="fragment balloon" style="top:27.98%; left:66.12%; width:34.99%">Can you improve this algorithm to use 3 loops only?</div>
+<div class="fragment balloon" style="top:35%; left:66.12%;">Can you improve this algorithm to use 3 loops only?</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Happy Numbers
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic27.png" style="top:43.20%; left:41.17%; width:26.45%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Happy Numbers -->
+## [Demo](../demos/HappyNumbers)
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic27.png" style="top:55%; left:38%; width:23%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Nested Loops – _Examples_
 - Print all combinations from TOTO 6/49
 
@@ -684,33 +732,34 @@ static void Main()
 }		
 ```
 
-<div class="fragment balloon" style="top:21.52%; left:67.00%; width:34.99%">Warning: execution of this code could take too long time.</div>
+<div class="fragment balloon" style="top:21.52%; left:67.00%">Warning: execution of this code could take too long time.</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# TOTO 6/49
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic28.png" style="top:40%; left:24.33%; width:58.18%; z-index:-1" /> -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # TOTO 6/49 -->
+## [Demo](../demos/Toto)
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic28.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Summary
 - C# supports four types of loops:
-  - **while**
-  - **do-while**
-  - **for** loops
-  - **foreach** loops
+  - `while`
+  - `do-while`
+  - `for` loops
+  - `foreach` loops
 - Nested loops can be used to implement more complex logic
-- The operators **continue**, **break** & **goto** can control the loop execution
+- The operators `continue`, `break` & `goto` can control the loop execution
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic29.png" style="top:23.63%; left:74.85%; width:28.21%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic29.png" style="top:15%; left:70%; width:28.21%; z-index:-1; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false } -->
 <!-- # Loops
 ## Questions? -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Free Trainings @ Telerik Academy
 - Fundamentals of C# ProgrammingTrack of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
@@ -719,8 +768,8 @@ static void Main()
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
-    - telerikacademy.com
+    - [telerikacademy.com](https://telerikacademy.com)
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic31.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic32.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic30.png" style="top:65%; left:75%; width:16.97%; z-index:-1; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic31.png" style="top:34.35%; left:70%; width:25%; z-index:-1; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic32.png" style="top:48.92%; left:75.91%; width:10.85%; z-index:-1; border-radius: 15px;" /> -->
