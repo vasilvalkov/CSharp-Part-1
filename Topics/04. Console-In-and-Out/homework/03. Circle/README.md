@@ -9,13 +9,13 @@ Write a program that reads from the console the radius **r** of a circle and pri
 - You should print one line only: the **perimeter** and the **area** of the circle, **separated** by a whitespace, and with **2 digits** precision
 
 ## Constraints
-- The radius **r** will always be a valid and positiv real number
+- The radius **r** will always be a valid and positive real number
 - Time limit: **0.1s**
 - Memory limit: **8MB**
 
 ## Sample tests
 
-|          input      |          output    |
+|        Input        |        Output      |
 |:-------------------:|:------------------:|
 | 2                   | 12.57 12.57        |
 | 3.5                 | 21.99 38.48        |

@@ -18,11 +18,11 @@ Write a program that enters 3 real numbers and prints them sorted in descending 
 
 ## Sample tests
 
-|     Input      |     Output     |
-|:--------------:|:--------------:|
-|3<br/>2<br/>1|3 2 1|
-|-5<br/>3<br/>-5|3 -5 -5|
-|1<br/>2<br/>20|20 2 1|
+|      Input      |     Output     |
+|-----------------|----------------|
+| 3<br/>2<br/>1   | 3 2 1          |
+| -5<br/>3<br/>-5 | 3 -5 -5        |
+| 1<br/>2<br/>20  | 20 2 1         |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#6)

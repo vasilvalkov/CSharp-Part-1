@@ -12,17 +12,17 @@ Using loops write a program that converts a hexadecimal integer number to its de
 - The output should consist of a single line - the decimal representation of the number as string.
 
 ## Constraints
-- All numebers will be valid 64-bit integers.
+- All numbers will be valid 64-bit integers.
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 
 ## Sample tests
 
-|     Input        |     Output                  |
-|------------------|-----------------------------|
-|FE                |254                          |
-|1AE3              |6883                         |
-|4ED528CBB4        |338583669684                 |
+|      Input        |      Output                  |
+|-------------------|------------------------------|
+| FE                | 254                          |
+| 1AE3              | 6883                         |
+| 4ED528CBB4        | 338583669684                 |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#13)

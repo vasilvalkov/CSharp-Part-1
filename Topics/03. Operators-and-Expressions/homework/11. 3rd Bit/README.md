@@ -6,7 +6,7 @@ Using bitwise operators, write a program that uses an expression to find the val
   - The result of the expression should be either **1** or **0**. Print it on the console.
 
 ## Input
-- On the only input line, you will receive a single positiv integer - the number whose 3rd bit you must print.
+- On the only input line, you will receive a single positive integer - the number whose 3rd bit you must print.
 
 ## Output
 - Output a single number - **1 or 0** - the value of the 3rd bit, counted from 0 and from right to left.
@@ -20,8 +20,8 @@ Using bitwise operators, write a program that uses an expression to find the val
 
 |     Input      |     Output     |
 |----------------|----------------|
-|15              |1               |
-|1024            |0               |
+| 15             | 1              |
+| 1024           | 0              |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#10)

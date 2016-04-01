@@ -16,11 +16,11 @@
 
 ## Sample tests
 
-|     Input      |     Output     |  Explanation   |
-|----------------|----------------|----------------|
-|6<br>11         |1               |10              |
-|20<br>37        |3               |25, 30, 35      |
-|2<br>2          |0               |think why       |
+|     Input       |      Output     |   Explanation   |
+|-----------------|-----------------|-----------------|
+| 6<br>11         | 1               | 10              |
+| 20<br>37        | 3               | 25, 30, 35      |
+| 2<br>2          | 0               | think why       |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#9)

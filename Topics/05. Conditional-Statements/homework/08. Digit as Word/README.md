@@ -19,12 +19,12 @@ Write a program that read a digit **(0-9)** from the console, and depending on t
 ## Sample tests
 
 |     Input      |     Output     |
-|--------------|:--------------:|
-|-0.1|not a digit|
-|1|one|
-|9|nine|
-|-9|not a digit|
-|kek|not a digits|
+|----------------|----------------|
+| -0.1           | not a digit    |
+| 1              | one            |
+| 9              | nine           |
+| -9             | not a digit    |
+| kek            | not a digit    |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#7)

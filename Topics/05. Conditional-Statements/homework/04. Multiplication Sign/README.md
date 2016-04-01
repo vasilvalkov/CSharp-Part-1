@@ -11,17 +11,17 @@ Write a program that shows the sign (+, - or 0) of the product of three real num
 - Output a single line - the sign of the product of the three numbers
 
 ## Constraints
-- The input will always consist of valid floating-point numbers betwee
+- The input will always consist of valid floating-point numbers
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 
 ## Sample tests
 
-|     Input    |     Output     |
-|--------------|--------------|
-|2<br/>5<br/>2   |+               |
-|2<br/>5<br/>-2  |-               |
-|-0.5<br/>0<br/>-2|0            |
+|       Input       |     Output   |
+|-------------------|--------------|
+| 2<br/>5<br/>2     | +            |
+| 2<br/>5<br/>-2    | -            |
+| -0.5<br/>0<br/>-2 | 0            |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#3)

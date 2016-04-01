@@ -28,7 +28,7 @@ Write a program that reads a card sign(as a **char**) from the console and gener
 
 |     Input      |     Output     |
 |----------------|----------------|
-|5|2 of spades, 2 of clubs, 2 of hearts, 2 of diamonds<br> 3 of spades, 3 of clubs, 3 of hearts, 3 of diamonds<br>...<br>5 of spades, 5 of clubs, 5 of hearts, 5 of diamonds|
+| 5              | 2 of spades, 2 of clubs, 2 of hearts, 2 of diamonds<br> 3 of spades, 3 of clubs, 3 of hearts, 3 of diamonds<br>...<br>5 of spades, 5 of clubs, 5 of hearts, 5 of diamonds|
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#3)

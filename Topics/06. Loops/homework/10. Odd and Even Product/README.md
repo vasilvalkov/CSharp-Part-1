@@ -20,10 +20,10 @@ You are given **N** integers (given in a single line, separated by a space).
 
 ## Sample tests
 
-|     Input      |     Output     |
-|----------------|----------------|
-|5<br/>2 1 1 6 3 | yes 6          |
-|5<br/>4 3 2 5 2 | no 16 15       |
+|     Input       |     Output     |
+|-----------------|----------------|
+| 5<br/>2 1 1 6 3 | yes 6          |
+| 5<br/>4 3 2 5 2 | no 16 15       |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#9)

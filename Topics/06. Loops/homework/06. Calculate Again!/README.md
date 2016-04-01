@@ -22,9 +22,9 @@ Write a program that calculates **N! / K!** for given **N** and **K**.
 
 |     Input      |     Output     |
 |----------------|----------------|
-|5<br/>2         |60              |
-|6<br/>5         |6               |
-|8<br/>3         |6720            |
+| 5<br/>2        | 60             |
+| 6<br/>5        | 6              |
+| 8<br/>3        | 6720           |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#5)
