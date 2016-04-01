@@ -11,17 +11,17 @@ Write a program that calculates with how many **zeroes** the factorial of a give
 - Output a single number - the count of trailing zeroes for the **N!**
 
 ## Constraints
-- **N** will always be a valid positiv integer number.
+- **N** will always be a valid positive integer number.
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 
 ## Sample tests
 
-|     Input      |     Output     | Explanation        |
-|----------------|----------------|--------------------|
-|10              |2               | 3628800            |
-|20              |4               | 2432902008176640000|
-|100000          |24999           | think why          |
+|     Input      |     Output     |     Explanation     |
+|----------------|----------------|---------------------|
+| 10             | 2              | 3628800             |
+| 20             | 4              | 2432902008176640000 |
+| 100000         | 24999          | think why           |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#15)

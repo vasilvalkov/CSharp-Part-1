@@ -39,9 +39,9 @@
 
 ## Sample tests
 
-|            input           |output|
+|            Input           |Output|
 |----------------------------|------|
-| Telerik Academy<br />231 Al. Malinov, Sofia<br />+359 888 55 55 555<br /><br />http://telerikacademy.com/<br />Nikolay<br />Kostov<br />25<br />+359 2 981 981|Telerik Academy<br />Address: 231 Al. Malinov, Sofia<br />Tel. +359 888 55 55 555<br />Fax: (no fax)<br />Web site: http://telerikacademy.com/<br />Manager: Nikolay Kostov (age: 25, tel. +359 2 981 981)|
+| Telerik Academy<br />231 Al. Malinov, Sofia<br />+359 888 55 55 555<br /><br />http://telerikacademy.com/<br />Nikolay<br />Kostov<br />25<br />+359 2 981 981 | Telerik Academy<br />Address: 231 Al. Malinov, Sofia<br />Tel. +359 888 55 55 555<br />Fax: (no fax)<br />Web site: http://telerikacademy.com/<br />Manager: Nikolay Kostov (age: 25, tel. +359 2 981 981) |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#1)

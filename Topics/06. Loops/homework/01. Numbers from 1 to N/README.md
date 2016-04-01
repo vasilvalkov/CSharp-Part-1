@@ -2,6 +2,7 @@
 
 ## Description
 Write a program that enters from the console a positive integer n and prints all the numbers from **1** to **N** inclusive, on a single line, separated by a whitespace.
+
 ## Input
 - The input will consist of a single line - the number **N**
 
@@ -16,9 +17,9 @@ Write a program that enters from the console a positive integer n and prints all
 ## Sample tests
 
 |     Input      |     Output     |
-|----------------|:--------------:|
-|5               |1 2 3 4 5|
-|1               |1|
+|----------------|----------------|
+| 5              | 1 2 3 4 5      |
+| 1              | 1              |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#0)

@@ -20,13 +20,13 @@ The three values should be read from the console in the order shown below. All t
 
 ## Sample tests
 
-|     Input                |     Output     |
-|--------------------------|----------------|
-|5<br/>7<br/>12            |72.0000000      |
-|2<br/>1<br/>33            |49.5000000      |
-|8.5<br/>4.3<br/>2.7       |17.2800000      |
-|100<br/>200<br/>300       |45000.0000000   |
-|0.222<br/>0.333<br/>0.555 |0.1540125       |
+|     Input                 |     Output      |
+|---------------------------|-----------------|
+| 5<br/>7<br/>12            | 72.0000000      |
+| 2<br/>1<br/>33            | 49.5000000      |
+| 8.5<br/>4.3<br/>2.7       | 17.2800000      |
+| 100<br/>200<br/>300       | 45000.0000000   |
+| 0.222<br/>0.333<br/>0.555 | 0.1540125       |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#8)

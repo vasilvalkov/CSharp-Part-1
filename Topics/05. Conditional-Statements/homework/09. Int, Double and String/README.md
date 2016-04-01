@@ -1,4 +1,4 @@
-# 
+# Int, Double, String
 
 ## Description
 Write a program that, depending on the first line of the input, reads an **int**, **double** or **string** variable.
@@ -16,6 +16,7 @@ Write a program that, depending on the first line of the input, reads an **int**
 ## Output
 - Write a single line on the console - the value transformed according to the rules from the description.
   - Print all **double** variables with exactly 2-digits precision after the floating point. _Example:_ 0.99
+  
 ## Constraints
 - The input will always be valid and in the described format.
 - All input numbers will be between -1000 and 1000.
@@ -24,11 +25,11 @@ Write a program that, depending on the first line of the input, reads an **int**
 
 ## Sample tests
 
-|     Input      |     Output     |
-|----------------|:--------------:|
-|integer<br/>2   |3               |
-|real<br/>-2.5   |-1.50           |
-|text<br/>gosho  |gosho*          |
+|     Input       |     Output      |
+|-----------------|-----------------|
+| integer<br/>2   | 3               |
+| real<br/>-2.5   | -1.50           |
+| text<br/>gosho  | gosho*          |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#8)

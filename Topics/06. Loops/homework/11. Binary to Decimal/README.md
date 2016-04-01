@@ -6,13 +6,13 @@ Using loops write a program that converts a binary integer number to its decimal
   - _Do not use the built-in .NET functionality._
 
 ## Input
-- You will receive exactly one line containing an integer number representation in binary.
+- You will receive exactly one line containing an integer number representation in binary
 
 ## Output
-- On the only output line write the decimal representation of the number.
+- On the only output line write the decimal representation of the number
 
 ## Constraints
-- All input numbers will be valid 32-bit integers.
+- All input numbers will be valid 32-bit integers
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 

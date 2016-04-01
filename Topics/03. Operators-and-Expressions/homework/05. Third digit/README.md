@@ -11,7 +11,7 @@ Write a program that reads an integer **N** from the console and prints **true**
 - The output should be a single line - print whether the third digit is **7**, following the format described above.
 
 ## Constraints
-- **N** will always be valid non-negativ integer number.
+- **N** will always be valid non-negative integer number.
 - Time limit: **0.1s**
 - Memory limit: **8MB**
 

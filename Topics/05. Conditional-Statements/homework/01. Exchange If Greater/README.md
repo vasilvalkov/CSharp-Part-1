@@ -12,17 +12,17 @@ Use an if-statement. As a result print the values of the variables **A** and **B
 - On the only output line, print the values of the two variables, separated by a whitespace
 
 ## Constraints
-- **A** and **B** will always be valid real numbers between -100 and 100s
+- **A** and **B** will always be valid real numbers between -100 and 100
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 
 ## Sample tests
 
-|     Input      |     Output     |
-|:--------------:|:--------------:|
-|5<br/>3         |3 5             |
-|2<br/>4         |2 4             |
-|3.3<br/>3.3     |3.3 3.3         |
+|      Input      |      Output     |
+|-----------------|-----------------|
+| 5<br/>3         | 3 5             |
+| 2<br/>4         | 2 4             |
+| 3.3<br/>3.3     | 3.3 3.3         |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#0)

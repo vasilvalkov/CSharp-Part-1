@@ -8,7 +8,7 @@ Write a program that applies bonus score to given score in the range **[1…9]**
 -	If the score is less than **0** or more than **9**, the program prints "invalid score".
 
 ## Input
-- The only input line will containt one integer number - the score
+- The only input line will contain one integer number - the score
 
 ## Output
 - Output the score with the applied bonus
@@ -20,12 +20,12 @@ Write a program that applies bonus score to given score in the range **[1…9]**
 
 ## Sample tests
 
-|     Input      |     Output     |
-|:--------------:|:--------------:|
-|2               |20              |
-|4               |400             |
-|9               |1000            |
-|10              |invalid score   |
+|      Input      |      Output     |
+|-----------------|-----------------|
+| 2               | 20              |
+| 4               | 400             |
+| 9               | 1000            |
+| 10              | invalid score   |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/309#1)

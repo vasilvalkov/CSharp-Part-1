@@ -16,11 +16,11 @@ Your output should consist only of a single line - the sum of the 5 numbers.
 
 ## Sample tests
 
-|               Input             |     Output       |
-|---------------------------------|:----------------:|
-|1<br/>2<br/>3<br/>4<br/>5        |15                |
-|-1<br/>2<br/>-3<br/>4<br/>10     |12                |
-|0<br/>0<br/>0<br/>0<br/>0        |0                 |
+|               Input              |     Output        |
+|----------------------------------|:-----------------:|
+| 1<br/>2<br/>3<br/>4<br/>5        | 15                |
+| -1<br/>2<br/>-3<br/>4<br/>10     | 12                |
+| 0<br/>0<br/>0<br/>0<br/>0        | 0                 |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#5)

@@ -2,6 +2,7 @@
 
 ## Description
 Write a program that reads an integer number **N** from the console and prints all the numbers in the interval `[1, n]`, each on a single line.
+
 ## Input
 - On the only line you will receive the number **N**
 
@@ -16,11 +17,11 @@ Write a program that reads an integer number **N** from the console and prints a
 
 ## Sample tests
 
-| input | output   |
-|-------|:--------:|
-| 3     |1<br/>2<br/>3|
-| 5     |1<br/>2<br/>3<br/>4<br/>5|
-| 1     | 1      |
+| Input |           Output          |
+|-------|:-------------------------:|
+| 3     | 1<br/>2<br/>3             |
+| 5     | 1<br/>2<br/>3<br/>4<br/>5 |
+| 1     | 1                         |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/311#6)

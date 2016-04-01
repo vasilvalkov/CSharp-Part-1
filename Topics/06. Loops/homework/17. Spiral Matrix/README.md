@@ -18,11 +18,11 @@ Write a program that reads from the console a positive integer number **N** (1 &
 
 ## Sample tests
 
-|     Input      |                      Output                      |
-|----------------|--------------------------------------------------|
-|2               |1 2<br/>4 3                                       |
-|3               |1 2 3<br/>8 9 4<br/>7 6 5                         |
-|4               |1 2 3 4<br/>12 13 14 5<br/>11 16 15 6<br/>10 9 8 7|
+|     Input      |                      Output                        |
+|----------------|----------------------------------------------------|
+| 2              | 1 2<br/>4 3                                        |
+| 3              | 1 2 3<br/>8 9 4<br/>7 6 5                          |
+| 4              | 1 2 3 4<br/>12 13 14 5<br/>11 16 15 6<br/>10 9 8 7 |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#16)
