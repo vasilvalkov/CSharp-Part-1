@@ -244,7 +244,7 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Floating-Point and Decimal Floating-Point Types -->
-## [Demo](../demos/....)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/02.%20Data-Types-and-Variables/demos/FloatingPointTypes)
 
 
 <!-- section start -->

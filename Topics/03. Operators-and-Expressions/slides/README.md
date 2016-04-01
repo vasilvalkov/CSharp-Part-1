@@ -189,7 +189,7 @@ checked
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Arithmetic Operators -->
-## [Demo](../demos/ArithmeticOperators)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/03.%20Operators-and-Expressions/demos/ArithmeticOperators)
 
 
 
@@ -255,7 +255,7 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Logical Operators -->
-## [Demo](../demos/LogicalOperators)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/03.%20Operators-and-Expressions/demos/LogicalOperators)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic10.png" style="top:45%; left:62%; width:25%; z-index:-1; border-radius:15px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic11.png" style="top:45%; left:10.29%; width:28%; z-index:-1; border-radius:15px;" /> -->
 
@@ -368,7 +368,7 @@ Console.WriteLine(
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Bitwise Operators -->
-## [Demo](../demos/BitwiseOperators)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/03.%20Operators-and-Expressions/demos/BitwiseOperators)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic15.png" style="top:45%; left:65%; width:25%; z-index:-1; border-radius: 15px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic16.png" style="top:45%; left:9.60%; width:25%; z-index:-1; border-radius: 15px;" /> -->
 
@@ -423,7 +423,7 @@ Console.WriteLine(x /= 2); // 5
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Comparison and Assignment Operators -->
-## [Demo](../demos/ComparisonAndAssignmentOperators)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/03.%20Operators-and-Expressions/demos/ComparisonAndAssignmentOperators)
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
@@ -514,7 +514,7 @@ Console.WriteLine(d); // 0
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Other Operators -->
-## [Demo](../demos/OtherOperators)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/03.%20Operators-and-Expressions/demos/OtherOperators)
 
 
 <!-- section start -->
@@ -576,7 +576,7 @@ float maxHeightFloat = maxHeight; // Compilation error!
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Type Conversions -->
-## [Demo](../demos/TypeConversions)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/03.%20Operators-and-Expressions/demos/TypeConversions)
 
 
 
@@ -622,7 +622,7 @@ bool greater = (a > b) || ((a == 0) && (b == 0));
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Expressions -->
-## [Demo](../demos/Expressions)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/03.%20Operators-and-Expressions/demos/Expressions)
 
 
 <!-- attr: { showInPresentation:true,   } -->

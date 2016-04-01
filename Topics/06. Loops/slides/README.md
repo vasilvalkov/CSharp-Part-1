@@ -115,7 +115,7 @@ Console.WriteLine(" = {0}", sum);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Calculating Sum 1..N -->
-## [Demo](../demos/Sum)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Sum)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
@@ -145,7 +145,7 @@ Console.WriteLine("Prime? {0}", prime);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Checking Whether a Number Is Prime -->
-## [Demo](../demos/IsPrime)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/IsPrime)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:44.96%; left:70.17%; width:28%; z-index:-1; border-radius: 15px;" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:44.96%; left:0%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
@@ -175,7 +175,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Calculating Factorial -->
-## [Demo](../demos/FactorialBreak)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/FactorialBreak)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic09.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
@@ -274,7 +274,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Factorial (do ... while) -->
-## [Demo](../demos/FactorialDoWhile)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/FactorialDoWhile)
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
 # Product[N..M] – _Example_
@@ -298,7 +298,7 @@ Console.WriteLine("product[n..m] = " + product);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Product of the Numbers in the Interval [n..m] -->
-## [Demo](../demos/Product)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Product)
 
 
 
@@ -443,7 +443,7 @@ i=8, sum=15
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # For Loops -->
-## [Demo](../demos/ForLoops)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/ForLoops)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:55%; left:35%; width:30%; z-index:-1; border-radius: 15px;" /> -->
 
 
@@ -469,7 +469,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Calculating N^M -->
-## [Demo](../demos/Power)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Power)
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
@@ -495,7 +495,7 @@ Console.WriteLine("sum = {0}", sum);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Using continue Operator -->
-## [Demo](../demos/Continue)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Continue)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic19.png" style="top:55%; left:35%; width:30%; z-index:-1; border-radius: 15px;" /> -->
 
 
@@ -544,7 +544,7 @@ foreach (string day in days)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # foreach Loop -->
-## [Demo](../demos/Foreach)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Foreach)
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
@@ -604,7 +604,7 @@ for(int row = 1; row <= n; row++)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Triangle -->
-## [Demo](../demos/Triangle)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Triangle)
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size:0.8em;' } -->
@@ -637,7 +637,7 @@ for (int number = n; number <= m; number++)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Primes in Range [n, m] -->
-## [Demo](../demos/Primes)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Primes)
 
 
 <!-- attr: { id:'breakcontinue', class:'', showInPresentation:true, hasScriptWrapper:false } -->
@@ -709,7 +709,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Happy Numbers -->
-## [Demo](../demos/HappyNumbers)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/HappyNumbers)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic27.png" style="top:55%; left:38%; width:23%; z-index:-1; border-radius: 15px;" /> -->
 
 
@@ -737,7 +737,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # TOTO 6/49 -->
-## [Demo](../demos/Toto)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Toto)
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic28.png" style="top:55%; left:33%; width:35%; z-index:-1; border-radius: 15px;" /> -->
 
 
