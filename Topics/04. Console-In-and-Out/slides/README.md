@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Console Input / Output
 ## Reading and Writing to the Console
 
@@ -9,15 +9,15 @@
     <a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
-<!-- <img class="slide-image" src="imgs/pic03.png" style="top:10%; left:0%; width:20.93%; z-index:-1" /> -->
-<!-- <img class="slide-image" src="imgs/pic04.png" style="top:50%; left:70%; width:26.32%; z-index:-1" /> -->
-<img class="slide-image" src="imgs/pic05.png" style="top:50%; left:20%; width:40.60%; z-index:-1" />
+<!-- <img class="slide-image" src="imgs/pic03.png" style="top:10%; left:0%; width:20.93%; z-index:-1; border-radius:15px;" /> -->
+<!-- <img class="slide-image" src="imgs/pic04.png" style="top:50%; left:70%; width:26.32%; z-index:-1; border-radius:15px;" /> -->
+<img class="slide-image" src="imgs/pic05.png" style="top:50%; left:62%; width:40.60%; z-index:-1; border-radius:15px;" />
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Table of Contents
 - [Printing to the Console](#/printing)
   - [Printing Strings and Numbers](#/printingtypes)
@@ -34,12 +34,12 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing to the Console -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:50%; left:25%; width:50%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:50%; left:25%; width:50%; z-index:-1; border-radius:15px;" /> -->
 
 
-<!-- attr: { id:'printing', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'printing', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="printing"></a>Printing to the Console
 - The **Console** is used to display information in a text window
 - **Can display different values**:
@@ -48,10 +48,10 @@
   - All primitive data types
 - To print to the console use the class **Console** (Found in namespace **System**)
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:25%; left:76.23%; width:26.91%; z-index:-1; border-radius: 5px; box-shadow: 5px 5px 5px rgba(244, 245, 247, 0.5)" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:25%; left:70%; width:26.91%; z-index:-1; border-radius: 15px; box-shadow: 5px 5px 5px rgba(244, 245, 247, 0.5)" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # The Console Class
 - Provides methods for console **input** and **output**
   - **Input**
@@ -63,7 +63,7 @@
     - `WriteLine(…)` – prints specified data to the console and moves to the next line
 
 
-<!-- attr: { id:'printingtypes', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'printingtypes', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # <a id="printingtypes"></a>Console.Write
 - Printing an integer variable
 
@@ -86,7 +86,7 @@ Console.Write("{0} + {1} = {2}", a, b, a + b);
 - Next print operation will start from the same line
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Console.WriteLine
 - Printing a string variable
 
@@ -109,7 +109,7 @@ Console.WriteLine("{0} was born in {1}.", name, year);
 - Next printing will start from the new line
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Printing to the Console – _Example_
 
 ```cs
@@ -122,9 +122,9 @@ static void Main()
     Console.Write("{0} is {1} years old from {2}.",
                   name, age, town);
     // Result: Peter is 18 years old from Sofia.
-    
+
     Console.Write("This is on the same line!");
-    
+
     Console.WriteLine("Next sentence will be" +
                       " on a new line.");
 
@@ -135,7 +135,7 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Formatting Strings
 - `{`**index**[`,`**alignment**][`:`**formatString**]`}`
 - **index**
@@ -146,7 +146,7 @@ static void Main()
     - a negative integer – left-aligned
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Formatting Strings
 - `{`**index**[`,`**alignment**][`:`**formatString**]`}`
 - **formatString**
@@ -164,7 +164,7 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Formatting Strings – _Example_
 
 ```cs
@@ -188,7 +188,7 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Printing a Menu – _Example_
 
 ```cs
@@ -210,28 +210,29 @@ Console.WriteLine("Have a nice day!");
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing to the Console -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingToConsole)
+## [Demo](../demos/PrintingToConsole)
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Reading from the Console -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Reading from the Console
+## Reading Strings and Numeral Types -->
 
 
-<!-- attr: { id:'reading', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'reading', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="reading"></a>Reading from the Console
 - We use the console to **read information** from the command line
 - We can read:
   - `Characters`
   - `Strings`
-  - `Numeric types` (after conversion)
-- To read from the console we use the methods **Console.Read()** and **Console.ReadLine()**
+  - `Numeric types` (**after conversion**)
+- To read from the console we use the methods `Console.Read()` and `Console.ReadLine()`
 
-<!-- <img class="slide-image" showInpresentation="True" src="imgs/pic11.png" style="top:21.16%; left:67.37%; width:25%; z-index:-1; transform: rotate(10deg)" /> -->
+<!-- <img class="slide-image" showInpresentation="true" src="imgs/pic11.png" style="top:21.16%; left:67.37%; width:25%; z-index:-1; transform: rotate(10deg)" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Console.Read()
 - **Gets a single character** from the console (after `[Enter]` is pressed)
   - Returns a result of type `int`
@@ -246,12 +247,7 @@ char ch = (char) i;  // Cast the int to char
 Console.WriteLine("The code of '{0}' is {1}.", ch, i);
 ```
 
-
-
-<!-- attr: { id:'chars', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # Reading Characters from the Console -->
-
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Console.ReadKey
 - Waits until a combination of keys is pressed
   - Reads a single character from console or a combination of keys
@@ -268,12 +264,12 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reading Keys from the Console -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingKeys)
+## [Demo](../demos/ReadingKeys)
 
 
-<!-- attr: { id:'strings', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'strings', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # <a id="strings"></a>Console.ReadLine
 - **Gets a line of characters**
 - Returns a `string` value
@@ -291,18 +287,20 @@ Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reading Strings from the Console -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingString)
+## [Demo](../demos/ReadingString)
 
 
-<!-- attr: { id:'numeral', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'numeral', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # <a id="numeral"></a>Reading Numeral Types
 - Numeric types can not be read directly from the console
 - To read a numeral type do the following:
-  - **Read a `string` value**
-  - **Convert (parse) it to the required numeric type**
-- **int.Parse(`string`)**
+
+  1. **Read a `string` value**
+
+  2. **Convert (parse) it to the required numeric type**
+- `int.Parse(string)`
   - Parses (converts) a `string` to `int`
 
 ```cs
@@ -312,12 +310,12 @@ int number = int.Parse(input);
 Console.WriteLine("You entered: {0}", number);
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Converting Strings to Numbers
 - Numeric types have a method **Parse(…)** for extracting the numeral value from a string
-  - **int.Parse(`string`)** – `string` &rarr; `int`
-  - **long.Parse(`string`)** – `string` &rarr; `long`
-  - **float.Parse(`string`)** – `string` &rarr; `float`
+  - `int.Parse(string)` – `string` &rarr; `int`
+  - `long.Parse(string)` – `string` &rarr; `long`
+  - `float.Parse(string)` – `string` &rarr; `float`
   - Causes **FormatException** in case of error
 
 ```cs
@@ -329,8 +327,8 @@ string invalid = "xxx1845";
 int value = int.Parse(invalid); // FormatException is thrown
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Reading Numbers from the Console – _Example_
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
+# Reading Numbers from the Console _Example_
 
 ```cs
 static void Main()
@@ -342,17 +340,17 @@ static void Main()
     Console.WriteLine("{0} * {1} = {2}", a, b, a * b);
 
     float f = float.Parse(Console.ReadLine());
-    Console.WriteLine("{0} * {1} / {2} = {3}", 
+    Console.WriteLine("{0} * {1} / {2} = {3}",
                       a, b, f, a * b / f);
 }
 ```
 
-<!-- attr: { id:'parsing', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'parsing', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # <a id="parsing"></a>Converting Strings to Numbers
 - Converting can also be done using the methods of the **Convert** class
-  - **Convert.ToInt32(`string`)** - `string` &rarr; `int`
-  - **Convert.ToSingle(`string`)** - `string` &rarr; `float`
-  - **Convert.ToInt64(`string`)** - `string` &rarr; `long`
+  - `Convert.ToInt32(string)` - `string` &rarr; `int`
+  - `Convert.ToSingle(string)` - `string` &rarr; `float`
+  - `Convert.ToInt64(string)` - `string` &rarr; `long`
   - It uses the parse methods of the numeric types
 
 ```cs
@@ -364,15 +362,15 @@ string invalid = "xxx1845";
 int value = Convert.ToInt32(invalid); // FormatException
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Reading Numbers from the Console--> 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingNumbers)
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Reading Numbers from the Console-->
+## [Demo](../demos/ReadingNumbers)
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Error Handling when Parsing
 - Sometimes we want to handle the errors when parsing a number
-  - Two options: use **try-catch** block or **TryParse** method
-- Parsing with **TryParse**:
+  - Two options: use `try-catch` block or `TryParse` method
+- Parsing with `TryParse`:
 
 ```cs
 string str = Console.ReadLine();
@@ -388,21 +386,21 @@ else
 }
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Parsing with TryParse --> 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/TryParse)
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Parsing with TryParse -->
+## [Demo](../demos/TryParse)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Regional Settings
 ## Printing and Reading Special Characters
 ## Regional Settings and the Number Formatting -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # How to Print Special Characters on the Console?
 <ul>
-    <li> Printing <!-- .element: style="width: 75%" --> <strong>special characters</strong> on the console needs two steps: 
+    <li> Printing <!-- .element: style="width: 75%" --> <strong>special characters</strong> on the console needs two steps:
         <ul>
             <li><strong>Change the console properties</strong> to enable Unicode-friendly font</li>
             <li><strong>Enable Unicode</strong> for the <strong>Console</strong> by adjusting its output encoding
@@ -420,10 +418,10 @@ Console.OutputEncoding = Encoding.UTF8;
 Console.WriteLine("Това е кирилица: ☺");
 ```
 
-<img class="slide-image" src="imgs/pic22.png" style="top:20%; left:75%; width:30%; z-index:-1" />
+<img class="slide-image" src="imgs/pic22.png" style="top:20%; left:75%; width:25%; z-index:-1; border-radius:15px;" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Decimal Separator
 - The **currency** and **number formats** are different in different countries
   - E.g. the decimal separator could be "`.`" or "`,`"
@@ -435,25 +433,26 @@ using System.Globalization;
 …
 Thread.CurrentThread.CurrentCulture =
   CultureInfo.InvariantCulture;
-  
+
 Console.WriteLine(3.54); // 3.54
 decimal value = decimal.Parse("1.33");
 ```
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Regional Settings
 ## Demo
-<img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1" /> -->
+<img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1; border-radius:15px;" /> -->
 
 
 <!-- section start -->
-<!-- attr: { id:'examples', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="examples"></a>Reading and Printing to the Console -->
+<!-- attr: { id:'examples', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # <a id="examples"></a>Reading and Printing to the Console
+## Various examples -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Printing a Letter – _Example_
 
 ```cs
@@ -476,12 +475,12 @@ Console.WriteLine("  {0}", company);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing a Letter -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingLetter) 
+## [Demo](../demos/PrintingLetter)
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Calculating Area – _Example_
 
 ```cs
@@ -503,28 +502,28 @@ Console.WriteLine("The area of your figure " +
                   "is {0}", area);
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Calculating Area -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/CalculatingArea)
+## [Demo](../demos/CalculatingArea)
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Summary
-- We have discussed the basic **input** and **output** methods of the class **Console**
-  - **Write** and **WriteLine** methods
+- We have discussed the basic **input** and **output** methods of the class `Console`
+  - `Write` and `WriteLine` methods
     - Used to write values to the console
-  - **Read** and **ReadLine** methods
+  - `Read` and `ReadLine` methods
     - Used to read values from the console
 - Parsing numbers to strings
-  - **int.Parse**, **double.Parse**, and so on methods
+  - `int.Parse`, `double.Parse`, and so on methods
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } 
-# Console Input / Output
-<img class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/cat-questions.png" style="width:80%; top:15%; left:10%" /> -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Console Input / Output -->
+<!-- <img class="slide-image" showInpresentation='true' src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/cat-questions.png" style="width:80%; top:15%; left:10%" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Free Trainings @ Telerik Academy
 - Fundamentals of C# Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
@@ -533,4 +532,4 @@ Console.WriteLine("The area of your figure " +
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
-    - telerikacademy.com
+    - [telerikacademy.com](https://telerikacademy.com)
