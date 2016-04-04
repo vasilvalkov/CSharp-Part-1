@@ -88,12 +88,12 @@ int count = 5;
 
 <!-- section start -->
 <!-- attr: { id:'integer', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # <a id="integer"></a>Integer Types -->
+# <a id="integer"></a>Integer Types
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:42%; left:26.81%; width:50.38%; z-index:-1" /> -->
 
 
 <!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
-# Integer Types
+<!-- # Integer Types -->
 
 - **Integer types**:
   - Represent **integer numbers**
@@ -163,7 +163,7 @@ Console.WriteLine("{0} centuries is {1} years," +
 
 <!-- section start -->
 <!-- attr: { id:'float', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # <a id="float"></a>Floating-point and Decimal Floating-Point Types -->
+# <a id="float"></a>Floating-point and Decimal Floating-Point Types
 
 <div style="text-align:center;height: 25%">
 <!-- <img showInPresentation="true" src="imgs/pic10.png" /> -->
@@ -238,8 +238,8 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
   - Used for financial calculations
   - No round-off errors
   - Almost no loss of precision
-- The default value of **decimal** type is:
-  - **0.0M** (**M** is the suffix for decimal numbers)
+- The default value of `decimal` type is:
+  - `0.0M` (`M` is the suffix for decimal numbers)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
@@ -256,12 +256,12 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
 
 <!-- attr: { hasScriptWrapper: true, style:'font-size: 0.9em' } -->
 # The Boolean Data Type
-- The **Booleandata type**:
+- The **Boolean data type**:
   - Is declared by the `bool` keyword
   - Has two possible values: `true` and `false`
   - Is useful in logical expressions
 - The default value is `false`
-- _Example:_ boolean variables with values **true** and **false**:
+- _Example:_ boolean variables with values `true` and `false`:
 
 ```cs
 int a = 1;
@@ -412,7 +412,7 @@ Console.Write("The value of dataContainer is: ");
 Console.WriteLine(dataContainer);
 ```
 
-<!-- <img class="slide-image fragment" showInPresentation="true"  src="imgs/pic31.png" style="top:62%; left: 49%; width: 49%;border-radius: 10px" /> -->
+<!-- <img class="slide-image fragment" showInPresentation="true"  src="imgs/pic31.png" style="top:66%; left: 49%; width: 49%;border-radius: 10px" /> -->
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
@@ -531,7 +531,7 @@ int 2Pac; // Cannot begin with a digit
 
 <!-- attr: { id:'assign', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="assign"></a>Assigning Values To Variables -->
-<!-- <img showInPresentation="true"  src="imgs/pic39.png" style=" width:40%; z-index:-1" /> -->
+<!-- <img showInPresentation="true"  src="imgs/pic39.png" style="width:35%; z-index:-1" /> -->
 
 
 <!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
@@ -553,7 +553,7 @@ firstValue = secondValue = 3; // Avoid this!
 ```
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
+<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.8em' } -->
 # Initializing Variables
 
 - Initializing
@@ -564,13 +564,11 @@ firstValue = secondValue = 3; // Avoid this!
     ```cs
     int num = new int(); // num = 0
     ```
-
   - By using a literal expression
 
     ```cs
     float heightInMeters = 1.74f;
     ```
-
   - By referring to an already initialized variable
 
     ```cs
@@ -589,8 +587,8 @@ firstValue = secondValue = 3; // Avoid this!
 
 <!-- section start -->
 <!-- attr: { id:'literals', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # <a id="literals"></a>Literals -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic46.png" style="top:40%; left:25.85%; width:54.99%; z-index:-1" /> -->
+# <a id="literals"></a>Literals
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic46.png" style="top:40%; left:25%; width:50%; z-index:-1" /> -->
 
 
 <!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
@@ -619,7 +617,7 @@ firstValue = secondValue = 3; // Avoid this!
   - May have a sign (`+`, `-`)
   - May be in a hexadecimal format
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic48.png" style="top:10.58%; left:80.67%; width:21.61%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic48.png" style="top:10%; left:80.67%; width:18%; z-index:-1" /> -->
 
 
 <!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
@@ -775,34 +773,35 @@ string str = @"some
 ## [Demo]()
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Nullable Types -->
+<!-- attr: { id:'nullable', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
+# <a id="nullable"></a>Nullable Types
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic52.png" style="top:44.74%; left:5.61%; width:56.31%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic53.png" style="top:40.56%; left:70.20%; width:27.88%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic54.png" style="top:2.45%; left:75.79%; width:19.56%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'nullable', class:'', showInPresentation: true } -->
-# <a id="nullable"></a>Nullable Types
+<!-- attr: { class:'', showInPresentation: true } -->
+<!-- # Nullable Types -->
 - **Nullable** types are instances of the `System.Nullable` struct
   - Wrapper over the **primitive types**
   - E.g. `int?`, `double?`, etc.
 - **Nullabe** type can represent the normal range of values for its underlying value type, plus an additional `null` value
 - Useful when dealing with **Databases** or other structures that have default value `null`
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: {  class:'', showInPresentation: true, style:'font-size:0.9em' } -->
 <!-- # Nullable Types – _Example_ -->
 - _Example_ with **Integer**:
 
 ```cs
 int? someInteger = null;
 Console.WriteLine(
-  "This is the integer with Null value -> " + someInteger);
+  "This is the integer with Null value -> "
+	+ someInteger);
 someInteger = 5;
 Console.WriteLine(
-  "This is the integer with value 5 -> " +  someInteger);
+  "This is the integer with value 5 -> "
+	+  someInteger);
 ```
-
 
 ```cs
 double? someDouble = null;
@@ -811,8 +810,8 @@ Console.WriteLine(
   + someDouble);
 someDouble = 2.5;
 Console.WriteLine(
-  "This is the real number with value 5 -> " +
-  someDouble);
+  "This is the real number with value 5 -> "
+	+ someDouble);
 ```
 
 
@@ -827,13 +826,13 @@ Console.WriteLine(
 
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Dynamic Types in _C#_
-## Types Holding Anything & Evaluated at Runtime -->
+<!-- attr: { id:'dynamic', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
+# <a id="dynamic"></a>Dynamic Types in _C#_
+## Types Holding Anything & Evaluated at Runtime
 
 
-<!-- attr: { id:'dynamic', class:'', showInPresentation: true } -->
-# <a id="dynamic"></a>Dynamic Types
+<!-- attr: { class:'', showInPresentation: true } -->
+<!-- # Dynamic Types -->
 - **Dynamic types** in C# (keyword `dynamic`)
   - Can hold anything (string, number, object, function / method reference)
   - Operations evaluated at runtime
@@ -866,13 +865,13 @@ Console.WriteLine(a + b); // 53 (string concatenation)
 <!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
 # Free Trainings @ Telerik Academy
 - Fundamentals of C# ProgrammingTrack of Courses
-    - csharpfundamentals.telerik.com
+    - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System
-    - [telerikacademy.com](telerikacademy.com)
+    - [telerikacademy.com](https://telerikacademy.com)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic63.png" style="top:58.18%; left:90.52%; width:16.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic64.png" style="top:34.35%; left:68.14%; width:36.30%; z-index:-1" /> -->
