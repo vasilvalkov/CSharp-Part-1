@@ -180,16 +180,16 @@ Console.WriteLine("{0} centuries is {1} years," +
 <div style="text-align: center; height: 40%">
 <!-- <img showInPresentation="true" src="imgs/pic11.png" style="border-radius: 15px" /> -->
 </div>
-<!-- attr: { showInPresentation: true, style:"font-size: 0.9em" } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper:true, style:"font-size: 0.9em" } -->
 <!-- # Floating-Point Types -->
 - Floating-point types are:
   - `float` (32-bits)
-    - Min: `±1.5 × 10−45`
-    - Max:  `±3.4 × 1038`
+    - Min: `±1.5 × 10`<code><sup>-45</sup></code>
+    - Max:  `±3.4 × 10`<code><sup>38</sup></code>
     - Precision: **7 digits**
   - `double` (64-bits)
-    - Min: `±5.0 × 10−324`
-    - Max: `±1.7 × 10308`
+    - Min: `±5.0 × 10`<code><sup>-324</sup></code>
+    - Max: `±1.7 × 10`<code><sup>308</sup></code>
     - Precision: **15-16 digits**
 - The default value of floating-point types:
   - Is `0.0F` for the `float` type
@@ -232,8 +232,8 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
 # Decimal Floating-Point Types
 - There is a special decimal floating-point real number type in C#:
   - `decimal` (128-bits)
-    - Min: `±1,0 × 10-28`
-    - Max: `±7,9 × 1028`
+    - Min: `±1,0 × 10`<code><sup>-28</sup></code>
+    - Max: `±7,9 × 10`<code><sup>28</sup></code>
     -Precision: **28-29 digits**
   - Used for financial calculations
   - No round-off errors
