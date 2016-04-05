@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: {  class:'slide-title', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-title', showInPresentation: true, hasScriptWrapper: true } -->
 # Primitive Data Types and Variables
 ## Integer, Floating-point, Text Data, Characters, Variables, Literals
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic00.png" style="top:50.52%; left:59.88%; width:44.96%; z-index:-1" /> -->
@@ -56,7 +56,7 @@ int count = 5;
   <li class="fragment balloon" style="top:61.75%; left:24%;">Variable value</li>
 </ul>
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # What Is a Data Type?
 - A **data type**:
   - Is a domain of values of similar characteristics
@@ -69,7 +69,7 @@ int count = 5;
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:48.55%; right:7%; width:18.51%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Data Type Characteristics
 - A **data type** has:
   - **Name** (C# keyword or .NET type)
@@ -92,7 +92,7 @@ int count = 5;
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:42%; left:26.81%; width:50.38%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Integer Types -->
 
 - **Integer types**:
@@ -106,7 +106,7 @@ int count = 5;
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:56.42%; left:77.66%; width:28.21%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, style: 'font-size: 0.8em' } -->
+<!-- attr: { showInPresentation: true, style: 'font-size: 0.8em' } -->
 <!-- # Integer Types -->
 - `sbyte` (signed 8-bit)
   - Min: `-128`
@@ -120,7 +120,7 @@ int count = 5;
 - `ushort` (unsigned 16-bit)
   - Min: `0`
   - Max: `65,535`
-<!-- attr: {  class:'', showInPresentation: true, style: 'font-size: 0.8em' } -->
+<!-- attr: { showInPresentation: true, style: 'font-size: 0.8em' } -->
 <!-- # Integer Types (cont.) -->
 - `int` (signed 32-bit)
   - Min: `-2,147,483,648`
@@ -138,7 +138,7 @@ int count = 5;
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic08.png" style="top:46.72%; left:60.82%; width:43.20%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # Integer Types: _Example_ -->
 - Depending on the unit of measure we may use different data types:
 
@@ -156,7 +156,7 @@ Console.WriteLine("{0} centuries is {1} years," +
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Integer Types -->
 ## [Demo]()
 
@@ -169,7 +169,7 @@ Console.WriteLine("{0} centuries is {1} years," +
 <!-- <img showInPresentation="true" src="imgs/pic10.png" /> -->
 </div>
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Floating-point Types
 - **Floating-point** types:
   - Represent **real numbers**
@@ -195,7 +195,7 @@ Console.WriteLine("{0} centuries is {1} years," +
   - Is `0.0F` for the `float` type
   - Is `0.0D` for the `double` type
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style:"font-size: 0.95em" } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true, style:"font-size: 0.95em" } -->
 # PI Precision – _Example_
 
 - See below the difference in precision when using `float` and `double`:
@@ -213,7 +213,7 @@ Console.WriteLine("Double PI is: {0}", doublePI);
 <!-- <img class="slide-image fragment" showInPresentation="true"  src="imgs/pic12.png" style="top:75%; left:43.41%; width:41.98%; border-radius: 10px" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Abnormalities in the Floating-Point Calculations
 - Sometimes abnormalities can be observed when using floating-point numbers
   - Comparing floating-point numbers can not be performed directly with the `==` operator
@@ -228,7 +228,7 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
                   a+b, sum, equal);
 ```
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Decimal Floating-Point Types
 - There is a special decimal floating-point real number type in C#:
   - `decimal` (128-bits)
@@ -242,7 +242,7 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
   - `0.0M` (`M` is the suffix for decimal numbers)
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Floating-Point and Decimal Floating-Point Types -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/02.%20Data-Types-and-Variables/demos/FloatingPointTypes)
 
@@ -272,7 +272,7 @@ bool equalA1 = (a == 1);
 Console.WriteLine(equalA1);    // True
 ```
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Boolean Type -->
 ## [Demo]()
 <div style="text-align: center">
@@ -288,7 +288,7 @@ Console.WriteLine(equalA1);    // True
 </div>
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:9.43%; left:23%; width:54.66%; z-index:-1" /> -->
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # The Character Data Type
 - The **character data type**:
   - Represents symbolic information
@@ -300,7 +300,7 @@ Console.WriteLine(equalA1);    // True
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic23.png" style="top:60.57%; right: 10%; width:39.67%; z-index:-1" /> -->
 
 
-<!-- attr: { hasScriptWrapper: true, class:'', showInPresentation: true, style: 'font-size: 0.95em' } -->
+<!-- attr: { hasScriptWrapper: true, showInPresentation: true, style: 'font-size: 0.95em' } -->
 # Characters and Codes
 - _Example_: Symbols have unique Unicode codes:
 
@@ -330,7 +330,7 @@ Console.WriteLine("The code of '{0}' is: {1}",
   <li class="fragment balloon" style="top: 87%; left: 51%">`'0'` has code value `48`</li>
 </ul>
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Character Type -->
 ## [Demo]()
 <!-- <img showInPresentation="true"  src="imgs/pic24.png" style="border-radius: 15px" /> -->
@@ -341,7 +341,7 @@ Console.WriteLine("The code of '{0}' is: {1}",
 <!-- <img showInPresentation="true"  src="imgs/pic25.png" style="width:30%" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 # The String Data Type
 - The **string data type**:
   - Represents a sequence of characters
@@ -357,7 +357,7 @@ string s = "Microsoft .NET Framework";
   - Using the `+` operator
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # String Concatenation: _Example_ -->
 - _Example:_ Concatenating the two names of a person to obtain his full name:
   - _Note_: a space is missing between the two names! We have to add it manually
@@ -374,7 +374,7 @@ Console.WriteLine("Your full name is {0}.",
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # String Type -->
 ## [Demo]()
 <!-- <img showInPresentation="true"  src="imgs/pic27.png" style="width:40%" /> -->
@@ -386,7 +386,7 @@ Console.WriteLine("Your full name is {0}.",
 <!-- <img showInPresentation="true"  src="imgs/pic28.png" style="width:45%" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # The Object Type
 - The object type:
   - Is declared by the `object` keyword
@@ -398,7 +398,7 @@ Console.WriteLine("Your full name is {0}.",
 <!-- <img showInPresentation="true"  src="imgs/pic30.png" style="width: 37%; border-radius: 15px" /> -->
 </div>
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Using Objects -->
 - _Example_ of an object variable taking different types of data:
 
@@ -415,7 +415,7 @@ Console.WriteLine(dataContainer);
 <!-- <img class="slide-image fragment" showInPresentation="true"  src="imgs/pic31.png" style="top:66%; left: 49%; width: 49%;border-radius: 10px" /> -->
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # The Object type -->
 ## [Demo]()
 <!-- <img showInPresentation="true"  src="imgs/pic32.png" style="top:30%; left:50.53%; width:25%; z-index:-1" /> -->
@@ -424,12 +424,12 @@ Console.WriteLine(dataContainer);
 
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Introducing Variables -->
 <!-- <img showInPresentation="true"  src="imgs/pic33.png" style="width:38.79%" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # What Is a Variable?
 - A variable is a:
   - **Placeholder** of information that can usually be changed at run-time
@@ -438,7 +438,7 @@ Console.WriteLine(dataContainer);
   - **Retrieve** the stored information
   - **Manipulate** the stored information
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Variable Characteristics
 - A variable has:
   - Name
@@ -477,7 +477,7 @@ int counter = 5;
 int height = 200;
 ```
 
-<!-- attr: { id:'identifiers', class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { id:'identifiers', showInPresentation: true, hasScriptWrapper: true } -->
 # <a id="identifiers"></a>Identifiers
 
 - Identifiers may consist of:
@@ -491,7 +491,7 @@ int height = 200;
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic38.png" style="top:19.39%; left:67.37%; width:30%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # Identifiers -->
 - Identifiers
   - Should have a descriptive name
@@ -501,7 +501,7 @@ int height = 200;
   - In C# small letters are considered different than the capital letters (case sensitivity)
 
 
-<!-- attr: {  class:'', showInPresentation: true, style: 'font-size: 0.9em' } -->
+<!-- attr: { showInPresentation: true, style: 'font-size: 0.9em' } -->
 <!-- # Identifiers – _Examples_ -->
 - _Examples_ of correct identifiers:
 
@@ -534,7 +534,7 @@ int 2Pac; // Cannot begin with a digit
 <!-- <img showInPresentation="true"  src="imgs/pic39.png" style="width:35%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
 # Assigning Values
 - Assigning of values to variables
   - Is achieved by the `=` operator
@@ -553,7 +553,7 @@ firstValue = secondValue = 3; // Avoid this!
 ```
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.8em' } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.8em' } -->
 # Initializing Variables
 
 - Initializing
@@ -576,7 +576,7 @@ firstValue = secondValue = 3; // Avoid this!
     string message = greeting;
     ```
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Assigning and Initializing Variables -->
 ## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic44.png" style="top:40.55%; left: 6%; width:25.65%; z-index:-1" /> -->
@@ -591,7 +591,7 @@ firstValue = secondValue = 3; // Avoid this!
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic46.png" style="top:40%; left:25%; width:50%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # What are Literals?
 - Literals are:
   - Representations of values in the source code
@@ -606,7 +606,7 @@ firstValue = secondValue = 3; // Avoid this!
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic47.png" style="top:39.67%; right: 14%; width:43.81%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Boolean and Integer Literals
 - The boolean literals are:
   - `true`
@@ -620,7 +620,7 @@ firstValue = secondValue = 3; // Avoid this!
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic48.png" style="top:10%; left:80.67%; width:18%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
 # Integer Literals
 - _Examples_ of integer literals
   - The `'0x'` and `'0X'` prefixes mean a hexadecimal value
@@ -640,7 +640,7 @@ firstValue = secondValue = 3; // Avoid this!
       9876543L
       ```
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # Integer Literals – _Example_ -->
 - _Note_: the letter `'l'` is easily confused with the digit `1` so it’s better to use `'L'`!!!
 
@@ -661,7 +661,7 @@ int longInt = 234L;
 
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 # Real Literals
 - The real literals:
   - Are used for values of type `float`, `double` and `decimal`
@@ -673,7 +673,7 @@ int longInt = 234L;
 - The default interpretation is `double`
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # Real Literals – _Example_ -->
 - _Example_ of incorrect `float` literal:
 
@@ -695,7 +695,7 @@ realNumber = 1.25e+7f;
 
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Character Literals
 - The character literals:
   - Are used for values of the `char` type
@@ -706,7 +706,7 @@ realNumber = 1.25e+7f;
   - Escaping sequence
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 # Escaping Sequences
 - Escaping sequences are:
   - Means of presenting a symbol that is usually interpreted otherwise (like `'`)
@@ -717,7 +717,7 @@ realNumber = 1.25e+7f;
   - `\uXXXX` for denoting any other Unicode symbol
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # Character Literals – _Example_ -->
 - _Examples_ of different character literals:
 
@@ -734,7 +734,7 @@ symbol = "a"; // Incorrect: use single quotes
 
 
 
-<!-- attr: {  hasScriptWrapper: true, showInPresentation: true } -->
+<!-- attr: { hasScriptWrapper: true, showInPresentation: true } -->
 # String Literals
 - String literals:
   - Are used for values of the string type
@@ -748,7 +748,7 @@ string s = "I am a sting literal";
 
 
 
-<!-- attr: {  class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # String Literals – _Example_ -->
 - Benefits of quoted strings (the `@` prefix):
 - In quoted strings `\"` is used instead of `""`!
@@ -768,7 +768,7 @@ string str = @"some
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # String Literals -->
 ## [Demo]()
 
@@ -780,7 +780,7 @@ string str = @"some
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic54.png" style="top:2.45%; left:75.79%; width:19.56%; z-index:-1" /> -->
 
 
-<!-- attr: { class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # Nullable Types -->
 - **Nullable** types are instances of the `System.Nullable` struct
   - Wrapper over the **primitive types**
@@ -788,7 +788,7 @@ string str = @"some
 - **Nullabe** type can represent the normal range of values for its underlying value type, plus an additional `null` value
 - Useful when dealing with **Databases** or other structures that have default value `null`
 
-<!-- attr: {  class:'', showInPresentation: true, style:'font-size:0.9em' } -->
+<!-- attr: { showInPresentation: true, style:'font-size:0.9em' } -->
 <!-- # Nullable Types – _Example_ -->
 - _Example_ with **Integer**:
 
@@ -816,7 +816,7 @@ Console.WriteLine(
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Nullable Types -->
 ## [Demo]()
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic55.png" style="top:45.84%; left:8.56%; width:37.13%; z-index:-1" /> -->
@@ -831,7 +831,7 @@ Console.WriteLine(
 ## Types Holding Anything & Evaluated at Runtime
 
 
-<!-- attr: { class:'', showInPresentation: true } -->
+<!-- attr: { showInPresentation: true } -->
 <!-- # Dynamic Types -->
 - **Dynamic types** in C# (keyword `dynamic`)
   - Can hold anything (string, number, object, function / method reference)
@@ -849,20 +849,20 @@ Console.WriteLine(a + b); // 53 (string concatenation)
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Dynamic Types -->
 ## [Demo]()
 
 <!-- section start  -->
 
-<!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Primitive Data Types and Variables
 ## Questions? -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic59.png" style="top:47.60%; left:1.87%; width:29.97%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic60.png" style="top:46.21%; left:77.66%; width:29.97%; z-index:-1" /> -->
 
 
-<!-- attr: {  class:'', showInPresentation: true, hasScriptWrapper: true } -->
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
 # Free Trainings @ Telerik Academy
 - Fundamentals of C# ProgrammingTrack of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
