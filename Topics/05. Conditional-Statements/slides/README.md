@@ -3,8 +3,8 @@
 # Conditional Statements
 ## Implementing Control Logic in C*#*
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic01.png" style="top:45%; left:6.55%; width:20.83%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:56%; left:50%; width:40%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:56%; left:50%; width:40%; z-index:-1; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:12.06%; left:6.55%; width:15.07%; z-index:-1; border-radius: 15px" /> -->
 
 
 
@@ -18,7 +18,7 @@
 - [Nested `if` Statements](#/nestedif)
 - [The `switch-case` Statement](#/switch)
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:25.56%; left:77.66%; width:25.56%; z-index:-1; border-radius: 15px; border: 3px solid yellowgreen" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:55%; left:5%; width:30%; z-index:-1" /> -->
 
 
@@ -53,9 +53,8 @@ Console.WriteLine(result); // outputs True
 | **Logical Operator**      | C# Notation   |
 | ------------------------- |:-------------:|
 | **AND**                   | `&&`          |
-| **NOT**                   | `>`           |
+| **NOT**                   | `!`           |
 | **OR**                    | <code>&#124;&#124;</code> |
-| **Greater than or equal** | `!`           |
 | **XOR (Exclusive OR)**    | `^`           |
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
