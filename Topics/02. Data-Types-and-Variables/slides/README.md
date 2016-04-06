@@ -89,7 +89,7 @@ int count = 5;
 <!-- section start -->
 <!-- attr: { id:'integer', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 # <a id="integer"></a>Integer Types
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:42%; left:26.81%; width:50.38%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:42%; left:24.5%; width:50%; z-index:-1; border: 5px solid white" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
@@ -488,7 +488,7 @@ int height = 200;
   - Must begin with either a letter or an underscore
   - Cannot be a C# keyword
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic38.png" style="top:19.39%; left:67.37%; width:30%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic38.png" style="top:19.39%; left:67.37%; width:30%; z-index:-1; border-radius: 15px" /> -->
 
 
 <!-- attr: { showInPresentation: true } -->
@@ -531,7 +531,6 @@ int 2Pac; // Cannot begin with a digit
 
 <!-- attr: { id:'assign', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # <a id="assign"></a>Assigning Values To Variables -->
-<!-- <img showInPresentation="true"  src="imgs/pic39.png" style="width:35%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true, style: 'font-size: 0.9em' } -->
@@ -579,8 +578,8 @@ firstValue = secondValue = 3; // Avoid this!
 <!-- attr: { class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Assigning and Initializing Variables -->
 ## [Demo]()
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic44.png" style="top:40.55%; left: 6%; width:25.65%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic45.png" style="top:40.55%; right: 6%; width:23.80%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic44.png" style="top:40.55%; left: 6%; width:25.65%; z-index:-1; border: 3px solid yellowgreen" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic45.png" style="top:40.55%; right: 6%; width:23.80%; z-index:-1; border: 3px solid yellowgreen" /> -->
 
 
 
@@ -588,7 +587,7 @@ firstValue = secondValue = 3; // Avoid this!
 <!-- section start -->
 <!-- attr: { id:'literals', class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 # <a id="literals"></a>Literals
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic46.png" style="top:40%; left:25%; width:50%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic46.png" style="top:40%; left:24.5%; width:50%; z-index:-1; border: 5px solid white" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->
@@ -858,8 +857,8 @@ Console.WriteLine(a + b); // 53 (string concatenation)
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Primitive Data Types and Variables
 ## Questions? -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic59.png" style="top:47.60%; left:1.87%; width:29.97%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic60.png" style="top:46.21%; left:77.66%; width:29.97%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic59.png" style="top:47.60%; left:1.87%; width:29.97%; z-index:-1; border-radius: 20px" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic60.png" style="top:46.21%; left:77.66%; width:29.97%; z-index:-1; border-radius: 20px" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true } -->

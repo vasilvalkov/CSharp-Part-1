@@ -137,7 +137,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # The `if` Statement
-## Demo -->
+## [Demo](../demos/IfStatementExample) -->
 
 <!-- attr: { id:'ifelse', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # <a id="ifelse"></a>The `if-else` Statement
@@ -189,7 +189,7 @@ else
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # The `if-else` Statement
-## Demo -->
+## [Demo](../demos/IfElseStatement) -->
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -258,7 +258,7 @@ else
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Nested `if` Statements
-## Demo -->
+## [Demo](../demos/NestedIf) -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Multiple `if-else-if-else-…`
@@ -281,7 +281,7 @@ else …
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Multiple `if-else` Statements
-## Demo -->
+## [Demo](../demos/MultipleIfElse) -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:52%; left:30%; width:40%; z-index:-1" /> -->
 
@@ -322,7 +322,7 @@ switch (day)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # The `switch-case` Statement
-## Demo -->
+## [Demo](../demos/SwitchStatement) -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -359,7 +359,7 @@ switch (animal)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Multiple Labels in a `switch-case`
-## Demo -->
+## [Demo](../demos/MultipleLabels) -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Using `switch` – Good Practices
