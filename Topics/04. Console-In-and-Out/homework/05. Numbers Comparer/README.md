@@ -14,7 +14,7 @@ Write a program that gets two numbers from the console and prints the greater of
 - The input will always be valid and in the described format.
 - The numbers **A** and **B** will always be valid real number
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

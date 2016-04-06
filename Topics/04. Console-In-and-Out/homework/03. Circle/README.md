@@ -11,7 +11,7 @@ Write a program that reads from the console the radius **r** of a circle and pri
 ## Constraints
 - The radius **r** will always be a valid and positive real number
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

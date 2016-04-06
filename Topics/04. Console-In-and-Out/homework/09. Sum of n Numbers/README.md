@@ -15,7 +15,7 @@ Write a program that enters a number **N** and after that enters more **N** numb
 - 1 <= **N** <= 200
 - All numbers will be valid floating-point numbers in the range `[-1000, 1000]`
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

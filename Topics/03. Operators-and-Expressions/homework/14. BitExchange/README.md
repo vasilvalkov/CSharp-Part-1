@@ -12,7 +12,7 @@ Write a program that exchanges bits **3**, **4** and **5** with bits **24**, **2
 ## Constraints
 - **N** will always be a valid 32-bit unsigned integer.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

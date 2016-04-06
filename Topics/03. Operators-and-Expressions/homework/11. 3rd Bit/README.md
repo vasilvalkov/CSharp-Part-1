@@ -14,7 +14,7 @@ Using bitwise operators, write a program that uses an expression to find the val
 ## Constraints
 - The input number will always be a valid positive integer number.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

@@ -15,7 +15,7 @@ The program should then print **"yes DISTANCE"** if the point is inside the circ
 ## Constraints
 - The numbers **x** and **y** will always be valid floating point numbers in the range `(-1000, 1000)`
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

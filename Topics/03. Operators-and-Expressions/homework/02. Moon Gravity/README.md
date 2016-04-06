@@ -16,7 +16,7 @@ Output all values with **exactly 3-digit precision** after the floating point.
 ## Constraints
 - The input weight will always be a valid floating-point number, always between **0** and **1000**, exclusive.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

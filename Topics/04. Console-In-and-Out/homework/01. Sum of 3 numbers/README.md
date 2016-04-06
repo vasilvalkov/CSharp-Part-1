@@ -14,7 +14,7 @@ Your output should consist only of a single line - the sum of the three numbers.
 ## Constraints
 - **a**, **b** and **c** will always be valid real numbers between -1000 and 1000, inclusive
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

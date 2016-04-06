@@ -16,7 +16,7 @@ The **width** and **height** should be read from the console.
 ## Constraints
 - The **width** and **height** will always be valid floating-point numbers.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

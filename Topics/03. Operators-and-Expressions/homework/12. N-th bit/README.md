@@ -13,7 +13,7 @@ Write a program that reads from the console two integer numbers **P** and **N** 
 - **N** will be a positive integer and always smaller than 55.
 - 0 <= **P** <= 2<sup>55</sup>
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

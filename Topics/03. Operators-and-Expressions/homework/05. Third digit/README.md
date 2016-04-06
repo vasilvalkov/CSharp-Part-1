@@ -13,7 +13,7 @@ Write a program that reads an integer **N** from the console and prints **true**
 ## Constraints
 - **N** will always be valid non-negative integer number.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

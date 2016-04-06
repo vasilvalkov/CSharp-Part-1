@@ -16,7 +16,7 @@ The three values should be read from the console in the order shown below. All t
 ## Constraints
 - All numbers will always be valid floating-point numbers in the range `[-500, 500]`.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

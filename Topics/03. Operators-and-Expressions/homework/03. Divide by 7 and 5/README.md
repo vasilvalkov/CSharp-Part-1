@@ -16,7 +16,7 @@ Write a program that does the following:
 ## Constraints
 - The input will always consist of valid integers and follow the format in the description.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

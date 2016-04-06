@@ -16,7 +16,7 @@ Write a program first reads 3 numbers **n**, **p**, **q** and **k** and than swa
 - The first and the second sequence of bits will never overlap.
 - **n** will always be a valid 32-bit positive integer.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

@@ -19,7 +19,7 @@ Write a sequence of operators (a few lines of C# code) that modifies **N** to ho
 - **P** will always be between in the range `[0, 64)`.
 - **v** will be always either 0 or 1.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

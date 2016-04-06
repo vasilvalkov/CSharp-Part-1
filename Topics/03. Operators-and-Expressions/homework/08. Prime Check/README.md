@@ -13,7 +13,7 @@ Write a program that reads an integer **N** (which will always be less than **10
 ## Constraints
 - **N** will always be a valid 32-bit integer number, which will be less than **100** or equal.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

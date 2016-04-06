@@ -21,7 +21,7 @@ Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/314#5)

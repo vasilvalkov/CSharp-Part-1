@@ -16,7 +16,7 @@ Write a program that reads the coefficients **a**, **b** and **c** of a quadrati
 ## Constraints
 - The input will always consist of valid real numbers in the range [-1000, 1000] and will follow the described format
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

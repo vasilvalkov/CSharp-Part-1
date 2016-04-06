@@ -14,7 +14,7 @@ Write a program that reads a pair of coordinates **x** and **y** and uses an exp
 ## Constraints
 - The coordinates **x** and **y** will always be valid floating-point numbers in the range `[-1000, 1000]`.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

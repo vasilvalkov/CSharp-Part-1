@@ -15,7 +15,7 @@ Otherwise, print **odd**, again followed by a whitespace and the number's value.
 - The input number will always be a valid integer number.
 - The input number will always be in the range `[-30, 30]`.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

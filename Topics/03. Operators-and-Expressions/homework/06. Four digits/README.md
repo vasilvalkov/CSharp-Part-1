@@ -18,7 +18,7 @@ Write a program that takes as input a four-digit number in format **abcd** (e.g.
 - The number will always be a valid positive four-digit integer.
 - The number will always start with a digit other than **0**.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

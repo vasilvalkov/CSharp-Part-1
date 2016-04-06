@@ -14,7 +14,7 @@ Write a program that reads a number **N** and prints
 - 1 <= **N** <= 50 
 - **N** will always be a valid positive integer number
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

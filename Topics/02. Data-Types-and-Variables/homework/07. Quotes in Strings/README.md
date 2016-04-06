@@ -11,7 +11,7 @@ Write a program that outputs `The "use" of quotations causes difficulties.`
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/313#0)

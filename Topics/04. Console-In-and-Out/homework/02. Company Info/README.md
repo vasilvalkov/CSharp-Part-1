@@ -35,7 +35,7 @@
 - The input will always be in the described format
 - Only the fax number field can be empty, all other fields will have be least one symbol
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

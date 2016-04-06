@@ -12,7 +12,7 @@
 ## Constraints
 - 0 <= **N** <= **M** <= 2000
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

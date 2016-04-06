@@ -13,7 +13,7 @@ Write a program that reads an integer number **N** from the console and prints a
 - 1 <= **N** < 1000
 - **N** will always be a valid integer number
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

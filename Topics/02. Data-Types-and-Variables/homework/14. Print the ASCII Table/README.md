@@ -11,7 +11,7 @@ _Note: You may need to use for-loops (learn in Internet how)._
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/313#2)
