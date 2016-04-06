@@ -8,7 +8,8 @@ class ForEachExample
             "Monday", "Tuesday", "Wednesday", 
             "Thursday", "Friday", "Saturday", "Sunday" 
         };
-        foreach (String day in days)
+
+        foreach (string day in days)
         {
             Console.WriteLine(day);
         }

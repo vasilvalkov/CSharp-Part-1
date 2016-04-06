@@ -12,8 +12,10 @@ class SumOdd
 
 		for (int i = 1; i <= n; i += 2)
 		{
-			if ((i % 7) == 0)
-				continue;
+            if (i % 7 == 0)
+            {
+                continue;
+            }
 			sum += i;
 		}
 		Console.WriteLine("sum = {0}", sum);

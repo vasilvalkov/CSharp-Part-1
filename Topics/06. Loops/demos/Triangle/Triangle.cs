@@ -7,6 +7,7 @@ class Triangle
         Console.Write("n = ");
         string consoleInput = Console.ReadLine();
         int n = int.Parse(consoleInput);
+
         Console.WriteLine();
 
         for (int row = 1; row <= n; row++)
@@ -15,6 +16,7 @@ class Triangle
             {
                 Console.Write("{0} ", column);
             }
+
             Console.WriteLine();
         }
     }

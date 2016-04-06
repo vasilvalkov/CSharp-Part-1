@@ -5,9 +5,12 @@ class Product
     static void Main()
     {
         Console.Write("n = ");
+
         string consoleInputLine = Console.ReadLine();
         int n = int.Parse(consoleInputLine);
+
         Console.Write("m = ");
+
         consoleInputLine = Console.ReadLine();
         int m = int.Parse(consoleInputLine);
 
@@ -15,6 +18,7 @@ class Product
         {
             int num = n;
             decimal product = 1;
+
             do
             {		
                 product *= num;
