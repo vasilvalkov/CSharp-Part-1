@@ -136,7 +136,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # The `if` Statement
-## [Demo](../demos/IfStatementExample) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/05.%20Conditional-Statements/demos/IfStatementExample) -->
 
 <!-- attr: { id:'ifelse', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # <a id="ifelse"></a>The `if-else` Statement
@@ -188,7 +188,7 @@ else
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # The `if-else` Statement
-## [Demo](../demos/IfElseStatement) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/05.%20Conditional-Statements/demos/IfElseStatement) -->
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -257,7 +257,7 @@ else
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Nested `if` Statements
-## [Demo](../demos/NestedIf) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/05.%20Conditional-Statements/demos/NestedIf) -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Multiple `if-else-if-else-…`
@@ -280,7 +280,7 @@ else …
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Multiple `if-else` Statements
-## [Demo](../demos/MultipleIfElse) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/05.%20Conditional-Statements/demos/MultipleIfElse) -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic17.png" style="top:52%; left:30%; width:40%; z-index:-1" /> -->
 
@@ -321,7 +321,7 @@ switch (day)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # The `switch-case` Statement
-## [Demo](../demos/SwitchStatement) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/05.%20Conditional-Statements/demos/SwitchStatement) -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -358,7 +358,7 @@ switch (animal)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Multiple Labels in a `switch-case`
-## [Demo](../demos/MultipleLabels) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/05.%20Conditional-Statements/demos/MultipleLabels) -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Using `switch` – Good Practices

@@ -160,7 +160,7 @@ void       Main(                  )   {   Console   .
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
 <!-- # Your First C# Program
-## [Demo](./../demos/00.HelloCSharp) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/01.%20Introduction-to-Programming/demos/00.HelloCSharp) -->
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->
