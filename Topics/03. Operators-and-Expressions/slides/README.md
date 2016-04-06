@@ -461,13 +461,14 @@ Console.WriteLine(output + number);
 <!-- # Other Operators -->
 - **Conditional** operator `?:` has the form
   - (if `b` is true then the result is `x` else the result is `y`)
-- The `new` operator is used to create new objects
-- The `typeof` operator returns `System.Type` object (the reflection of a type)
-- The `is` operator checks if an object is compatible with given type
 
 ```cs
 b ? x : y
 ```
+
+- The `new` operator is used to create new objects
+- The `typeof` operator returns `System.Type` object (the reflection of a type)
+- The `is` operator checks if an object is compatible with given type
 
 
 
