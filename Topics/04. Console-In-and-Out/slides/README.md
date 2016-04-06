@@ -265,13 +265,8 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<<<<<<< HEAD
 <!-- # Reading Keys from the Console -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingKeys)
-=======
-<!-- # Reading Keys from the Console 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/ReadingKeys) -->
->>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
 <!-- attr: { id:'strings', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -293,13 +288,8 @@ Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<<<<<<< HEAD
 <!-- # Reading Strings from the Console -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingString)
-=======
-<!-- # Reading Strings from the Console 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/ReadingString) -->
->>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
 <!-- attr: { id:'numeral', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -373,13 +363,8 @@ int value = Convert.ToInt32(invalid); // FormatException
 ```
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<<<<<<< HEAD
 <!-- # Reading Numbers from the Console-->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingNumbers)
-=======
-<!-- # Reading Numbers from the Console
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/ReadingNumbers) -->
->>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Error Handling when Parsing
@@ -402,13 +387,8 @@ else
 ```
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<<<<<<< HEAD
 <!-- # Parsing with TryParse -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/TryParse)
-=======
-<!-- # Parsing with TryParse 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/TryParse) -->
->>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
 <!-- section start -->
@@ -496,13 +476,8 @@ Console.WriteLine("  {0}", company);
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<<<<<<< HEAD
 <!-- # Printing a Letter -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingLetter)
-=======
-<!-- # Printing a Letter 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/PrintingLetter) -->
->>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -528,13 +503,8 @@ Console.WriteLine("The area of your figure " +
 ```
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<<<<<<< HEAD
 <!-- # Calculating Area -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/CalculatingArea)
-=======
-<!-- # Calculating Area 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/CalculatingArea) -->
->>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
