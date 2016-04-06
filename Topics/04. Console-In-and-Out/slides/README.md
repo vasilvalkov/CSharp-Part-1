@@ -289,7 +289,7 @@ Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reading Strings from the Console -->
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingString)
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingStrings)
 
 
 <!-- attr: { id:'numeral', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
