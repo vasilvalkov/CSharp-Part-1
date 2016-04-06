@@ -270,7 +270,7 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingKeys)
 =======
 <!-- # Reading Keys from the Console 
-## [Demo](../demos/ReadingKeys) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/ReadingKeys) -->
 >>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
@@ -298,7 +298,7 @@ Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingString)
 =======
 <!-- # Reading Strings from the Console 
-## [Demo](../demos/ReadingString) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/ReadingString) -->
 >>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
@@ -378,7 +378,7 @@ int value = Convert.ToInt32(invalid); // FormatException
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/ReadingNumbers)
 =======
 <!-- # Reading Numbers from the Console
-## [Demo](../demos/ReadingNumbers) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/ReadingNumbers) -->
 >>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -407,7 +407,7 @@ else
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/TryParse)
 =======
 <!-- # Parsing with TryParse 
-## [Demo](../demos/TryParse) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/TryParse) -->
 >>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
@@ -501,7 +501,7 @@ Console.WriteLine("  {0}", company);
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingLetter)
 =======
 <!-- # Printing a Letter 
-## [Demo](../demos/PrintingLetter) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/PrintingLetter) -->
 >>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
@@ -533,7 +533,7 @@ Console.WriteLine("The area of your figure " +
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/CalculatingArea)
 =======
 <!-- # Calculating Area 
-## [Demo](../demos/CalculatingArea) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/04.%20Console-In-and-Out/demos/CalculatingArea) -->
 >>>>>>> 3465a1da683648123e5f49533299e6d2f7836573
 
 
