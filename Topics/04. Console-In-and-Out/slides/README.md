@@ -212,7 +212,7 @@ Console.WriteLine("Have a nice day!");
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing to the Console -->
-## [Demo](../demos/PrintingToConsole)
+<!-- ## [Demo](../demos/PrintingToConsole) -->
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -266,7 +266,7 @@ Console.WriteLine("Special keys: " +  key.Modifiers);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reading Keys from the Console -->
-## [Demo](../demos/ReadingKeys)
+<!-- ## [Demo](../demos/ReadingKeys) -->
 
 
 <!-- attr: { id:'strings', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -289,7 +289,7 @@ Console.WriteLine("Hello, {0} {1}!", firstName, lastName);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reading Strings from the Console -->
-## [Demo](../demos/ReadingString)
+<!-- ## [Demo](../demos/ReadingString) -->
 
 
 <!-- attr: { id:'numeral', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -364,7 +364,7 @@ int value = Convert.ToInt32(invalid); // FormatException
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reading Numbers from the Console-->
-## [Demo](../demos/ReadingNumbers)
+<!-- ## [Demo](../demos/ReadingNumbers) -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 # Error Handling when Parsing
@@ -388,7 +388,7 @@ else
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Parsing with TryParse -->
-## [Demo](../demos/TryParse)
+<!-- ## [Demo](../demos/TryParse) -->
 
 
 <!-- section start -->
@@ -477,7 +477,7 @@ Console.WriteLine("  {0}", company);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing a Letter -->
-## [Demo](../demos/PrintingLetter)
+<!-- ## [Demo](../demos/PrintingLetter) -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
@@ -504,7 +504,7 @@ Console.WriteLine("The area of your figure " +
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Calculating Area -->
-## [Demo](../demos/CalculatingArea)
+<!-- ## [Demo](../demos/CalculatingArea) -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
