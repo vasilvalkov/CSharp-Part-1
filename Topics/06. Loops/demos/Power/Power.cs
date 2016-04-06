@@ -7,6 +7,7 @@ class Power
         Console.Write("n = ");
         string numberAsString = Console.ReadLine();
         int n = int.Parse(numberAsString);
+
         Console.Write("m = ");
         numberAsString = Console.ReadLine();
         int m = int.Parse(numberAsString);
@@ -18,6 +19,6 @@ class Power
             result *= n;
         }
 
-        Console.WriteLine("n^m = " + result);
+        Console.WriteLine("power(n, m) = " + result);
     }
 }

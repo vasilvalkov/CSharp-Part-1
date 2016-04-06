@@ -6,7 +6,7 @@ class Factorial
     {
         Console.Write("n = ");
         string consoleInputLine = Console.ReadLine();
-        int n = Convert.ToInt32(consoleInputLine);
+        int n = int.Parse(consoleInputLine);
 
         Console.Write("n! = ");
 		

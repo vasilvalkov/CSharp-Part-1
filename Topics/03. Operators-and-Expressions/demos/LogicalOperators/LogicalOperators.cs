@@ -2,8 +2,8 @@ using System;
 
 class LogicalOperators
 {
-	static void Main()
-	{
+    static void Main()
+    {
         bool a = true;
         bool b = false;
         Console.WriteLine(a && b); // False
@@ -16,5 +16,5 @@ class LogicalOperators
         Console.WriteLine(a && true); // True
         Console.WriteLine(!a); // False
         Console.WriteLine((5 > 7) ^ (a == b)); // False
-	}
+    }
 }

@@ -1,7 +1,7 @@
 using System;
 
 class Toto
-{ 
+{
     static void Main()
     {
         int counter = 0;
@@ -17,5 +17,5 @@ class Toto
                                 counter++;
                             }
         Console.WriteLine("{0} combinations", counter);
-    }		
+    }
 }

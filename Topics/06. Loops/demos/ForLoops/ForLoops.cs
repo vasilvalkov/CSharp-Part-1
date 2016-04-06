@@ -8,6 +8,7 @@ class ForLoops
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine();
         Console.WriteLine();
 
@@ -17,6 +18,7 @@ class ForLoops
         {
             factorial *= i;
         }
+
         Console.WriteLine("{0}! = {1}", n, factorial);
         Console.WriteLine();
 
@@ -24,6 +26,7 @@ class ForLoops
         {
             Console.WriteLine("i={0}, sum={1}", i, sum);
         }
+
         Console.WriteLine();
     }
 }
