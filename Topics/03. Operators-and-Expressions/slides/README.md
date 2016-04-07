@@ -80,7 +80,7 @@
 
 | Precedence           | Operators                        |
 |:---------------------|:---------------------------------|
-| Highest              | `()`                             |
+| Highest              | `()` `.` `[]`                    |
 |                      | `++ -- (postfix) new typeof`     |
 |                      | `++ -- (prefix) + - (unary) ! ~` |
 |                      | `* / %`                          |
@@ -248,7 +248,7 @@ Console.WriteLine(b && true); // False
 Console.WriteLine(a || true); // True
 Console.WriteLine(a && true); // True
 Console.WriteLine(!a); // False
-Console.WriteLine((5>7) ^ (a==b)); // False
+Console.WriteLine((5 > 7) ^ (a == b)); // False
 ```
 
 
@@ -310,12 +310,12 @@ Console.WriteLine((5>7) ^ (a==b)); // False
 ```cs
 ushort a = 3;                // 00000000 00000011
 ushort b = 5;                // 00000000 00000101
-Console.WriteLine( a | b);   // 00000000 00000111
-Console.WriteLine( a & b);   // 00000000 00000001
-Console.WriteLine( a ^ b);   // 00000000 00000110
+Console.WriteLine(a | b);   // 00000000 00000111
+Console.WriteLine(a & b);   // 00000000 00000001
+Console.WriteLine(a ^ b);   // 00000000 00000110
 Console.WriteLine(~a & b);   // 00000000 00000100
-Console.WriteLine( a << 1);  // 00000000 00000110
-Console.WriteLine( a >> 1);  // 00000000 00000001
+Console.WriteLine(a << 1);  // 00000000 00000110
+Console.WriteLine(a >> 1);  // 00000000 00000001
 ```
 
 
@@ -500,12 +500,12 @@ int y = x ?? -1;
 ```cs
 int a = 6;
 int b = 4;
-Console.WriteLine(a > b ? "a>b" : "b>=a"); // a>b
-Console.WriteLine((long) a); // 6
+Console.WriteLine(a > b ? "a > b" : "b >= a"); // a>b
+Console.WriteLine((long)a); // 6
 int c = b = 3; // b=3; followed by c=3;
 Console.WriteLine(c); // 3
 Console.WriteLine(a is int); // True
-Console.WriteLine((a+b)/2); // 4
+Console.WriteLine((a + b) / 2); // 4
 Console.WriteLine(typeof(int)); // System.Int32
 int d = new int();
 Console.WriteLine(d); // 0
@@ -594,7 +594,7 @@ float maxHeightFloat = maxHeight; // Compilation error!
 - _Examples_:
 
 ```cs
-int r = (150-20) / 2 + 5; // r=70
+int r = (150 - 20) / 2 + 5; // r=70
 // Expression for calculation of circle area
 double surface = Math.PI * r * r;
 // Expression for calculation of circle perimeter
@@ -612,7 +612,7 @@ double perimeter = 2 * Math.PI * r;
 
 ```cs
 int a = 2 + 3; // a = 5
-int b = (a + 3) * (a - 4) + (2*a + 7) / 4;  // b = 12
+int b = (a + 3) * (a - 4) + (2 * a + 7) / 4;  // b = 12
 bool greater = (a > b) || ((a == 0) && (b == 0));
 ```
 
