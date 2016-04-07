@@ -159,8 +159,8 @@ void       Main(                  )   {   Console   .
 <!-- <img class="slide-image" showInPresentation="true"  showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:75%; width:23.36%; z-index:-1; border-radius: 15px;" /> -->
 
 <!-- attr: {  class:'slide-section demo', showInPresentation: true, hasScriptWrapper: true } -->
-<!-- # Your First C# Program
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/01.%20Introduction-to-Programming/demos/00.HelloCSharp) -->
+<!-- # Your First C# Program -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/01.%20Introduction-to-Programming/demos/00.HelloCSharp)
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation: true, hasScriptWrapper: true } -->

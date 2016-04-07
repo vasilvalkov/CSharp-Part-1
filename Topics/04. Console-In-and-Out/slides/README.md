@@ -211,8 +211,8 @@ Console.WriteLine("Have a nice day!");
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # Printing to the Console 
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingToConsole) -->
+<!-- # Printing to the Console -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/04.%20Console-In-and-Out/demos/PrintingToConsole)
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -441,9 +441,9 @@ decimal value = decimal.Parse("1.33");
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # Regional Settings
-## Demo
-<img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1; border-radius:15px;" /> -->
+<!-- # Regional Settings -->
+## [Demo]()
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:37.5%; width:25%; z-index:-1; border-radius:15px;" /> -->
 
 
 <!-- section start -->
