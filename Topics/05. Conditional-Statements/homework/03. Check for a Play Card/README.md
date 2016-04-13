@@ -21,7 +21,7 @@ Classical play cards use the following signs to designate the card face:
 |-----------|------------------|
 | 5         | yes 5            |
 | 1         | no 1             |
-| Q         | yes q            |
+| Q         | yes Q            |
 | q         | no q             |
 | P         | no P             |
 | 10        | yes 10           |
