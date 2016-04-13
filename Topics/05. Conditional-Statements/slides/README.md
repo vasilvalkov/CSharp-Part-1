@@ -92,7 +92,6 @@ if (condition)
   - Boolean variable
   - Boolean logical expression
   - Comparison expression
-
 - The condition cannot be integer variable (like in C / C++ or JavaScript)
 - The statement can be:
   - Single statement ending with a semicolon
