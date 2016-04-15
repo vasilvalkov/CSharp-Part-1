@@ -1,7 +1,7 @@
 # Interval
 
 ## Description
-- Write a program that reads two positive integer numbers **N** and **M** and prints how many numbers exist between them such that the reminder of the division by **5** is **0**.
+Write a program that reads two positive integer numbers **N** and **M** and prints how many numbers exist between them such that the reminder of the division by **5** is **0**.
 
 ## Input
 - On the first two lines you will receive two integers - **N** on the first and **M** on the second.
