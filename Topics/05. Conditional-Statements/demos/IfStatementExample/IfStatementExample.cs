@@ -1,6 +1,6 @@
 using System;
 
-class IfStatementExample
+public class IfStatementExample
 {
     static void Main()
     {
