@@ -212,7 +212,7 @@ while (condition);
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Do-While Statement
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/while-loop.png" style="top:15%; left:10%; width:80%; z-index:-1; border-radius: 15px;" /> -->
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/dowhile-loop.png" style="top:15%; left:10%; width:70%; z-index:-1; border-radius: 15px;" /> -->
 
 
 
@@ -470,6 +470,27 @@ static void Main()
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Calculating N^M -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/Power)
+
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
+# Using a complex for loop – _Example_
+- Drawing a diagonal line on the console
+
+```cs
+static void Main()
+{
+    for (int x = 0, y = 0; x < 10; x++, y++)
+    {
+        Console.SetCursorPosition(x, y);
+        Console.Write('*');
+    }
+}
+```
+
+
+
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- # Diagonal Line -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/06.%20Loops/demos/DiagonalLine)
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:false } -->
