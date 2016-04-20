@@ -1,4 +1,4 @@
-# MMSA(Min, Max, Sum, Average) of N Numbers
+# MMSA (Min, Max, Sum, Average) of N Numbers
 
 ## Description
 Write a program that reads from the console a sequence of **N** integer numbers and returns the *minimal*, the *maximal* number, the *sum* and the *average* of all numbers (displayed with 2 digits after the decimal point).
@@ -12,10 +12,10 @@ Write a program that reads from the console a sequence of **N** integer numbers 
 ## Output
 - You output must always consist of *exactly* 4 lines - the minimal element on the first line, the maximal on the second, the sum on the third and the average on the fourth, in the following format:
 ```
-min=3
-max=6
-sum=9
-avg=4.5
+min=3.00
+max=6.00
+sum=9.00
+avg=4.50
 ```
 
 ## Constraints
@@ -28,8 +28,8 @@ avg=4.5
 
 |       Input       |               Output                 |
 |-------------------|--------------------------------------|
-| 3<br>2<br>5<br>1  | min=1<br>max=5<br>sum=8<br>avg=2.67  |
-| 3<br>2<br>-1<br>4 | min=-1<br>max=4<br>sum=5<br>avg=1.67 |
+| 3<br>2<br>5<br>1  | min=1.00<br>max=5.00<br>sum=8.00<br>avg=2.67  |
+| 3<br>2<br>-1<br>4 | min=-1.00<br>max=4.00<br>sum=5.00<br>avg=1.67 |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#2)
