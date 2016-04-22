@@ -21,7 +21,7 @@ Write a program that calculates the greatest common divisor (**GCD**) of given t
 |-------|--------|
 | 3 2   | 1      |
 | 60 40 | 20     |
-| 5 -15 | 5      |
+| 5 15  | 5      |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/312#14)

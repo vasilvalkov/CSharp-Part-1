@@ -19,11 +19,11 @@ Write a program that reads an integer **N** (which will always be less than **10
 
 |     Input      |     Output     |
 |----------------|----------------|
-| 1              | false          |
 | 2              | true           |
 | 23             | true           |
 | -3             | false          |
 | 0              | false          |
+| 1              | false          |
 
 ## Submission
 - Submit your code [here](http://bgcoder.com/Contests/Compete/Index/310#7)

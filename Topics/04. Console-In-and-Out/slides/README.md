@@ -4,7 +4,7 @@
 ## Reading and Writing to the Console
 
 <div class="signature">
-    <p class="signature-course">HTML Basics</p>
+    <p class="signature-course">C# Fundamentals</p>
     <p class="signature-initiative">Telerik Software Academy</p>
     <a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
@@ -528,7 +528,7 @@ Console.WriteLine("The area of your figure " +
 - Fundamentals of C# Programming Track of Courses
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
   - Telerik Software Academy
-    - [academy.telerik.com](academy.telerik.com)
+    - [telerikacademy.com](https://telerikacademy.com)
   - Telerik Academy @ Facebook
     - [facebook.com/TelerikAcademy](facebook.com/TelerikAcademy)
   - Telerik Academy Learning System

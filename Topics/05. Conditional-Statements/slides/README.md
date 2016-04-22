@@ -92,7 +92,6 @@ if (condition)
   - Boolean variable
   - Boolean logical expression
   - Comparison expression
-
 - The condition cannot be integer variable (like in C / C++ or JavaScript)
 - The statement can be:
   - Single statement ending with a semicolon
@@ -356,6 +355,7 @@ switch (animal)
 - You can use multiple labels to execute the same statement in more than one case
 
 
+<!-- section start -->
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Multiple Labels in a `switch-case` -->
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-1/tree/master/Topics/05.%20Conditional-Statements/demos/MultipleLabels)

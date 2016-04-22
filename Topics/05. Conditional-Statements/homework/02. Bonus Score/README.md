@@ -24,7 +24,7 @@ Write a program that applies bonus score to given score in the range **[1…9]**
 |-----------------|-----------------|
 | 2               | 20              |
 | 4               | 400             |
-| 9               | 1000            |
+| 9               | 9000            |
 | 10              | invalid score   |
 
 ## Submission

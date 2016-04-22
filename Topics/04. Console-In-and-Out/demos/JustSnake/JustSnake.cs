@@ -50,12 +50,14 @@ class JustSnake
         {
             snakeElements.Enqueue(new Position(i, 0));
         }
+        
         foreach (var item in snakeElements)
         {
             Console.SetCursorPosition(item.X, item.Y);
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.Write("*");
         }
+        
         Position snakeHead = snakeElements.Last();
         Console.SetCursorPosition(snakeHead.X, snakeHead.Y);
         Console.ForegroundColor = ConsoleColor.Gray;
@@ -67,14 +69,22 @@ class JustSnake
             if (Console.KeyAvailable)
             {
                 ConsoleKeyInfo pressedKey = Console.ReadKey();
+                
                 if (pressedKey.Key == ConsoleKey.RightArrow)
-                    if (currentDirection != 2) currentDirection = 0;
+                    if (currentDirection != 2)
+                        currentDirection = 0;
+                        
                 if (pressedKey.Key == ConsoleKey.DownArrow)
-                    if (currentDirection != 3) currentDirection = 1;
+                    if (currentDirection != 3)
+                        currentDirection = 1;
+                        
                 if (pressedKey.Key == ConsoleKey.LeftArrow)
-                    if (currentDirection != 0) currentDirection = 2;
+                    if (currentDirection != 0)
+                        currentDirection = 2;
+                        
                 if (pressedKey.Key == ConsoleKey.UpArrow)
-                    if (currentDirection != 1) currentDirection = 3;
+                    if (currentDirection != 1)
+                        currentDirection = 3;
             }
 
             // Write snake food

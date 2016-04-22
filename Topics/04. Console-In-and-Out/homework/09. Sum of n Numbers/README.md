@@ -22,7 +22,7 @@ Write a program that enters a number **N** and after that enters more **N** numb
 |               Input              |     Output     |
 |:--------------------------------:|:--------------:|
 | 3<br/>20<br/>60<br/>10           | 90             |
-| 5 <br/>2 <br/>-1 <br/>-0.5<br/>4 | 6.5            |
+| 5 <br/>2 <br/>-1 <br/>-0.5<br/>4<br/>2 | 6.5            |
 | 1 <br/>1                         | 1              |
 
 ## Submission
