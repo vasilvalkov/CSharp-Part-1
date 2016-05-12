@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Abs of the number -7 is {0}", Math.Abs(-7));
-        Console.WriteLine("Square of 9 is {0}", Math.Sqrt(9));
-        Console.WriteLine("Square of 10 is {0}", Math.Sqrt(10));
+        Console.WriteLine("Square root of 9 is {0}", Math.Sqrt(9));
+        Console.WriteLine("Square of 10 is {0}", Math.Pow(10,2));
         Console.WriteLine("PI is {0}", Math.PI);
 
         int width = 10;
