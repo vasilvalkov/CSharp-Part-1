@@ -22,3 +22,4 @@ Homework: Introduction to Programming
 1. [Age](./15. Age)
 1. [Print Long Sequence](./16. Long Sequence)
 1. [Play with the VS Debugger](./17. Play with VS Debugger)
+1. [Command line](./18. Command line)
