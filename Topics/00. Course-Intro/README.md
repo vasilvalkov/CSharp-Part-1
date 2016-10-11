@@ -53,7 +53,7 @@
     - `HTML5`, `DB` & `SQL`, `Cloud`, `Web`, `Mobile`, `QA`, …
 
 
-<!-- attr: { id: 'topics', showInPresentation: true, hasScriptWrapper: true} -->
+<!-- attr: { id: 'topics', showInPresentation: true, hasScriptWrapper: true, style:'font-size:0.9em' } -->
 # <a id="topics"></a>C# Fundamentals:<br/>Course Topics
 
 - Introduction to Programming
@@ -62,6 +62,7 @@
 - Console Input / Output
 - Conditional Statements
 - Loops
+- Arrays
 - Exam Preparation
 - **C# Practical Exam**
 
@@ -85,7 +86,7 @@
 - Exam: 6 hours, 5 problems, http://bgcoder.com
 - Allocation
   - Time frame
-    - April 2016
+    - November 2016
   - Exam: TBD
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:57%; left:40%; width:40%; border-radius: 15px" /> -->
@@ -245,9 +246,9 @@
   - “Fundamentals of Programming with C#”, Nakov S. and his team, 2013
   - Freely downloadable from: [www.introprogramming.info](http://www.introprogramming.info)
 - The C# track is based on the book
-- C# Fundamentals &rarr; chapters 1..6 (up to Loops)
+- C# Fundamentals &rarr; chapters 1..7 (up to Arrays)
 
-	<img class="slide-image" showInPresentation="true" src="imgs/pic49.png" style="top:29%; left:79%; width:14%" />
+<img class="slide-image" showInPresentation="true" src="imgs/pic49.png" style="top:29%; left:79%; width:14%" />
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 <!-- # Telerik Integrated Learning System (TILS) -->
