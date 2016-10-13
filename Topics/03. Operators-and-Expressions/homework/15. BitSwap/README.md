@@ -15,6 +15,8 @@ Write a program first reads 4 numbers **n**, **p**, **q** and **k** and than swa
 ## Constraints
 - The first and the second sequence of bits will never overlap.
 - **n** will always be a valid 32-bit positive integer.
+- **p**, **q** >= 0
+- **p+k-1**, **q+k-1** < 32
 - Time limit: **0.1s**
 - Memory limit: **16MB**
 
