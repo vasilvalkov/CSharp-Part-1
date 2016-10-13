@@ -287,6 +287,7 @@
   - .NET Framework 4.5 / 4.6 (included in Visual Studio)
 
 
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 # C# Fundamentals Course Introduction
 ## Questions?

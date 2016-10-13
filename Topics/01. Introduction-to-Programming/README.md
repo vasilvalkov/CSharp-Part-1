@@ -373,6 +373,8 @@ void       Main(                  )   {   Console   .
 - Online version
   - Use the built-in search: [F1]
 
+
+<!-- section start -->
 <!-- attr: { class:'slide-section', clashowInPresentation: true, hasScriptWrapper: true } -->
 # Introduction to Programming
 ## Questions?
