@@ -78,7 +78,7 @@ int count = 5;
 - _Example_:
   - Integer numbers in C#
   - Name: `int`
-  - Size: 32 bits (4 bytes)
+  - Size: `32` bits (`4` bytes)
   - Default value: `0`
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:20%; right: 8%; width:14.10%; z-index:-1; border-radius: 15px" /> -->
@@ -234,7 +234,7 @@ Console.WriteLine("a+b={0}  sum={1}  equal={2}",
   - `decimal` (128-bits)
     - Min: `±1,0 × 10`<code><sup>-28</sup></code>
     - Max: `±7,9 × 10`<code><sup>28</sup></code>
-    -Precision: **28-29 digits**
+    - Precision: **28-29 digits**
   - Used for financial calculations
   - No round-off errors
   - Almost no loss of precision
