@@ -19,3 +19,4 @@ Homework: Data Types and Variables
 1. [Null Values Arithmetic](./12. Null Values Arithmetic)
 1. [Comparing Floats](./13. Comparing Floats)
 1. [Print the ASCII Table](./14. Print the ASCII Table)
+1. [Look like a hacker](./15. Look like a hacker)
