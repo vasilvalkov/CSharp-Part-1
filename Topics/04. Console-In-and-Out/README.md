@@ -518,6 +518,7 @@ Console.WriteLine("The area of your figure " +
   - `int.Parse`, `double.Parse`, and so on methods
 
 
+<!-- section start -->
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Console Input / Output -->
 <!-- <img class="slide-image" showInpresentation='true' src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/cat-questions.png" style="width:80%; top:15%; left:10%" /> -->

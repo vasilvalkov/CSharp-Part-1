@@ -378,6 +378,7 @@ switch (animal)
 - The `switch` statement easily and elegantly checks an expression for a sequence of values
 
 
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:false, style:'font-size: 42px' } -->
 <!-- # Conditional Statements
 ## Questions? -->

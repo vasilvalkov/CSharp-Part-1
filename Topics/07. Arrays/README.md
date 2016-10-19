@@ -461,6 +461,7 @@ list.Add(newValue);
 - <code>List&lt;T></code> holds resizable arrays
   - Good when we don't know the number of elements initially
 
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # C# Arrays
 ## Questions? -->
