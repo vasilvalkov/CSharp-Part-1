@@ -17,5 +17,3 @@ Homework: Console IO
 1. [Fibonacci Numbers](./10. Fibonacci Numbers)
 1. [Interval](./11. Interval)
 1. [Falling Rocks](./12. Falling rocks)
-
-'Hey Mom!'
